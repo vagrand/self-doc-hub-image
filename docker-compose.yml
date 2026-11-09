@@ -1,0 +1,15 @@
+services:
+  docs-hub:
+    build: .
+    image: selfdochub:local
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      # Published to loopback only: put your own reverse proxy (Nginx, Caddy) with TLS in front.
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - docs-hub-data:/data
+
+volumes:
+  docs-hub-data:
