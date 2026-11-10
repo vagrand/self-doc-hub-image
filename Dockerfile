@@ -4,7 +4,8 @@ RUN apk add --no-cache ca-certificates wget \
     && mkdir -p /data && chown docs-hub:docs-hub /data
 COPY --chmod=0755 docs-hub /usr/local/bin/docs-hub
 COPY --chmod=0755 docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
-COPY --chmod=0644 translations /opt/docs-hub/translations
+COPY translations /opt/docs-hub/translations
+RUN chmod -R a+rX /opt/docs-hub
 
 ENV DOCS_HUB_DATA_DIR=/data \
     DOCS_HUB_ADDR=:8080
