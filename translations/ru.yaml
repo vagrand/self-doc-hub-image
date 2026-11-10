@@ -1,0 +1,1120 @@
+app.title: SelfDocHub
+role.public: public
+search.placeholder: Поиск сервисов, путей, тегов
+button.users: Пользователи
+button.orphaned: Осиротевшие
+button.rebuild: Перестроить
+button.refresh: Обновить
+button.send: Отправить
+button.delete: Удалить
+button.edit: Редактировать
+button.save: Сохранить
+button.cancel: Отменить
+button.rotate_token: Сменить токен
+button.create_user: Создать пользователя
+button.create_service: Создать сервис
+button.switch_version: Переключить версию
+button.show_changelog: Показать журнал изменений
+button.hide_changelog: Скрыть журнал изменений
+header.documentation: Документация
+header.subtitle: "Документация по всем сервисам: OpenAPI, OpenRPC, GraphQL и AsyncAPI"
+tryit.title: Попробовать
+tryit.tab_request: Запрос
+tryit.tab_headers: Заголовки
+tryit.tab_response: Ответ
+tryit.path: Путь
+tryit.query: Запрос
+tryit.body: Тело
+tryit.ready: Готово.
+tryit.select_endpoint: Выберите эндпоинт и отправьте запрос.
+tryit.sending: Отправка...
+tryit.no_environments: Окружения не настроены
+tryit.select_environment: Выбрать окружение
+tryit.request_failed: Ошибка запроса
+orphaned.title: Осиротевшие оверлеи
+orphaned.loading: Загрузка осиротевших оверлеев...
+orphaned.empty: Отдельных оверлеев нет.
+orphaned.error: Не удалось загрузить отдельные оверлеи
+admin.users: Пользователи
+admin.service: Сервис
+admin.login: Логин
+admin.password: Пароль
+admin.role: Роль
+admin.disabled: Отключено
+admin.active: Активно
+admin.status: Статус
+admin.slug: Slug
+admin.name: Имя
+admin.description: Описание
+admin.public: Публичный
+admin.create_user: Создать пользователя
+admin.edit_user: Редактировать пользователя
+admin.create_service: Создать сервис
+admin.edit_service: Редактировать сервис
+admin.no_users: Пользователей пока нет.
+admin.save_failed: Ошибка сохранения
+admin.service_token_for: Токен службы для
+admin.versions: Версии
+admin.current: Текущая
+admin.current_version: Текущая
+admin.published_at: Опубликовано
+admin.spec_version: Версия спецификации
+admin.no_versions: Версий пока нет.
+admin.version_delete_confirm: Удалить эту версию? Это действие нельзя отменить.
+admin.changes: Изменения
+admin.uri: URI
+admin.method: Метод
+admin.change_type: Тип изменения
+admin.change_added: Добавлено
+admin.change_modified: Изменено
+admin.change_removed: Удалено
+admin.no_changes: В этой версии нет изменений.
+admin.no_changelog_matches: Соответствующих изменений не найдено.
+admin.changelog_search_placeholder: Поиск в журнале изменений по имени или URI
+admin.environments: Окружения
+admin.add_environment: Добавить окружение
+admin.edit_environment: Редактировать окружение
+admin.base_url: Базовый URL
+admin.connect_timeout: Таймаут подключения (секунды)
+admin.response_timeout: Таймаут ответа (секунд)
+admin.headers: Заголовки
+admin.header_name: Имя
+admin.header_value: Значение
+admin.no_environments: Окружение пока отсутствует.
+admin.no_environment_matches: Не найдено подходящих окружений.
+admin.environments_search_placeholder: Поиск окружений по имени или базовому URL
+admin.environment_delete_confirm: Удалить это окружение? Это действие нельзя отменить.
+button.add_environment: Добавить
+button.add_header: Добавить заголовок
+button.remove: Удалить
+state.loading_docs: Загрузка документации...
+state.no_matches: Соответствующих сервисов или эндпоинтов не найдено.
+state.auth_required: Требуется аутентификация
+state.docs_not_ready: Документация не готова
+state.redoc_unavailable: Redoc недоступен
+admin.all_roles: Все роли
+admin.all_statuses: Все статусы
+admin.breaking_change: Существенное изменение
+admin.confirm_title: Подтвердить
+admin.create_team: Создать команду
+admin.edit_team: Редактировать команду
+admin.format_version: Формат
+admin.import_version: Импортировать версию
+admin.import_version_file: Файл Swagger
+admin.import_version_file_required: Выберите файл Swagger для импорта
+admin.license: Лицензия
+admin.no_options: Нет доступных вариантов.
+admin.no_teams: Команд пока нет.
+admin.orphan_delete_confirm: Удалить этот осиротевший оверлей? Это действие нельзя отменить.
+admin.orphaned_refresh_hint: Обновить список осиротевших оверлеев
+admin.page: Страница
+admin.page_of: из
+admin.service_delete_confirm: Удалить этот сервис? Это действие нельзя отменить.
+admin.service_order_hint: Перетаскивайте сервисы, чтобы изменить их порядок. Этот порядок отображается всем пользователям.
+admin.service_order_save_failed: Не удалось сохранить новый порядок
+admin.spec_file: Файл Swagger (необязательно)
+admin.spec_publish_failed: Сервис создан, но публикация файла спецификации не удалась
+admin.spec_published: Файл спецификации опубликован
+admin.team_column: Команды
+admin.team_delete_confirm: Удалить эту команду? Это действие нельзя отменить.
+admin.team_members: Участники
+admin.team_services: Сервисы команды
+admin.teams: Команды
+admin.teams_filter_member_placeholder: Фильтр по логину участника
+admin.teams_filter_name_placeholder: Фильтр по названию команды
+admin.teams_filter_service_placeholder: Фильтр по названию сервиса
+admin.teams_refresh_hint: Обновить список команд
+admin.user_delete_confirm: Удалить этого пользователя? Это действие нельзя отменить.
+admin.user_teams: Команды
+admin.users_filter_login_placeholder: Фильтр по логину
+admin.users_filter_team_placeholder: Фильтр по названию команды
+admin.users_refresh_hint: Обновить список пользователей
+admin.version_import_failed: Импорт версии не удался
+admin.version_import_identical: Эта версия идентична текущей — ничего не было импортировано
+button.close: Закрыть
+button.confirm: Подтвердить
+button.copy: Копировать
+button.create_team: Создать команду
+button.delete_all: Удалить всё
+button.delete_overlay: Удалить оверлей
+button.edit_list: Редактировать список
+button.edit_overlay: Редактировать оверлей
+button.export: Экспортировать
+button.export_all_environments_postman: Экспорт всех окружений в Postman
+button.export_environment_postman: Экспорт в окружение Postman
+button.export_postman_collection: Экспорт в виде коллекции Postman
+button.generate: Сгенерировать
+button.license: Лицензия
+button.login: Войти
+button.logout: Выйти
+button.manage_saved_requests: Управление сохраненными запросами
+button.menu: Меню
+button.new_service: + Новый сервис
+button.next_page: Следующая
+button.previous_page: Предыдущая
+button.rebuild_hint: Пересоздать объединенный документ OpenAPI на основе текущих спецификаций и оверлеев
+button.save_request: Сохранить
+button.services: Сервисы
+button.share_request: Поделиться
+button.show_original: Показать оригинал
+button.show_overlay: Показать наложение
+button.teams: Команды
+endpoint.change_history: История изменений
+endpoint.deprecated: Устарело
+endpoint.error_code: Код
+endpoint.error_data: Данные
+endpoint.error_message: Сообщение
+endpoint.errors: Ошибки
+endpoint.example_generated: Сгенерированный пример
+endpoint.example_parameters: Пример параметров
+endpoint.example_responses: Пример ответа
+endpoint.history_added: добавлен
+endpoint.history_parameter: Параметр
+endpoint.history_removed: удален
+endpoint.history_response_field: Поле ответа
+endpoint.no_parameters: У этого эндпоинта нет параметров.
+endpoint.no_responses: Документированных ответов нет.
+endpoint.parameters: Параметры
+endpoint.request_body: Тело запроса
+endpoint.responses: Ответы
+language: Русский
+license.created_at: Создано
+license.days: d
+license.device_id: Идентификатор устройства
+license.expired_ago: Срок действия истек
+license.expires_in: Срок действия истекает через
+license.hours: h
+license.minutes: m
+license.status_invalid: Недействительна
+license.status_valid: Действительна
+license.upload_button: Загрузить
+license.upload_error: Ошибка загрузки
+license.upload_label: Файл лицензии (JSON)
+license.upload_success: Лицензия обновлена.
+license.valid_until: Действительна до
+nav.service_endpoints_label: эндпоинты
+nav.service_endpoints_ops_label: операции
+nav.service_format_graphql: GraphQL
+nav.service_format_openapi: OpenAPI
+nav.service_format_openrpc: OpenRPC
+nav.service_tags_label: теги
+nav.service_versions_label: версии
+overlay.delete_confirm: Удалить этот оверлей? Это действие нельзя отменить.
+overlay.empty: Содержимое оверлея пока отсутствует.
+overlay.title: Оверлей
+theme.dark: Тёмный
+theme.light: Светлый
+tryit.body_pretty: Форматированный
+tryit.body_raw: Исходный
+tryit.body_tree: Дерево
+tryit.concurrency: Параллельные запросы
+tryit.copied: Скопировано!
+tryit.copy_failed: Копирование не удалось
+tryit.delete_all_requests_confirm: Удалить все сохраненные запросы для этого эндпоинта? Это действие нельзя отменить.
+tryit.delete_request_confirm: Удалить этот сохраненный запрос? Это действие нельзя отменить.
+tryit.duration: Продолжительность
+tryit.environment_label: Окружение
+tryit.generate_failed: Сбой при генерации
+tryit.graphql_unavailable: Функция Try-It недоступна для поля, возвращающего объектный тип.
+tryit.manage_requests_empty: Сохраненных запросов для этого эндпоинта пока нет.
+tryit.manage_requests_title: Сохраненные запросы
+tryit.requested_at: Запрошено
+tryit.responded_at: Отвечено
+tryit.save_request_name: Имя
+tryit.save_request_title: Сохранить запрос
+tryit.saved_requests_label: Сохраненные запросы
+tryit.saved_requests_none: Выберите сохраненный запрос
+tryit.share_link_label: Поделиться ссылкой
+tryit.share_one_time_label: Одноразовая ссылка
+tryit.share_request_title: Поделиться запросом
+tryit.shared_request_failed: Не удалось загрузить общий запрос
+tryit.tab_connection: Соединение
+tryit.tab_curl: cURL
+tryit.validate_ssl: Проверить SSL
+admin.import_version_branch: Ветка
+admin.main_branch: Главная ветка
+admin.pinned_version: Ваша рабочая версия
+admin.spec_version_format_hint: "Формат: N.N.N (e.g. 1.4.2)"
+admin.import_version_branch: Ветка
+admin.main_branch: Основная ветка
+admin.pinned_version: Ваша рабочая версия
+admin.version_branch_filter: Ветка
+admin.version_branch_filter_no_matches: Соответствующих веток нет
+admin.version_pin_banner: "Вы просматриваете свою закреплённую рабочую версию:"
+admin.version_pin_clear: Прекратить просмотр закреплённой версии
+breadcrumb.branch_aria: Ветка
+breadcrumb.endpoint_missing_in_version: Этот эндпоинт недоступен в выбранной версии.
+breadcrumb.tag_missing_in_version: Эта группа тегов недоступна в выбранной версии.
+breadcrumb.version_aria: Версия
+button.pin_version: Использовать в качестве моей рабочей версии
+button.reparse_version: Повторно объединить эту версию
+example.tab_compact: Компактный JSON
+example.tab_formatted: Отформатированный JSON
+example.tab_tree: Дерево
+license.blocked_no_admin_hint: Попросите администратора установить новую лицензию.
+license.blocked_title: Не найдена действительная лицензия
+button.delete_version: Удалить версию
+button.hide_version: Скрыть версию
+button.overlay_versions: Версии
+button.view_version: Просмотреть версию
+endpoint.details_title: Параметры и ответы
+overlay.delete_version_confirm: Удалить эту версию оверлея? Это действие нельзя отменить.
+overlay.delete_version_current_error: Не удаётся удалить текущую версию.
+overlay.versions_author: Автор
+overlay.versions_current: Текущая
+overlay.versions_current_badge: Текущая
+overlay.versions_empty: Сохраненных версий пока нет.
+overlay.versions_updated_at: Обновлено
+overlay.versions_untitled: Версия без названия
+admin.created_by: Создано
+admin.environment_public_label: Общедоступное окружение
+admin.environments_author_filter_placeholder: Фильтр по автору
+admin.private: Приватное окружение
+admin.view_environment: Просмотр окружения
+admin.visibility: Видимость
+admin.visibility_all: Все
+button.view_environment: Просмотр
+admin.mcp_server: Сервер MCP
+button.mcp_server: Сервер MCP
+mcp.allowed_cidrs_label: Разрешенные диапазоны IP-адресов (CIDR, разделенные запятыми)
+mcp.allowed_cidrs_placeholder: например, 10.0.0.0/8, 192.168.1.0/24
+mcp.allowed_services_label: Разрешенные сервисы
+mcp.enable_history_tools_label: Инструменты истории версий и журнала изменений
+mcp.enable_schema_tools_label: Инструменты схемы (параметры / ответы)
+mcp.enable_search_tools_label: Инструменты поиска
+mcp.enabled_label: Включено
+mcp.generate_token_button: Сгенерировать / сменить токен
+mcp.include_overlay_text_label: Использовать оверлеи
+mcp.last_used_label: Последнее использование
+mcp.last_used_never: Никогда
+mcp.save_error: Ошибка сохранения
+mcp.save_success: Настройки сохранены.
+mcp.search_result_limit_label: Ограничение количества результатов поиска
+mcp.token_configured: Токен настроен
+mcp.token_error: Ошибка генерации токена
+mcp.token_generated_hint: Скопируйте этот токен сейчас — он больше не будет отображаться.
+mcp.token_label: Токен Bearer
+mcp.token_not_configured: Токен ещё не сгенерирован
+admin.export_wizard: Мастер экспорта
+button.export_wizard: Мастер экспорта
+export.add_services: Добавить сервисы
+export.apply_selection: Применить выбор
+export.change_services: Изменить сервисы
+export.col_date: Дата
+export.col_endpoints: Эндпоинты
+export.col_environment: Окружение
+export.col_format: Формат
+export.col_name: Название
+export.col_overlays: Использовать оверлеи
+export.col_progress: Эндпоинты
+export.col_service: Сервис
+export.col_services: Сервисы
+export.col_status: Статус
+export.col_tags: Теги
+export.delete_confirm: Удалить {count} выбранных экспортов и их файлы?
+export.delete_selected: Удалить выбранные
+export.download: Скачать
+export.error_prefix: Сбой экспорта
+export.format_label: Формат
+export.history_empty: Экспортов пока нет.
+export.history_title: История экспорта
+export.modal_title: Выбрать сервисы, теги и эндпоинты
+export.name_label: Название экспорта
+export.name_required: Название экспорта обязательно.
+export.no_environment: Окружение отсутствует
+export.no_overlay_hint: У этого сервиса нет оверлеев.
+export.no_services: Сервисы ещё не выбраны.
+export.repeat: Повторить экспорт
+export.repeat_skipped: {count} эндпоинтов из сохраненного экспорта больше не существуют и были пропущены.
+export.select_all: Выбрать всё
+export.services_label: Сервисы
+export.services_required: Добавьте хотя бы один сервис для экспорта.
+export.settings_title: Настройки экспорта
+export.start: Экспорт
+export.started: Экспорт запущен — следите за его ходом в истории ниже.
+export.status_error: Ошибка
+export.status_in_progress: В процессе
+export.status_success: Успешно
+export.tree_filter_placeholder: Фильтр по названию
+export.col_language: Язык
+export.doc.allowed_values: Допустимые значения
+export.doc.any: любое
+export.doc.array_of: массив
+export.doc.col_code: Код
+export.doc.col_description: Описание
+export.doc.col_field: Поле
+export.doc.col_in: В
+export.doc.col_message: Сообщение
+export.doc.col_name: Имя
+export.doc.col_required: Обязательное
+export.doc.col_type: Тип
+export.doc.contents: Содержание
+export.doc.deprecated: Устарело
+export.doc.environment: Окружение
+export.doc.errors: Ошибки
+export.doc.in_argument: аргумент
+export.doc.in_params: параметры
+export.doc.parameters: Параметры
+export.doc.recursive: объект (рекурсивный)
+export.doc.request_body: Тело запроса
+export.doc.request_example: Пример запроса
+export.doc.response: Ответ
+export.doc.response_example: Пример ответа
+export.doc.result: результат
+export.doc.yes: да
+export.filter_any_format: Любой формат
+export.filter_any_language: Любой язык
+export.filter_any_status: Любой статус
+export.filter_date_from: Дата от
+export.filter_date_to: Дата до
+export.filter_name_placeholder: Фильтр по имени
+export.filter_reset: Сбросить фильтры
+export.history_empty_filtered: Ни один экспорт не соответствует фильтрам.
+export.language_label: Язык
+export.add_description: Добавить описание
+export.contents_label: Включить оглавление
+export.description_label: Описание документации
+export.description_modal_title: Описание документации
+export.edit_description: Редактировать описание
+endpoint.copy_param_link: Скопировать ссылку на этот параметр
+endpoint.param_description: Показать описание
+admin.two_factor: 2FA
+admin.two_factor_configured: Настроена
+admin.two_factor_configured_hint: Включена и настроена. При каждом входе в систему запрашивается код.
+admin.two_factor_disable_confirm: Отключить 2FA? Аутентификатор пользователя и резервные коды будут удалены.
+admin.two_factor_hint: Отключено. Если включено, пользователь настроит Google Authenticator при следующем входе в систему.
+admin.two_factor_label: 2FA
+admin.two_factor_pending: Ожидание настройки
+admin.two_factor_pending_hint: Включено. Пользователь настроит Google Authenticator при следующем входе в систему.
+admin.two_factor_reset: Сбросить аутентификатор
+admin.two_factor_reset_confirm: Сбросить аутентификатор и резервные коды этого пользователя? При следующем входе в систему ему потребуется заново настроить 2FA.
+admin.all_two_factor: Все состояния 2FA
+admin.two_factor_off: Отключено
+interaction.copy_link: Скопировать ссылку
+interaction.delete: Удалить
+interaction.delete_confirm: Удалить это взаимодействие? Ссылка на него перестанет работать.
+interaction.empty: Для этого эндпоинта пока нет сохраненных взаимодействий.
+interaction.environment_missing: Сохраненное окружение больше не существует, использован сохраненный базовый URL.
+interaction.export: Экспорт взаимодействия
+interaction.export_failed: Ошибка экспорта
+interaction.export_pdf: Экспорт в PDF
+interaction.exporting: Экспорт...
+interaction.link_copied: Ссылка скопирована
+interaction.load_failed: Не удалось загрузить взаимодействие
+interaction.mask_hint: Заголовки авторизации, файлов cookie, ключей API и токенов (в запросе и ответе) заменяются перед сохранением.
+interaction.mask_label: Замена конфиденциальных значений заголовков на ***
+interaction.masked_apply_notice: Значения заголовков были скрыты при сохранении этого взаимодействия, введите их заново перед отправкой.
+interaction.masked_note: Значения заголовков скрыты
+interaction.name: Название
+interaction.pdf.body: Тело
+interaction.pdf.curl: Команда cURL
+interaction.pdf.default_title: Взаимодействие "Try-It"
+interaction.pdf.duration: Продолжительность
+interaction.pdf.endpoint: Эндпоинт
+interaction.pdf.environment: Окружение
+interaction.pdf.generated: Сгенерировано
+interaction.pdf.headers: Заголовки
+interaction.pdf.masked: Значения конфиденциальных заголовков скрыты.
+interaction.pdf.method: Метод
+interaction.pdf.none: Нет
+interaction.pdf.request: Запрос
+interaction.pdf.response: Ответ
+interaction.pdf.service: Сервис
+interaction.pdf.size: Размер
+interaction.pdf.status: Статус
+interaction.pdf.timeouts: Таймауты (подключение / ответ)
+interaction.pdf.truncated: Тело сообщения было усечено.
+interaction.pdf.url: URL
+interaction.pdf.user: Пользователь
+interaction.responses_count: Количество ответов
+interaction.save: Сохранить взаимодействие
+interaction.save_failed: Ошибка при сохранении взаимодействия
+interaction.save_title: Сохранить взаимодействие
+interaction.saved: Взаимодействие сохранено.
+interaction.section_title: Взаимодействия
+interaction.success: Успех
+interaction.unmasked_warning: Конфиденциальные значения заголовков будут сохранены в виде обычного текста.
+interaction.view: Просмотр
+interaction.with_errors: С ошибками
+interaction.export_title: Экспорт взаимодействия
+admin.sign_in_column: Вход
+admin.sign_in_label: Способы входа
+admin.sign_in_no_password: Без пароля (только SSO)
+admin.sign_in_none: Нет
+admin.sign_in_password: Пароль
+admin.sso: Единый вход
+admin.user_unlink_confirm: Отвязать {name} от {login}? Они больше не смогут входить с его помощью.
+button.profile: Профиль
+button.sso: SSO
+profile.change_password: Изменить пароль
+profile.col_provider: Поставщик
+profile.col_status: Статус
+profile.current_password_label: Текущий пароль
+profile.last_method_hint: Это ваш единственный способ входа. Сначала установите пароль или привяжите другого поставщика.
+profile.link: Привязать
+profile.link_error_access_denied: Вам не разрешено привязать {name}. Провайдер отказал или ваша учётная запись не соответствует его правилам доступа.
+profile.link_error_already_linked: Ваша учётная запись уже привязана к другой учётной записи {name}. Сначала отвяжите её.
+profile.link_error_identity_taken: Эта учетная запись {name} уже привязана к другому пользователю.
+profile.link_error_internal_error: Ошибка привязки. Попробуйте ещё раз.
+profile.link_error_invalid_state: Сеанс привязки истек или был недействителен. Попробуйте ещё раз.
+profile.link_error_provider_disabled: {name} недоступен.
+profile.link_error_provider_error: {name} недоступен или отклонил запрос.
+profile.link_error_rate_limited: Слишком много попыток. Подождите минуту и попробуйте ещё раз.
+profile.link_ok: {name} привязан к вашей учетной записи.
+profile.linked: Привязан
+profile.linked_as: "Привязан: {email}"
+profile.login_label: Вход
+profile.new_password_label: Новый пароль
+profile.no_providers: Поставщики SSO не настроены.
+profile.no_teams: Нет команд
+profile.not_linked: Не привязан
+profile.password_label: Пароль
+profile.password_mismatch: Пароли не совпадают.
+profile.password_not_set: Не установлен — вы можете войти только через SSO.
+profile.password_saved: Пароль сохранен.
+profile.password_set: Установлен
+profile.repeat_password_label: Повторите новый пароль
+profile.role_label: Роль
+profile.set_password: Установить пароль
+profile.sign_in_methods_title: Способы входа
+profile.teams_label: Команды
+profile.title: Профиль
+profile.unlink: Отвязать
+profile.unlink_confirm: Отвязать {имя} от вашей учетной записи?
+profile.unlink_hint: Введите пароль, чтобы отвязать {name} от вашей учётной записи.
+profile.unlink_title: Отвязать {name}
+profile.unlinked: {name} отвязан.
+sso.add_mapping: Добавить сопоставление
+sso.allowed_domains_label: Разрешенные домены электронной почты (разделены запятыми, пустое поле = любые)
+sso.client_id_label: Идентификатор клиента
+sso.client_secret_keep_placeholder: Оставьте поле пустым, чтобы сохранить текущий секретный ключ
+sso.client_secret_label: Секретный ключ клиента
+sso.col_linked: Связанные пользователи
+sso.col_name: Имя
+sso.col_new_users: Новые пользователи
+sso.col_slug: Код
+sso.col_status: Статус
+sso.create_provider: Добавить поставщика SSO
+sso.create_provider_title: Добавить поставщика SSO
+sso.default_role_admin_warning: Все, кому разрешен вход через этого поставщика, станут администраторами.
+sso.default_role_label: Роль по умолчанию
+sso.default_teams_label: Команды по умолчанию
+sso.delete_confirm: "Удалить провайдера SSO {name}?"
+sso.delete_impact: {count} привязанных учетных записей будут отвязаны.
+sso.delete_locked_out: У этих пользователей нет других способов входа, и они потеряют доступ {logins}
+sso.edit_provider_title: Редактировать поставщика SSO
+sso.enabled_label: Включено
+sso.group_mappings_hint: Пользователь, входящий в одну из перечисленных групп, получает роль и команды, соответствующие данному правилу, в дополнение к указанным выше по умолчанию. При наличии нескольких совпадений приоритет имеет роль с наивысшим уровнем, а команды объединяются.
+sso.group_mappings_label: Сопоставления групп
+sso.groups_claim_label: Заявление с группами
+sso.issuer_label: URL-адрес эмитента
+sso.jit_label: Автоматическое создание пользователей при первом входе в систему
+sso.jit_off: Только существующие пользователи
+sso.jit_on: Создаются автоматически с ролью {role}
+sso.local_login_disabled_label: Отключить вход с помощью пароля для пользователей, не являющихся администраторами
+sso.local_login_hint: Администраторы по-прежнему могут входить с помощью пароля по адресу /login?local=1 (аварийный доступ).
+sso.local_login_needs_provider: Перед отключением входа с помощью пароля необходимо включить хотя бы одного поставщика SSO.
+sso.login_claim_label: Утверждение, используемое для входа
+sso.mapping_group_placeholder: Название группы у поставщика идентификации
+sso.mapping_no_role: Без смены роли
+sso.move_down: Сдвинуть вниз
+sso.move_up: Сдвинуть вверх
+sso.name_label: Название SSO (отображается на странице входа)
+sso.no_providers: Поставщики SSO не настроены.
+sso.redirect_uri_after_save: Отображается после сохранения поставщика.
+sso.redirect_uri_label: URI перенаправления (зарегистрируйте его у поставщика идентификации)
+sso.refresh_hint: Обновить
+sso.required_group_label: Обязательная группа (пустое поле = любая)
+sso.scopes_label: Области доступа (разделены запятыми)
+sso.slug_hint: Часть URI перенаправления. Не может быть изменена после создания.
+sso.slug_label: Код
+sso.status_disabled: Отключено
+sso.status_enabled: Включено
+sso.sync_label: Пересчитывать роли и команды на основе групп при каждом входе в систему
+sso.test_button: Проверить соединение
+sso.test_failed: Соединение не удалось
+sso.test_ok: Соединение успешно. Эндпоинт авторизации {endpoint}
+sso.trust_mfa_label: Доверять MFA поставщика (пропускать локальный двухфакторный код)
+export.format_html: HTML
+export.format_markdown: Markdown (MD)
+export.doc.back_to_contents: Назад к оглавлению
+tryit.code_language: Язык
+tryit.tab_code: Код
+admin.notifications: Уведомления
+button.notifications: Уведомления
+notifications.add_channel: Добавить канал
+notifications.add_rule: Добавить правило
+notifications.all_services: Все сервисы
+notifications.bearer_token: Токен Bearer (необязательно)
+notifications.bot_token: Токен бота
+notifications.channel_title_create: Добавить канал
+notifications.channel_title_edit: Редактировать канал
+notifications.chat_id: Идентификатор чата
+notifications.chat_id_hint: "Используйте идентификатор личного чата, группы или канала. Сначала добавьте бота в группу или канал; отправьте ему сообщение и откройте страницу https://api.telegram.org/bot<token>/getUpdates, чтобы найти ID."
+notifications.col_attempts: Попытки
+notifications.col_channel: Канал
+notifications.col_error: Ошибка
+notifications.col_event: Событие
+notifications.col_last: Последняя доставка
+notifications.col_message: Сообщение
+notifications.col_name: Имя
+notifications.col_status: Статус
+notifications.col_time: Время
+notifications.col_type: Тип
+notifications.create_channel_first: Сначала создайте канал, а затем добавьте правила.
+notifications.delete_confirm: "Удалить канал {name} и историю его рассылок?"
+notifications.delete_confirm_rules: Он используется {count} правилами, которые также будут удалены.
+notifications.delete_failed: Не удалось удалить
+notifications.email_hint: Сообщения отправляются через SMTP-сервер, настроенный ниже списка каналов.
+notifications.enabled_label: Включено
+notifications.event_license_expiring: Истечение срока действия лицензии
+notifications.event_service_version_uploaded: Новая версия
+notifications.event_test: Тест
+notifications.filter_all: Все статусы
+notifications.headers_label: "Дополнительные заголовки (по одному \"Имя: значение\" в строке)"
+notifications.license_valid_until: Лицензия действительна до {date}.
+notifications.load_failed: Не удалось загрузить уведомления
+notifications.missing_service: {slug} (больше не существует)
+notifications.name_label: Имя
+notifications.never: Никогда
+notifications.no_channels: Каналов пока нет. Добавьте один, чтобы начать получать уведомления.
+notifications.no_deliveries: Доставок пока нет.
+notifications.no_rules: Правил пока нет.
+notifications.only_breaking: Только критические изменения
+notifications.recipients_label: Получатели (по одному адресу в строке)
+notifications.remove_rule: Удалить правило
+notifications.retry: Повторить попытку
+notifications.retry_failed: Не удалось повторить попытку
+notifications.rule_channel: Канал
+notifications.rule_channel_required: Выберите канал для каждого правила.
+notifications.rule_enabled: Включено
+notifications.rule_license_hint: "Проверка лицензии происходит один раз в день (по умолчанию в 09:00 UTC). По истечении срока действия лицензии отправляется одно уведомление".
+notifications.rule_license_title: Истечение срока действия лицензии
+notifications.rule_version_hint: Уведомлять при публикации новой версии с изменениями в основной ветке сервиса. Первая версия сервиса никогда не вызывает уведомления.
+notifications.rule_version_title: Новая версия документации
+notifications.save_failed: Не удалось сохранить
+notifications.saved: Сохранено.
+notifications.secret_saved: Сохранено — оставьте поле пустым, чтобы сохранить его
+notifications.selected_services: Выбранные сервисы
+notifications.send_test: Отправить тестовое сообщение
+notifications.services_search: Поиск сервисов
+notifications.slack_channel: Канал (имя или ID)
+notifications.slack_mode: Режим
+notifications.slack_mode_bot: Токен бота и канал
+notifications.slack_mode_webhook: URL входящего веб-хука
+notifications.slack_webhook_url: URL входящего веб-хука
+notifications.smtp_from: Адрес отправителя
+notifications.smtp_hint: Используется всеми каналами электронной почты.
+notifications.smtp_host: Хост
+notifications.smtp_password: Пароль
+notifications.smtp_password_saved: Сохранено — оставьте поле пустым, чтобы сохранить настройку
+notifications.smtp_port: Порт
+notifications.smtp_title: Сервер электронной почты (SMTP)
+notifications.smtp_tls: Шифрование
+notifications.smtp_tls_none: Отсутствует
+notifications.smtp_tls_ssl: SSL/TLS
+notifications.smtp_tls_starttls: STARTTLS
+notifications.smtp_username: Имя пользователя
+notifications.status_disabled: Отключено
+notifications.status_enabled: Включено
+notifications.status_failed: Сбой
+notifications.status_pending: В ожидании
+notifications.status_sent: Отправлено
+notifications.tab_channels: Каналы
+notifications.tab_history: История
+notifications.tab_rules: Правила
+notifications.test_failed: Тест не прошел
+notifications.test_ok: Тестовое сообщение отправлено.
+notifications.test_save_first: Сначала сохранить канал, затем отправить тест.
+notifications.threshold_1d: 1 день
+notifications.threshold_2d: 2 дня
+notifications.threshold_3d: 3 дня
+notifications.threshold_7d: 1 неделя
+notifications.type_email: Электронная почта
+notifications.type_label: Тип
+notifications.type_slack: Slack
+notifications.type_telegram: Telegram
+notifications.type_webhook: Веб-хук
+notifications.unsaved: Несохраненные изменения.
+notifications.webhook_url: URL (HTTP или HTTPS, POST)
+notifications.rule_language: Язык
+notify.breaking_mark: (изменение, требующее перенастройки)
+notify.field.breaking: Изменения, нарушающие совместимость
+notify.field.device_id: Идентификатор устройства
+notify.field.published: Опубликовано
+notify.field.service: Сервис
+notify.field.valid_until: Срок действия до
+notify.field.version: Версия
+notify.group.added: Добавлены эндпоинты ({count})
+notify.group.modified: Изменены эндпоинты ({count})
+notify.group.removed: Удаленные эндпоинты ({count})
+notify.license.text_expired: Срок действия лицензии docs-hub истек {date}. Загрузите обновлённую лицензию, чтобы восстановить доступ.
+notify.license.text_soon: Лицензия docs-hub действительна до {date}. Осталось {days} дней.
+notify.license.title_expired: срок действия лицензии docs-hub истек
+notify.license.title_soon: срок действия лицензии docs-hub скоро истечет
+notify.more: и ещё {count}
+notify.no: нет
+notify.test.text: Это тестовое сообщение от docs-hub. Если вы можете его прочитать, значит канал работает.
+notify.test.title: Тестовое уведомление от docs-hub
+notify.version.text: "Опубликована версия {version} {service}: {added} добавлено, {modified} изменено, {removed} удалено."
+notify.version.title: "Новая версия документации: {service}"
+notify.yes: да
+endpoint.add_to_query: Добавить в запрос
+editor.bold: Жирный шрифт
+editor.bulleted_list: Маркированный список
+editor.characters: {count} символов
+editor.characters_limit: {count} символов (ограничение {limit} КБ)
+editor.code_block: Блок кода
+editor.heading: Заголовок
+editor.heading_1: Заголовок 1
+editor.heading_2: Заголовок 2
+editor.heading_3: Заголовок 3
+editor.heading_4: Заголовок 4
+editor.heading_5: Заголовок 5
+editor.heading_6: Заголовок 6
+editor.horizontal_rule: Горизонтальная линия
+editor.image: Изображение
+editor.inline_code: Встроенный код
+editor.italic: Курсив
+editor.link: Ссылка
+editor.mode_markdown: Markdown
+editor.mode_visual: Визуальный режим
+editor.numbered_list: Нумерованный список
+editor.quote: Цитата
+editor.switch_to_markdown: Переключиться на редактирование в режиме Markdown
+editor.switch_to_visual: Переключиться на визуальное редактирование
+editor.text_aria: Текст в формате Markdown
+editor.toolbar: Форматирование Markdown
+paramoverlay.delete_confirm: Пустой текст удаляет наложение этого параметра и его историю. Удалить?
+paramoverlay.delete_version_confirm: Удалить эту версию из истории?
+paramoverlay.load_failed: Не удалось загрузить
+paramoverlay.no_description: Описание отсутствует.
+paramoverlay.restore: Восстановить эту версию
+paramoverlay.restore_confirm: Восстановить эту версию? Её текст станет текущим описанием; нынешнее останется в истории.
+paramoverlay.save_failed: Не удалось сохранить
+structure.cancel_confirm: Отменить несохраненные изменения в заказе?
+structure.drag_handle: Перетащите, чтобы изменить порядок
+structure.empty: У этого сервиса пока нет тегов или эндпоинтов.
+structure.endpoint_count: {count} эндпоинтов
+structure.hint: Перетаскивайте теги и эндпоинты или используйте кнопки со стрелками, чтобы изменить их порядок. Порядок применяется к левому меню и к экспортам для каждой версии сервиса.
+structure.load_failed: Не удалось загрузить сохраненный порядок
+structure.move_down: Переместить вниз
+structure.move_up: Переместить вверх
+structure.moved: {name} перемещено на позицию {position} из {total}
+structure.open: Структура сервиса (порядок тегов и эндпоинтов)
+structure.reset: Сбросить порядок
+structure.reset_confirm: Сбросить порядок до значений по умолчанию (теги отсортированы по имени)? Сохраненный порядок будет удален.
+structure.save_failed: Не удалось сохранить порядок
+structure.title: Структура сервиса
+structure.unsaved: Несохранённые изменения
+export.added_to_history: Экспорт добавлен в историю
+exportpage.add_images: Добавить изображения
+exportpage.add_page: Добавить страницу
+exportpage.add_text: Добавить текст
+exportpage.added: Добавлено {n} изображений
+exportpage.added_to_list: {name} добавлено в {список}
+exportpage.align_center: Выровнять по центру
+exportpage.align_justify: Выровнять по ширине
+exportpage.align_left: Выровнять по левому краю
+exportpage.align_right: Выровнять по правому краю
+exportpage.already_in_list: "Страница \"{name}\" уже находится в этом списке."
+exportpage.alt: Альтернативный текст
+exportpage.aria_image: Изображение {alt}
+exportpage.aria_text: Текст {text}
+exportpage.background: Цвет фона
+exportpage.backward: Назад
+exportpage.bold: Жирный шрифт
+exportpage.bring_front: Вывести на передний план
+exportpage.chars: {n} из {max} символов
+exportpage.choose_library: Выбрать из библиотеки
+exportpage.close_confirm: Закрыть редактор и отменить изменения?
+exportpage.conflict: Страница была изменена в другом месте. Закройте редактор и откройте страницу заново.
+exportpage.continue: Продолжить
+exportpage.create_new: Создать новую страницу
+exportpage.default_name: Новая страница
+exportpage.delete: Удалить
+exportpage.delete_confirm: "Удалить страницу \"{name}\" из библиотеки?"
+exportpage.delete_element: Удалить
+exportpage.drop_hint: Перетащите изображения сюда
+exportpage.duplicate: Скопировать
+exportpage.duplicate_element: Скопировать
+exportpage.edit: Редактировать
+exportpage.editing: Редактирование текста. Нажмите Escape, чтобы завершить.
+exportpage.editing_done: Редактирование текста завершено
+exportpage.editor_title: Редактор страниц
+exportpage.empty: Страниц пока нет.
+exportpage.fill: Цвет заливки
+exportpage.fit: Поместить
+exportpage.fit_contain: Вместить
+exportpage.fit_cover: Покрыть
+exportpage.fit_stretch: Растянуть
+exportpage.font: Шрифт
+exportpage.font_mono: Моноширинный
+exportpage.font_sans: Без засечек
+exportpage.font_serif: С засечками
+exportpage.forward: Вперед
+exportpage.geometry: X {x} мм, Y {y} мм, {w} на {h} мм
+exportpage.glyph_warning: "Эти символы отсутствуют в шрифтах экспорта и будут заменены: {chars}"
+exportpage.height: Высота (мм)
+exportpage.history_summary: "Страниц: {front} в начале, {back} в конце"
+exportpage.in_export: в этом экспорте
+exportpage.italic: Курсив
+exportpage.landscape: Альбомная ориентация
+exportpage.layer: Слой {n} из {total}
+exportpage.library: Страницы экспорта
+exportpage.library_hint: Здесь хранятся страницы для начала и конца экспорта.
+exportpage.library_open: Библиотека страниц
+exportpage.line_height: Межстрочный интервал
+exportpage.list_full: Список содержит не более {n} страниц.
+exportpage.lists_back: Страницы в конце
+exportpage.lists_front: Страницы в начале
+exportpage.lists_label: Страницы до и после документа
+exportpage.load_failed: Не удалось загрузить страницу.
+exportpage.missing_removed: {n} страниц больше не существует и были удалены из списков.
+exportpage.move_left: Перейти влево
+exportpage.move_right: Перейти вправо
+exportpage.move_to_back: Перейти к страницам в конце
+exportpage.move_to_front: Перейти к страницам в начале
+exportpage.moved_list: {name} перемещено в {list}, позиция {n} из {total}
+exportpage.moved_position: "{name}: позиция {n} из {total}"
+exportpage.name: Название страницы
+exportpage.name_required: Введите название страницы.
+exportpage.new: Новая страница
+exportpage.no_raster: "{name}: не удалось создать копию в формате PNG, в PDF и DOCX будет отображаться заполнитель."
+exportpage.nothing_selected: Выберите элемент или добавьте изображения.
+exportpage.orientation: Ориентация
+exportpage.padding: Отступы (мм)
+exportpage.portrait: Книжная ориентация
+exportpage.props: Свойства
+exportpage.redo: Повторить
+exportpage.remove_confirm: "Удалить страницу \"{name}\" из этого экспорта? Она останется в библиотеке."
+exportpage.remove_from_export: Удалить из экспорта
+exportpage.restored_n: {n} страниц были восстановлены из экспорта в библиотеку.
+exportpage.search: Поиск страниц
+exportpage.select: Выбрать
+exportpage.send_back: Отправить назад
+exportpage.size: Размер (pt)
+exportpage.size_total: "Изображения страниц: {size} из {max}"
+exportpage.snap: Привязка к краям и центрам
+exportpage.text_color: Цвет текста
+exportpage.text_placeholder: Текст
+exportpage.too_big: Изображения страниц превышают {max}. Удалите страницы или изображения.
+exportpage.too_many: На одной странице может быть не более {n} элементов.
+exportpage.transparent: Прозрачный
+exportpage.underline: Подчеркивание
+exportpage.undo: Отменить
+exportpage.upload_failed: "{name}: {error}"
+exportpage.uploading: Загрузка {done} из {total}...
+exportpage.version_export: Версия из экспорта
+exportpage.version_library: Текущая версия из библиотеки
+exportpage.versions_hint: Эти страницы были отредактированы в библиотеке после выполнения экспорта. Выберите версию для использования.
+exportpage.versions_title: Страницы, изменившиеся после экспорта
+exportpage.width: Ширина (мм)
+exportpage.x: X (мм)
+exportpage.y: Y (мм)
+exportpage.zoom: Масштаб
+exportpage.zoom_fit: Подогнать под окно
+export.changelog_unavailable: "Журнал изменений отсутствует: у сервиса нет более ранней версии для сравнения."
+export.col_changelog: Журнал изменений
+export.col_version: Версия
+export.doc.changelog: Журнал изменений
+export.doc.changelog_added: Добавлено
+export.doc.changelog_breaking: Изменения, требующие перенастройки
+export.doc.changelog_modified: Изменено
+export.doc.changelog_none: Изменений нет
+export.doc.changelog_parameters: Параметры
+export.doc.changelog_removed: Удалено
+export.doc.changelog_response: Ответ
+export.doc.version: Версия
+export.version_current: текущая
+export.version_endpoints_removed: {count} выбранных эндпоинтов отсутствуют в выбранной версии и были сняты с выбора.
+export.version_load_failed: Не удалось загрузить версии службы.
+export.version_missing: Версия не найдена — выберите её вручную.
+export.version_no_endpoints: "Ни одна из выбранных эндпоинтов {services} не существует в выбранной версии — воспользуйтесь функцией \"Изменить службы\", чтобы выбрать некоторые из них."
+export.version_required: "Выберите версию для: {services}"
+export.col_branch: Ветка
+interaction.pdf.header_name: Название
+interaction.pdf.header_value: Значение
+endpoint.params_all_types: Все типы
+endpoint.params_collapse_all: Свернуть всё
+endpoint.params_expand_all: Развернуть всё
+endpoint.params_nothing_found: Ничего не найдено.
+endpoint.params_search: Поиск по названию или описанию
+endpoint.params_show_descriptions: Описания
+endpoint.params_type_filter: Фильтр по типу
+nav.favorites_add: Добавить в избранное
+nav.favorites_empty: Избранного пока нет.
+nav.favorites_filter: Показать только избранное
+nav.favorites_remove: Удалить из избранного
+nav.service_branches_label: ветки
+asyncapi.action_receive_hint: "RECV: приложение принимает сообщения из этого канала"
+asyncapi.action_send_hint: "SEND: приложение отправляет сообщения в этот канал"
+asyncapi.channel: Канал
+asyncapi.channel_address: Адрес канала
+asyncapi.channel_bindings: Привязки канала
+asyncapi.correlation_id: Идентификатор корреляции
+asyncapi.headers: заголовки
+asyncapi.message_bindings: Привязки сообщений
+asyncapi.no_messages: У этой операции нет сообщений.
+asyncapi.operation_bindings: Привязки операции
+asyncapi.payload: полезные данные
+asyncapi.reply: Ответ
+asyncapi.reply_channel: Канал ответа
+asyncapi.schema_format: Формат схемы
+asyncapi.security: Безопасность
+asyncapi.server_description: Описание
+asyncapi.server_name: Имя
+asyncapi.server_protocol: Протокол
+asyncapi.servers: Серверы
+asyncapi.tab_example_messages: Примеры сообщений
+asyncapi.tab_example_parameters: Примеры параметров
+asyncapi.tab_messages: Сообщения
+asyncapi.tab_parameters: Канал и заголовки
+asyncapi.unresolved: Определено вне данного документа (не загружено)
+endpoint.history_changed: изменено
+export.doc.async_message: Сообщение
+export.doc.async_parameters: Канал и заголовки
+export.doc.async_reply: Ответ
+export.doc.async_schema_format: Формат схемы
+export.doc.async_servers: Серверы
+export.doc.in_channel: канал
+export.doc.in_header: заголовок
+nav.service_format_asyncapi: AsyncAPI
+tryit.server_label: Сервер
+tryit.server_placeholder: Выберите сервер
+tryit.server_unresolved: URL-адрес сервера содержит переменные без значения по умолчанию
+admin.service_teams: Команды с доступом
+common.select_all: Выбрать всё
+export.tree_clear_all: Очистить всё
+export.tree_select_all: Выбрать всё
+breadcrumbs.services: Сервисы
+groups.collapse: Свернуть группу
+groups.create_group: Создать группу сервисов
+groups.default_hint: Каждый сервис всегда находится в этой группе.
+groups.default_locked: Каждый сервис всегда находится в этой группе.
+groups.delete_confirm: "Удалить группу \"{name}\"? Её сервисы останутся в других группах."
+groups.edit_group: Редактировать группу сервисов
+groups.empty: В этой группе пока нет сервисов.
+groups.expand: Развернуть группу
+groups.move_down: Переместить группу вниз
+groups.move_earlier: Переместить сервис раньше
+groups.move_later: Переместить сервис позже
+groups.move_up: Переместить группу вверх
+groups.name: Название группы
+groups.name_required: Введите название группы.
+groups.new_group: Новая группа сервисов
+groups.service_groups: Группы
+groups.services: Услуги
+groups.hidden_from_menu: Скрыть из левого меню
+groups.show_in_menu: Показать в левом меню
+mcp.add_token: Добавить токен
+mcp.delete_confirm: "Удалить токен \"{name}\"? Клиенты, использующие его, потеряют доступ."
+mcp.edit_token: Редактировать токен
+mcp.endpoint_label: Эндпоинт MCP
+mcp.limits_services: {count} сервис(ов)
+mcp.name_required: Введите имя токена.
+mcp.no_tokens: Токенов пока нет. Добавьте один, чтобы клиент MCP смог подключиться.
+mcp.rotate_confirm: "Заменить секрет токена \"{name}\"? Текущий секрет сразу перестанет действовать."
+mcp.secret_title: Токен Bearer
+mcp.token_active: Активен
+mcp.token_changed: Токен изменен
+mcp.token_limits: Ограничения
+mcp.token_name: Имя
+tryit.response_headers: Заголовки ответа
+tryit.response_size: Размер ответа
+endpoint.history_breaking: Нарушение
+endpoint.history_operation: Операция
+endpoint.history_untracked: Изменения вне отслеживаемых полей (параметры, ответы, сводка, описание)
+groups.service_delete_confirm: "Удалить сервис \"{name}\"? Это действие нельзя отменить."
+nav.group_services_label: Сервисы в группе
+groups.icon: Значок
+export.pages_short: страницы
+pages.cancel_confirm: Отменить несохраненные изменения страницы?
+pages.create_failed: Не удалось создать страницу
+pages.delete: Удалить страницу
+pages.delete_confirm: Удалить страницу {title} вместе с изображениями?
+pages.delete_failed: Не удалось удалить страницу
+pages.edit: Редактировать страницу
+pages.empty: Эта страница пуста.
+pages.image_failed: Не удалось загрузить изображение
+pages.image_missing: Изображение не найдено
+pages.image_uploading: Загрузка изображения...
+pages.load_failed: Не удалось загрузить страницу
+pages.loading: Загрузка страницы...
+pages.page: Страница
+pages.save_failed: Не удалось сохранить страницу
+pages.text: Текст (Markdown)
+pages.title: Заголовок
+structure.err_duplicate: Этот тег уже содержит данную конечную точку.
+structure.err_into_itself: Папку нельзя переместить в саму себя или в то, что находится внутри неё.
+structure.err_not_container: Только папка или тег могут содержать другие элементы.
+structure.err_tag_endpoints_only: Тег содержит только эндпоинты.
+structure.err_too_deep: Структуру нельзя вкладывать глубже.
+structure.folder_add: Новая папка
+structure.folder_added: Папка {name} добавлена
+structure.folder_delete: Удалить папку
+structure.folder_delete_confirm: Удалить папку {name}?
+structure.folder_delete_confirm_items: Удалить папку {name}? Содержимое папки будет перемещено на место самой папки.
+structure.folder_deleted: Папка {name} удалена
+structure.folder_name: Имя
+structure.folder_name_required: Введите имя папки
+structure.folder_name_title: Имя папки
+structure.folder_rename: Переименовать папку
+structure.item_count: {count} элементов
+structure.move_in: Переместить в папку или тег выше
+structure.move_out: Переместить из папки или тега
+structure.page_add: Новая страница
+structure.page_added: Страница {name} добавлена
+structure.page_delete: Удалить страницу
+structure.page_edit: Редактировать страницу
+structure.page_name_title: Заголовок страницы
+structure.add_folder_in: Новая папка внутри
+structure.add_page_in: Новая страница внутри
+structure.err_duplicate_scope: Этот эндпоинт уже находится в этом теге или уже находится вне всех тегов.
+structure.err_nowhere: Нет другого места, куда её можно переместить.
+structure.from_tag: Создано из тега спецификации
+structure.hint_tree: "Создавайте папки и страницы, а затем перетаскивайте теги, эндпоинты, страницы и папки или используйте кнопки, чтобы переместить их на другой уровень или изменить их порядок. Теги — это папки, сформированные из тегов спецификации: новые версии продолжают их пополнять. Структура применяется к левому меню и к экспорту для каждой версии сервиса."
+structure.level_up: Перейти на уровень выше
+structure.level_up_confirm: Переместить {name} на уровень выше, рядом с {parent}?
+structure.move: Переместить
+structure.move_current: Текущее местоположение
+structure.move_title: Переместить
+structure.move_to: Переместить в
+structure.moved_to: {name} перемещено в {target}
+structure.new_folder_title: Новая папка
+structure.new_page_title: Новая страница
+structure.page_images_later: Изображения можно добавить после создания страницы.
+structure.page_text: Текст (Markdown)
+structure.parent: Родительская папка или тег
+structure.parent_clear: Очистить выделение
+structure.parent_none: Ничего не найдено
+structure.parent_placeholder: Поиск папок и тегов; пустое поле означает верхний уровень
+structure.parent_tag: Тег
+structure.parent_top: Верхний уровень
+structure.rename_title: Переименовать папку
+structure.clear_selection: Очистить выделение
+structure.items_selected: {count} элементов
+structure.move_selected: Переместить выделенные
+structure.move_selected_list: Выделенные элементы ({count})
+structure.select: Выделить
+structure.move_new_folder: Создать новую папку
+structure.open_tree: "Редактировать дерево сервиса: папки, страницы, теги и эндпоинты"
+pages.back_to_history: Вернуться к истории
+pages.back_to_page: Вернуться на страницу
+pages.history: История страницы
+pages.history_empty: Версий пока нет.
+pages.version: Версия
+pages.version_current: текущая
+pages.version_view: Просмотр
+labels.add: Добавить метку
+labels.filter_chip: «Метка: {label}»
+labels.filter_clear: Показать всё снова
+labels.placeholder: Новая метка
+labels.remove: Удалить метку
+labels.show_all: Показать всё, что помечено {label}
+labels.title: Метки
+license.customer: Лицензия для
+license.disabled: Не включено
+license.enabled: Включено
+license.feature_export: Экспорт
+license.feature_mcp: Сервер MCP
+license.feature_notifications: Уведомления
+license.feature_sso: Единый вход (SSO)
+license.feature_tryit: Пробная версия
+license.features: Функции
+license.license_id: Идентификатор лицензии
+license.limit_max_endpoints_per_service: Количество эндпоинтов на сервис
+license.limit_max_mcp_tokens: Токены MCP
+license.limit_max_services: Сервисы
+license.limit_max_teams: Команды
+license.limit_max_users: Пользователи
+license.limits: Ограничения
+license.per_day: в день
+license.per_hour: в час
+license.per_month: в месяц
+license.per_week: в неделю
+license.quota_exports: Экспорт данных
+license.quota_mcp_requests: Запросы MCP
+license.quotas: Квоты на использование
+license.resets: сбросы
+license.tier: Тарифный план
+license.tier_business: Бизнес
+license.tier_custom: Пользовательский
+license.tier_free: Бесплатный (для личного использования)
+license.tier_team: Команда
+license.tier_unlimited: Без ограничений
+license.unlimited: без ограничений
+endpoint.history_diff_added: добавлено
+endpoint.history_diff_removed: удалено
+endpoint.history_group_operation: Операция
+endpoint.history_group_parameters: Параметры
+endpoint.history_group_response_fields: Поля ответа
+endpoint.history_hide_unchanged: Скрыть неизменённые абзацы
+endpoint.history_no_tracked_short: нет отслеживаемых полей
+endpoint.history_reverted: отменено
+endpoint.history_reverted_tip: Это значение использовалось ранее
+endpoint.history_rollback: откат
+endpoint.history_rollback_tip: Каждое изменение в этой версии восстанавливает более раннее значение
+endpoint.history_show_unchanged: Показать неизменённые абзацы
+endpoint.history_unchanged_paragraphs_one: {n} абзац неизменён
+endpoint.history_unchanged_paragraphs_other: {n} абзацев неизменён
+profile.teams_less: показать меньше
+profile.teams_more: +{n} ещё
+asyncapi.channel_note_receive: Приложение получает сообщения из этого канала
+asyncapi.channel_note_send: Приложение отправляет сообщения в этот канал
+mcp.enable_branch_tools_label: Ветки сервиса (требуются инструменты работы с историей)
+mcp.enable_version_read_label: Чтение исторических версий (требуются инструменты работы с историей)
+admin.environment_mcp_label: Доступно через сервер MCP (только для общедоступных окружений)
+admin.header_sensitive: Конфиденциально
+license.feature_mcp_tryit: «Try-It» через сервер MCP
+license.quota_mcp_tryit_requests: Запросы «Try-It» MCP
+mcp.enable_tryit_label: «Try-It: отправка запросов к реальным API»
+mcp.group_basic: Общие
+mcp.group_network: Сетевой доступ
+mcp.group_read: Инструменты чтения
+mcp.group_services: Сервисы
+mcp.group_tryit: «Try-It» (реальные запросы)
+mcp.group_versions: Версии и ветки
+mcp.tryit_concurrent_label: Одновременные запросы
+mcp.tryit_not_licensed: Лицензия не включает использование Try-It через сервер MCP.
+mcp.tryit_rate_label: Количество запросов в минуту
+mcp.tryit_response_limit_label: Ограничение размера ответа (КБ)
+mcp.tryit_services_label: Сервисы, для которых разрешен Try-It (из числа разрешенных сервисов)
+mcp.tryit_warning_1: ИИ отправляет РЕАЛЬНЫЕ запросы в рабочие системы с использованием учетных данных данного окружения.
+mcp.tryit_warning_2: Запрос может необратимо изменить или удалить данные, а ошибочная или подделанная модель может повторить это.
+mcp.tryit_warning_3: Всё, что отвечает API, передаётся поставщику ИИ; ответ может содержать личные или конфиденциальные данные.
+mcp.tryit_warning_4: Включайте эту функцию только для тестовых окружений, ограничивайте допустимые эндпоинты и устанавливайте низкие лимиты.
+mcp.tryit_warning_5: Каждый запрос записывается в журнал аудита.
+mcp.tryit_warning_title: Потенциально опасная функция
+structure.mcp_tryit: Try-It через MCP
+structure.mcp_tryit_all: Все эндпоинты
+structure.mcp_tryit_hint: "По умолчанию сервер MCP может вызывать все эндпоинты спецификации (и только их) в открытых для него окружениях. Выберите \"Только выбранные\", чтобы разрешить доступ только к отмеченным эндпоинтам, тегам и папкам."
+structure.mcp_tryit_selected: Только выбранные
+structure.mcp_tryit_title: Try-It через сервер MCP
+structure.mcp_added: "Разрешено в MCP Try-It: {count} эндпоинтов."
+structure.mcp_allow: Разрешить в MCP
+structure.mcp_deny: Удалить из MCP
+structure.mcp_group: Try-It через сервер MCP
+structure.mcp_icon_container: "Содержит эндпоинты, доступные через сервер MCP для Try-It: ИИ может отправлять на них реальные запросы. Будьте осторожны."
+structure.mcp_icon_endpoint: "Эта эндпоинт доступна через сервер MCP для Try-It: ИИ может отправлять на неё реальные запросы. Будьте осторожны."
+structure.mcp_load_failed: Не удалось загрузить список MCP Try-It
+structure.mcp_mode_all: "MCP Try-It: все эндпоинты"
+structure.mcp_mode_changed: Сейчас для MCP Try-It открыты только отмеченные эндпоинты.
+structure.mcp_mode_hint: "По умолчанию сервер MCP может отправлять запросы Try-It на каждую задокументированный эндпоинт службы (в доступных для него окружениях). Переключитесь на режим \"только отмеченные\", чтобы разрешить доступ только к тем эндпоинтам, которые вы отметите."
+structure.mcp_mode_selected: "MCP Try-It: только отмеченные ({count})"
+structure.mcp_only: Только эндпоинты MCP
+structure.mcp_open_all_confirm: Открыть ВСЕ эндпоинты службы для MCP Try-It? Ограничение на отмеченные эндпоинты больше не будет применяться.
+structure.mcp_removed: "Удалено из MCP Try-It: {count} эндпоинтов."
+structure.mcp_save_failed: Не удалось сохранить список MCP Try-It
+structure.group_create: Создать
+structure.group_mcp: MCP Try-It
+structure.group_selection: Выбор
+structure.group_structure: Структура
+admin.environments_mcp_any: "MCP: любой"
+admin.environments_mcp_badge: MCP
+admin.environments_mcp_column: MCP
+admin.environments_mcp_no: Недоступно для MCP
+admin.environments_mcp_yes: Доступно для MCP
+admin.import_version_branch_existing: Существующие ветки
+admin.import_version_branch_hint: Ветка, введенная выше, имеет приоритет над выбранной из списка.
+notify.field.branch: Ветка

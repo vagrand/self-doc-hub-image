@@ -1,0 +1,1118 @@
+# Base UI translations created on first start.
+app.title: SelfDocHub
+role.public: public
+search.placeholder: Search services, paths, tags
+button.users: Users
+button.orphaned: Orphaned
+button.rebuild: Rebuild
+button.refresh: Refresh
+button.send: Send
+button.delete: Delete
+button.edit: Edit
+button.save: Save
+button.cancel: Cancel
+button.rotate_token: Rotate Token
+button.create_user: Create user
+button.create_service: Create service
+button.switch_version: Switch
+button.show_changelog: Show Change Log
+button.hide_changelog: Hide Change Log
+header.documentation: Documentation
+header.subtitle: "Documentation of all services: OpenAPI, OpenRPC, GraphQL and AsyncAPI"
+tryit.title: Try-It
+tryit.tab_request: Request
+tryit.tab_headers: Headers
+tryit.tab_response: Response
+tryit.path: Path
+tryit.query: Query
+tryit.body: Body
+tryit.ready: Ready.
+tryit.select_endpoint: Select an endpoint and send a request.
+tryit.sending: Sending...
+tryit.no_environments: No environments configured
+tryit.select_environment: Select Environment
+tryit.request_failed: Request failed
+orphaned.title: Orphaned overlays
+orphaned.loading: Loading orphaned overlays...
+orphaned.empty: No orphaned overlays.
+orphaned.error: Unable to load orphaned overlays
+admin.users: Users
+admin.service: Service
+admin.login: Login
+admin.password: Password
+admin.role: Role
+admin.disabled: Disabled
+admin.active: Active
+admin.status: Status
+admin.slug: Slug
+admin.name: Name
+admin.description: Description
+admin.public: Public
+admin.create_user: Create user
+admin.edit_user: Edit user
+admin.create_service: Create service
+admin.edit_service: Edit service
+admin.no_users: No users yet.
+admin.save_failed: Save failed
+admin.service_token_for: Service token for
+admin.versions: Versions
+admin.current: Current
+admin.current_version: Current
+admin.published_at: Published
+admin.spec_version: Spec version
+admin.no_versions: No versions yet.
+admin.version_delete_confirm: Delete this version? This cannot be undone.
+admin.changes: Changes
+admin.uri: URI
+admin.method: Method
+admin.change_type: Change
+admin.change_added: Added
+admin.change_modified: Modified
+admin.change_removed: Removed
+admin.no_changes: No changes in this version.
+admin.no_changelog_matches: No matching changes found.
+admin.changelog_search_placeholder: Search Change Log by name or URI
+admin.environments: Environments
+admin.add_environment: Add environment
+admin.edit_environment: Edit environment
+admin.base_url: Base URL
+admin.connect_timeout: Connect timeout (seconds)
+admin.response_timeout: Response timeout (seconds)
+admin.headers: Headers
+admin.header_name: Name
+admin.header_value: Value
+admin.no_environments: No environments yet.
+admin.no_environment_matches: No matching environments found.
+admin.environments_search_placeholder: Search environments by name or base URL
+admin.environment_delete_confirm: Delete this environment? This cannot be undone.
+button.add_environment: Add
+button.add_header: Add header
+button.remove: Remove
+state.loading_docs: Loading documentation...
+state.no_matches: No matching services or endpoints.
+state.auth_required: Authentication required
+state.docs_not_ready: Documentation is not ready
+state.redoc_unavailable: Redoc is unavailable
+admin.all_roles: All roles
+admin.all_statuses: All statuses
+admin.breaking_change: Breaking
+admin.confirm_title: Confirm
+admin.create_team: Create team
+admin.edit_team: Edit team
+admin.format_version: Format
+admin.import_version: Import version
+admin.import_version_file: Swagger file
+admin.import_version_file_required: Choose a Swagger file to import
+admin.license: License
+admin.no_options: None available.
+admin.no_teams: No teams yet.
+admin.orphan_delete_confirm: Delete this orphaned overlay? This cannot be undone.
+admin.orphaned_refresh_hint: Reload the list of orphaned overlays
+admin.page: Page
+admin.page_of: of
+admin.service_delete_confirm: Delete this service? This cannot be undone.
+admin.service_order_hint: Drag services to reorder them. This order is shown to every user.
+admin.service_order_save_failed: Could not save the new order
+admin.spec_file: Swagger file (optional)
+admin.spec_publish_failed: Service created, but publishing the spec file failed
+admin.spec_published: Spec file published
+admin.team_column: Teams
+admin.team_delete_confirm: Delete this team? This cannot be undone.
+admin.team_members: Members
+admin.team_services: Services
+admin.teams: Teams
+admin.teams_filter_member_placeholder: Filter by member login
+admin.teams_filter_name_placeholder: Filter by team name
+admin.teams_filter_service_placeholder: Filter by service name
+admin.teams_refresh_hint: Reload the list of teams
+admin.user_delete_confirm: Delete this user? This cannot be undone.
+admin.user_teams: Teams
+admin.users_filter_login_placeholder: Filter by login
+admin.users_filter_team_placeholder: Filter by team name
+admin.users_refresh_hint: Reload the list of users
+admin.version_import_failed: Version import failed
+admin.version_import_identical: This version is identical to the current one - nothing was imported
+button.close: Close
+button.confirm: Confirm
+button.copy: Copy
+button.create_team: Create team
+button.delete_all: Delete all
+button.delete_overlay: Delete overlay
+button.edit_list: Edit List
+button.edit_overlay: Edit overlay
+button.export: Export
+button.export_all_environments_postman: Export all as Postman Environments
+button.export_environment_postman: Export as Postman Environment
+button.export_postman_collection: Export as Postman Collection
+button.generate: Generate
+button.license: License
+button.login: Login
+button.logout: Logout
+button.manage_saved_requests: Manage saved requests
+button.menu: Menu
+button.new_service: + New Service
+button.next_page: Next
+button.previous_page: Prev
+button.rebuild_hint: Rebuild the merged OpenAPI document from current specs and overlays
+button.save_request: Save
+button.services: Services
+button.share_request: Share
+button.show_original: Show Original
+button.show_overlay: Show Overlay
+button.teams: Teams
+endpoint.change_history: Change History
+endpoint.deprecated: Deprecated
+endpoint.error_code: Code
+endpoint.error_data: Data
+endpoint.error_message: Message
+endpoint.errors: Errors
+endpoint.example_generated: Generated example
+endpoint.example_parameters: Example Parameters
+endpoint.example_responses: Example Responses
+endpoint.history_added: added
+endpoint.history_parameter: Parameter
+endpoint.history_removed: removed
+endpoint.history_response_field: Response field
+endpoint.no_parameters: This endpoint has no parameters.
+endpoint.no_responses: No documented responses.
+endpoint.parameters: Parameters
+endpoint.request_body: Request Body
+endpoint.responses: Responses
+language: English
+license.created_at: Created
+license.days: d
+license.device_id: Device ID
+license.expired_ago: Expired
+license.expires_in: Expires in
+license.hours: h
+license.minutes: m
+license.status_invalid: Invalid
+license.status_valid: Valid
+license.upload_button: Upload
+license.upload_error: Upload failed
+license.upload_label: License file (JSON)
+license.upload_success: License updated.
+license.valid_until: Valid until
+nav.service_endpoints_label: endpoints
+nav.service_endpoints_ops_label: ops
+nav.service_format_graphql: GraphQL
+nav.service_format_openapi: OpenAPI
+nav.service_format_openrpc: OpenRPC
+nav.service_tags_label: tags
+nav.service_versions_label: versions
+overlay.delete_confirm: Delete this overlay? This cannot be undone.
+overlay.empty: No overlay content yet.
+overlay.title: Overlay
+theme.dark: Dark
+theme.light: Light
+tryit.body_pretty: Pretty
+tryit.body_raw: Raw
+tryit.body_tree: Tree
+tryit.concurrency: Concurrent requests
+tryit.copied: Copied!
+tryit.copy_failed: Copy failed
+tryit.delete_all_requests_confirm: Delete all saved requests for this endpoint? This cannot be undone.
+tryit.delete_request_confirm: Delete this saved request? This cannot be undone.
+tryit.duration: Duration
+tryit.environment_label: Environment
+tryit.generate_failed: Generate failed
+tryit.graphql_unavailable: Try-It is not available for a field that returns an object type.
+tryit.manage_requests_empty: No saved requests for this endpoint yet.
+tryit.manage_requests_title: Saved requests
+tryit.requested_at: Requested
+tryit.responded_at: Responded
+tryit.save_request_name: Name
+tryit.save_request_title: Save request
+tryit.saved_requests_label: Saved requests
+tryit.saved_requests_none: Select a saved request
+tryit.share_link_label: Share link
+tryit.share_one_time_label: One-time link
+tryit.share_request_title: Share request
+tryit.shared_request_failed: Could not load the shared request
+tryit.tab_connection: Connection
+tryit.tab_curl: cURL
+tryit.validate_ssl: Validate SSL
+admin.import_version_branch: Branch
+admin.main_branch: Main branch
+admin.pinned_version: Your working version
+admin.spec_version_format_hint: "Format: N.N.N (e.g. 1.4.2)"
+admin.version_branch_filter: Branch
+admin.version_branch_filter_no_matches: No matching branches
+admin.version_pin_banner: "You are viewing your pinned working version:"
+admin.version_pin_clear: Stop viewing pinned version
+breadcrumb.branch_aria: Branch
+breadcrumb.endpoint_missing_in_version: This endpoint is not available in the selected version.
+breadcrumb.tag_missing_in_version: This tag group is not available in the selected version.
+breadcrumb.version_aria: Version
+button.pin_version: Use as my working version
+button.reparse_version: Re-merge this version
+example.tab_compact: Compact JSON
+example.tab_formatted: Formatted JSON
+example.tab_tree: Tree
+license.blocked_no_admin_hint: Ask an administrator to install a new license.
+license.blocked_title: No valid license found
+button.delete_version: Delete version
+button.hide_version: Hide version
+button.overlay_versions: Versions
+button.view_version: View version
+endpoint.details_title: Parameters & Responses
+overlay.delete_version_confirm: Delete this overlay version? This cannot be undone.
+overlay.delete_version_current_error: Cannot delete the current version.
+overlay.versions_author: Author
+overlay.versions_current: Current
+overlay.versions_current_badge: Current
+overlay.versions_empty: No saved versions yet.
+overlay.versions_updated_at: Updated
+overlay.versions_untitled: Untitled version
+admin.created_by: Created by
+admin.environment_public_label: Public environment
+admin.environments_author_filter_placeholder: Filter by author
+admin.private: Private
+admin.view_environment: View environment
+admin.visibility: Visibility
+admin.visibility_all: All
+button.view_environment: View
+admin.mcp_server: MCP Server
+button.mcp_server: MCP Server
+mcp.allowed_cidrs_label: Allowed IP Ranges (CIDR, comma-separated)
+mcp.allowed_cidrs_placeholder: e.g. 10.0.0.0/8, 192.168.1.0/24
+mcp.allowed_services_label: Allowed Services
+mcp.enable_history_tools_label: Version History & Change Log Tools
+mcp.enable_schema_tools_label: Schema Tools (parameters / responses)
+mcp.enable_search_tools_label: Search Tools
+mcp.enabled_label: Enabled
+mcp.generate_token_button: Generate / Rotate Token
+mcp.include_overlay_text_label: Include Overlay Text
+mcp.last_used_label: Last Used
+mcp.last_used_never: Never
+mcp.save_error: Save failed
+mcp.save_success: Settings saved.
+mcp.search_result_limit_label: Search Result Limit
+mcp.token_configured: Token configured
+mcp.token_error: Token generation failed
+mcp.token_generated_hint: Copy this token now - it will not be shown again.
+mcp.token_label: Bearer Token
+mcp.token_not_configured: No token generated yet
+admin.export_wizard: Export Wizard
+button.export_wizard: Export Wizard
+export.add_services: Add services
+export.apply_selection: Apply selection
+export.change_services: Change services
+export.col_date: Date
+export.col_endpoints: Endpoints
+export.col_environment: Environment
+export.col_format: Format
+export.col_name: Name
+export.col_overlays: Use overlays
+export.col_progress: Endpoints
+export.col_service: Service
+export.col_services: Services
+export.col_status: Status
+export.col_tags: Tags
+export.delete_confirm: Delete {count} selected export(s) and their files?
+export.delete_selected: Delete selected
+export.download: Download
+export.error_prefix: Export failed
+export.format_label: Format
+export.history_empty: No exports yet.
+export.history_title: Export history
+export.modal_title: Select services, tags and endpoints
+export.name_label: Export name
+export.name_required: Export name is required.
+export.no_environment: No environment
+export.no_overlay_hint: This service has no overlays.
+export.no_services: No services selected yet.
+export.repeat: Repeat export
+export.repeat_skipped: {count} endpoint(s) from the saved export no longer exist and were skipped.
+export.select_all: Select all
+export.services_label: Services
+export.services_required: Add at least one service to export.
+export.settings_title: Export settings
+export.start: Export
+export.started: Export started - follow its progress in the history below.
+export.status_error: Error
+export.status_in_progress: In progress
+export.status_success: Successful
+export.tree_filter_placeholder: Filter by name
+export.col_language: Language
+export.doc.allowed_values: Allowed values
+export.doc.any: any
+export.doc.array_of: array of
+export.doc.col_code: Code
+export.doc.col_description: Description
+export.doc.col_field: Field
+export.doc.col_in: In
+export.doc.col_message: Message
+export.doc.col_name: Name
+export.doc.col_required: Required
+export.doc.col_type: Type
+export.doc.contents: Contents
+export.doc.deprecated: Deprecated
+export.doc.environment: Environment
+export.doc.errors: Errors
+export.doc.in_argument: argument
+export.doc.in_params: params
+export.doc.parameters: Parameters
+export.doc.recursive: object (recursive)
+export.doc.request_body: Request body
+export.doc.request_example: Request example
+export.doc.response: Response
+export.doc.response_example: Response example
+export.doc.result: result
+export.doc.yes: yes
+export.filter_any_format: Any format
+export.filter_any_language: Any language
+export.filter_any_status: Any status
+export.filter_date_from: Date from
+export.filter_date_to: Date to
+export.filter_name_placeholder: Filter by name
+export.filter_reset: Reset filters
+export.history_empty_filtered: No exports match the filters.
+export.language_label: Language
+export.add_description: Add description
+export.contents_label: Include table of contents
+export.description_label: Documentation description
+export.description_modal_title: Documentation description
+export.edit_description: Edit description
+endpoint.copy_param_link: Copy link to this parameter
+endpoint.param_description: Show description
+admin.two_factor: 2FA
+admin.two_factor_configured: Configured
+admin.two_factor_configured_hint: On and configured. A code is requested at every login.
+admin.two_factor_disable_confirm: Turn off two-factor authentication? The user's authenticator and backup codes will be deleted.
+admin.two_factor_hint: Off. When on, the user sets up Google Authenticator at their next login.
+admin.two_factor_label: Two-factor authentication
+admin.two_factor_pending: Awaiting setup
+admin.two_factor_pending_hint: On. The user will set up Google Authenticator at their next login.
+admin.two_factor_reset: Reset authenticator
+admin.two_factor_reset_confirm: Reset this user's authenticator and backup codes? They will set up two-factor authentication again at their next login.
+admin.all_two_factor: All 2FA states
+admin.two_factor_off: Off
+interaction.copy_link: Copy link
+interaction.delete: Delete
+interaction.delete_confirm: Delete this interaction? Its link will stop working.
+interaction.empty: No saved interactions for this endpoint yet.
+interaction.environment_missing: The saved environment no longer exists; the saved base URL was used.
+interaction.export: Export Interaction
+interaction.export_failed: Export failed
+interaction.export_pdf: Export to PDF
+interaction.exporting: Exporting...
+interaction.link_copied: Link copied
+interaction.load_failed: Could not load the interaction
+interaction.mask_hint: Authorization, Cookie, API keys and token headers (request and response) are replaced before saving.
+interaction.mask_label: Replace sensitive header values with ***
+interaction.masked_apply_notice: Header values were hidden when this interaction was saved; enter them again before sending.
+interaction.masked_note: header values hidden
+interaction.name: Name
+interaction.pdf.body: Body
+interaction.pdf.curl: curl command
+interaction.pdf.default_title: Try-It interaction
+interaction.pdf.duration: Duration
+interaction.pdf.endpoint: Endpoint
+interaction.pdf.environment: Environment
+interaction.pdf.generated: Generated
+interaction.pdf.headers: Headers
+interaction.pdf.masked: Values of sensitive headers are hidden.
+interaction.pdf.method: Method
+interaction.pdf.none: None
+interaction.pdf.request: Request
+interaction.pdf.response: Response
+interaction.pdf.service: Service
+interaction.pdf.size: Size
+interaction.pdf.status: Status
+interaction.pdf.timeouts: Timeouts (connect / response)
+interaction.pdf.truncated: The body was truncated.
+interaction.pdf.url: URL
+interaction.pdf.user: User
+interaction.responses_count: responses
+interaction.save: Save Interaction
+interaction.save_failed: Saving the interaction failed
+interaction.save_title: Save interaction
+interaction.saved: Interaction saved.
+interaction.section_title: Interactions
+interaction.success: Success
+interaction.unmasked_warning: Sensitive header values will be stored in plain text.
+interaction.view: View
+interaction.with_errors: With Errors
+interaction.export_title: Export interaction
+admin.sign_in_column: Sign-in
+admin.sign_in_label: Sign-in methods
+admin.sign_in_no_password: No password (SSO only)
+admin.sign_in_none: None
+admin.sign_in_password: Password
+admin.sso: Single Sign-On
+admin.user_unlink_confirm: Unlink {name} from {login}? They will no longer be able to sign in with it.
+button.profile: Profile
+button.sso: SSO
+profile.change_password: Change password
+profile.col_provider: Provider
+profile.col_status: Status
+profile.current_password_label: Current password
+profile.last_method_hint: This is your only way to sign in. Set a password or link another provider first.
+profile.link: Link
+profile.link_error_access_denied: "You are not allowed to link {name}: the provider refused or your account does not meet its access rules."
+profile.link_error_already_linked: Your account is already linked to a different {name} account. Unlink it first.
+profile.link_error_identity_taken: This {name} account is already linked to another user.
+profile.link_error_internal_error: Linking failed. Please try again.
+profile.link_error_invalid_state: The linking session expired or was invalid. Please try again.
+profile.link_error_provider_disabled: {name} is not available.
+profile.link_error_provider_error: {name} is unavailable or rejected the request.
+profile.link_error_rate_limited: Too many attempts. Please wait a minute and try again.
+profile.link_ok: {name} linked to your account.
+profile.linked: Linked
+profile.linked_as: "Linked: {email}"
+profile.login_label: Login
+profile.new_password_label: New password
+profile.no_providers: No SSO providers are configured.
+profile.no_teams: No teams
+profile.not_linked: Not linked
+profile.password_label: Password
+profile.password_mismatch: The passwords do not match.
+profile.password_not_set: Not set - you can only sign in through SSO.
+profile.password_saved: Password saved.
+profile.password_set: Set
+profile.repeat_password_label: Repeat new password
+profile.role_label: Role
+profile.set_password: Set password
+profile.sign_in_methods_title: Sign-in methods
+profile.teams_label: Teams
+profile.title: Profile
+profile.unlink: Unlink
+profile.unlink_confirm: Unlink {name} from your account?
+profile.unlink_hint: Enter your password to unlink {name} from your account.
+profile.unlink_title: Unlink {name}
+profile.unlinked: {name} unlinked.
+sso.add_mapping: Add mapping
+sso.allowed_domains_label: Allowed email domains (comma-separated, empty = any)
+sso.client_id_label: Client ID
+sso.client_secret_keep_placeholder: Leave empty to keep the current secret
+sso.client_secret_label: Client secret
+sso.col_linked: Linked users
+sso.col_name: Name
+sso.col_new_users: New users
+sso.col_slug: Slug
+sso.col_status: Status
+sso.create_provider: Add SSO provider
+sso.create_provider_title: Add SSO provider
+sso.default_role_admin_warning: Everyone allowed to sign in through this provider will become an administrator.
+sso.default_role_label: Default role
+sso.default_teams_label: Default teams
+sso.delete_confirm: "Delete the SSO provider \"{name}\"?"
+sso.delete_impact: {count} linked account(s) will be unlinked.
+sso.delete_locked_out: "These users have no other way to sign in and will lose access: {logins}."
+sso.edit_provider_title: Edit SSO provider
+sso.enabled_label: Enabled
+sso.group_mappings_hint: A person in a listed group gets the role and teams of that rule on top of the defaults above. With several matches the highest role wins and the teams are merged.
+sso.group_mappings_label: Group mappings
+sso.groups_claim_label: Claim with groups
+sso.issuer_label: Issuer URL
+sso.jit_label: Create users automatically on first sign-in
+sso.jit_off: Existing users only
+sso.jit_on: Created automatically as {role}
+sso.local_login_disabled_label: Disable password sign-in for non-admin users
+sso.local_login_hint: Admins can still sign in with a password at /login?local=1 (emergency access).
+sso.local_login_needs_provider: Enable at least one SSO provider before disabling password sign-in.
+sso.login_claim_label: Claim used as login
+sso.mapping_group_placeholder: Group name at the identity provider
+sso.mapping_no_role: No role change
+sso.move_down: Move down
+sso.move_up: Move up
+sso.name_label: SSO name (shown on the login page)
+sso.no_providers: No SSO providers configured.
+sso.redirect_uri_after_save: Shown after the provider is saved.
+sso.redirect_uri_label: Redirect URI (register it at the identity provider)
+sso.refresh_hint: Refresh
+sso.required_group_label: Required group (empty = any)
+sso.scopes_label: Scopes (comma-separated)
+sso.slug_hint: Part of the redirect URI. Cannot be changed after creation.
+sso.slug_label: Slug
+sso.status_disabled: Disabled
+sso.status_enabled: Enabled
+sso.sync_label: Recompute roles and teams from groups on every sign-in
+sso.test_button: Test connection
+sso.test_failed: Connection failed
+sso.test_ok: "Connection OK. Authorization endpoint: {endpoint}"
+sso.trust_mfa_label: Trust the provider's MFA (skip the local two-factor code)
+export.format_html: HTML
+export.format_markdown: Markdown (MD)
+export.doc.back_to_contents: Back to contents
+tryit.code_language: Language
+tryit.tab_code: Code
+admin.notifications: Notifications
+button.notifications: Notifications
+notifications.add_channel: Add channel
+notifications.add_rule: Add rule
+notifications.all_services: All services
+notifications.bearer_token: Bearer token (optional)
+notifications.bot_token: Bot token
+notifications.channel_title_create: Add channel
+notifications.channel_title_edit: Edit channel
+notifications.chat_id: Chat ID
+notifications.chat_id_hint: "Use a personal chat, group or channel ID. Add the bot to the group or channel first; send it a message and open https://api.telegram.org/bot<token>/getUpdates to find the ID."
+notifications.col_attempts: Attempts
+notifications.col_channel: Channel
+notifications.col_error: Error
+notifications.col_event: Event
+notifications.col_last: Last delivery
+notifications.col_message: Message
+notifications.col_name: Name
+notifications.col_status: Status
+notifications.col_time: Time
+notifications.col_type: Type
+notifications.create_channel_first: Create a channel first, then add rules.
+notifications.delete_confirm: "Delete the channel \"{name}\" and its delivery history?"
+notifications.delete_confirm_rules: It is used by {count} rule(s), which will be removed too.
+notifications.delete_failed: Could not delete
+notifications.email_hint: Messages are sent through the SMTP server configured below the channel list.
+notifications.enabled_label: Enabled
+notifications.event_license_expiring: License expiry
+notifications.event_service_version_uploaded: New version
+notifications.event_test: Test
+notifications.filter_all: All statuses
+notifications.headers_label: "Extra headers (one \"Name: value\" per line)"
+notifications.license_valid_until: License valid until {date}.
+notifications.load_failed: Could not load notifications
+notifications.missing_service: {slug} (no longer exists)
+notifications.name_label: Name
+notifications.never: Never
+notifications.no_channels: No channels yet. Add one to start receiving notifications.
+notifications.no_deliveries: No deliveries yet.
+notifications.no_rules: No rules yet.
+notifications.only_breaking: Only breaking changes
+notifications.recipients_label: Recipients (one address per line)
+notifications.remove_rule: Remove rule
+notifications.retry: Retry
+notifications.retry_failed: Could not retry
+notifications.rule_channel: Channel
+notifications.rule_channel_required: Choose a channel for every rule.
+notifications.rule_enabled: Enabled
+notifications.rule_license_hint: "The license is checked once a day (at 09:00 UTC by default). When it has expired, one notice is sent."
+notifications.rule_license_title: License expiry
+notifications.rule_version_hint: Notify when a new version with changes is published to a service's main branch. The first version of a service never notifies.
+notifications.rule_version_title: New documentation version
+notifications.save_failed: Could not save
+notifications.saved: Saved.
+notifications.secret_saved: Saved - leave empty to keep it
+notifications.selected_services: Selected services
+notifications.send_test: Send test
+notifications.services_search: Search services
+notifications.slack_channel: Channel (name or ID)
+notifications.slack_mode: Mode
+notifications.slack_mode_bot: Bot token and channel
+notifications.slack_mode_webhook: Incoming Webhook URL
+notifications.slack_webhook_url: Incoming Webhook URL
+notifications.smtp_from: From address
+notifications.smtp_hint: Shared by all email channels.
+notifications.smtp_host: Host
+notifications.smtp_password: Password
+notifications.smtp_password_saved: Saved - leave empty to keep it
+notifications.smtp_port: Port
+notifications.smtp_title: Email server (SMTP)
+notifications.smtp_tls: Encryption
+notifications.smtp_tls_none: None
+notifications.smtp_tls_ssl: SSL/TLS
+notifications.smtp_tls_starttls: STARTTLS
+notifications.smtp_username: Username
+notifications.status_disabled: Disabled
+notifications.status_enabled: Enabled
+notifications.status_failed: Failed
+notifications.status_pending: Pending
+notifications.status_sent: Sent
+notifications.tab_channels: Channels
+notifications.tab_history: History
+notifications.tab_rules: Rules
+notifications.test_failed: Test failed
+notifications.test_ok: Test message sent.
+notifications.test_save_first: Save the channel first, then send a test.
+notifications.threshold_1d: 1 day
+notifications.threshold_2d: 2 days
+notifications.threshold_3d: 3 days
+notifications.threshold_7d: 1 week
+notifications.type_email: Email
+notifications.type_label: Type
+notifications.type_slack: Slack
+notifications.type_telegram: Telegram
+notifications.type_webhook: Webhook
+notifications.unsaved: Unsaved changes.
+notifications.webhook_url: URL (HTTP or HTTPS, POST)
+notifications.rule_language: Language
+notify.breaking_mark: (breaking)
+notify.field.breaking: Breaking changes
+notify.field.device_id: Device ID
+notify.field.published: Published
+notify.field.service: Service
+notify.field.valid_until: Valid until
+notify.field.version: Version
+notify.group.added: Added endpoints ({count})
+notify.group.modified: Changed endpoints ({count})
+notify.group.removed: Removed endpoints ({count})
+notify.license.text_expired: The docs-hub license expired on {date}. Upload a renewed license to restore access.
+notify.license.text_soon: The docs-hub license is valid until {date}. About {days} day(s) remain.
+notify.license.title_expired: docs-hub license has expired
+notify.license.title_soon: docs-hub license expires soon
+notify.more: and {count} more
+notify.no: no
+notify.test.text: This is a test message from docs-hub. If you can read it, the channel works.
+notify.test.title: docs-hub test notification
+notify.version.text: "Version {version} of {service} was published: {added} added, {modified} changed, {removed} removed."
+notify.version.title: "New documentation version: {service}"
+notify.yes: yes
+endpoint.add_to_query: Add to the Try-It query
+editor.bold: Bold
+editor.bulleted_list: Bulleted list
+editor.characters: {count} characters
+editor.characters_limit: {count} characters (limit {limit} KB)
+editor.code_block: Code block
+editor.heading: Heading
+editor.heading_1: Heading 1
+editor.heading_2: Heading 2
+editor.heading_3: Heading 3
+editor.heading_4: Heading 4
+editor.heading_5: Heading 5
+editor.heading_6: Heading 6
+editor.horizontal_rule: Horizontal rule
+editor.image: Image
+editor.inline_code: Inline code
+editor.italic: Italic
+editor.link: Link
+editor.mode_markdown: Markdown
+editor.mode_visual: Visual
+editor.numbered_list: Numbered list
+editor.quote: Quote
+editor.switch_to_markdown: Switch to Markdown editing
+editor.switch_to_visual: Switch to visual editing
+editor.text_aria: Markdown text
+editor.toolbar: Markdown formatting
+paramoverlay.delete_confirm: An empty text deletes the overlay of this parameter and its history. Delete it?
+paramoverlay.delete_version_confirm: Delete this version from the history?
+paramoverlay.load_failed: Could not load
+paramoverlay.no_description: No description.
+paramoverlay.restore: Restore this version
+paramoverlay.restore_confirm: Restore this version? Its text becomes the current description; the present one stays in the history.
+paramoverlay.save_failed: Could not save
+structure.cancel_confirm: Discard the unsaved changes of the order?
+structure.drag_handle: Drag to reorder
+structure.empty: This service has no tags or endpoints yet.
+structure.endpoint_count: {count} endpoints
+structure.hint: Drag tags and endpoints, or use the arrow buttons, to change their order. The order applies to the left menu and to exports, for every version of the service.
+structure.load_failed: Could not load the saved order
+structure.move_down: Move down
+structure.move_up: Move up
+structure.moved: {name} moved to position {position} of {total}
+structure.open: Service structure (order of tags and endpoints)
+structure.reset: Reset order
+structure.reset_confirm: Reset the order to the default (tags sorted by name)? The saved order is deleted.
+structure.save_failed: Could not save the order
+structure.title: Service structure
+structure.unsaved: Unsaved changes
+export.added_to_history: Export added to the history
+exportpage.add_images: Add images
+exportpage.add_page: Add page
+exportpage.add_text: Add text
+exportpage.added: {n} image(s) added
+exportpage.added_to_list: {name} added to {list}
+exportpage.align_center: Align centre
+exportpage.align_justify: Justify
+exportpage.align_left: Align left
+exportpage.align_right: Align right
+exportpage.already_in_list: "The page \"{name}\" is already in this list."
+exportpage.alt: Alternative text
+exportpage.aria_image: Image {alt}
+exportpage.aria_text: Text {text}
+exportpage.background: Background colour
+exportpage.backward: Backward
+exportpage.bold: Bold
+exportpage.bring_front: Bring to front
+exportpage.chars: {n} of {max} characters
+exportpage.choose_library: Choose from the library
+exportpage.close_confirm: Close the editor and discard the changes?
+exportpage.conflict: The page was changed elsewhere. Close the editor and open the page again.
+exportpage.continue: Continue
+exportpage.create_new: Create a new page
+exportpage.default_name: New page
+exportpage.delete: Delete
+exportpage.delete_confirm: "Delete the page \"{name}\" from the library?"
+exportpage.delete_element: Delete
+exportpage.drop_hint: Drop images here
+exportpage.duplicate: Duplicate
+exportpage.duplicate_element: Duplicate
+exportpage.edit: Edit
+exportpage.editing: Editing text. Press Escape to finish.
+exportpage.editing_done: Text editing finished
+exportpage.editor_title: Page editor
+exportpage.empty: No pages yet.
+exportpage.fill: Fill colour
+exportpage.fit: Fit
+exportpage.fit_contain: Contain
+exportpage.fit_cover: Cover
+exportpage.fit_stretch: Stretch
+exportpage.font: Font
+exportpage.font_mono: Monospace
+exportpage.font_sans: Sans-serif
+exportpage.font_serif: Serif
+exportpage.forward: Forward
+exportpage.geometry: X {x} mm, Y {y} mm, {w} by {h} mm
+exportpage.glyph_warning: "These characters are not in the export fonts and will be replaced: {chars}"
+exportpage.height: Height (mm)
+exportpage.history_summary: "Pages: {front} at the start, {back} at the end"
+exportpage.in_export: in this export
+exportpage.italic: Italic
+exportpage.landscape: Landscape
+exportpage.layer: Layer {n} of {total}
+exportpage.library: Export pages
+exportpage.library_hint: Pages for the start and the end of an export are kept here.
+exportpage.library_open: Page library
+exportpage.line_height: Line spacing
+exportpage.list_full: A list holds at most {n} pages.
+exportpage.lists_back: Pages at the end
+exportpage.lists_front: Pages at the start
+exportpage.lists_label: Pages before and after the document
+exportpage.load_failed: The page could not be loaded.
+exportpage.missing_removed: {n} page(s) no longer exist and were removed from the lists.
+exportpage.move_left: Move left
+exportpage.move_right: Move right
+exportpage.move_to_back: Move to the pages at the end
+exportpage.move_to_front: Move to the pages at the start
+exportpage.moved_list: {name} moved to {list}, position {n} of {total}
+exportpage.moved_position: "{name}: position {n} of {total}"
+exportpage.name: Page name
+exportpage.name_required: Enter a page name.
+exportpage.new: New page
+exportpage.no_raster: "{name}: the PNG copy could not be made, PDF and DOCX will show a placeholder."
+exportpage.nothing_selected: Select an element or add images.
+exportpage.orientation: Orientation
+exportpage.padding: Padding (mm)
+exportpage.portrait: Portrait
+exportpage.props: Properties
+exportpage.redo: Redo
+exportpage.remove_confirm: "Remove the page \"{name}\" from this export? It stays in the library."
+exportpage.remove_from_export: Remove from the export
+exportpage.restored_n: {n} page(s) were restored from the export into the library.
+exportpage.search: Search pages
+exportpage.select: Select
+exportpage.send_back: Send to back
+exportpage.size: Size (pt)
+exportpage.size_total: "Images of the pages: {size} of {max}"
+exportpage.snap: Snap to edges and centres
+exportpage.text_color: Text colour
+exportpage.text_placeholder: Text
+exportpage.too_big: The images of the pages exceed {max}. Remove pages or images.
+exportpage.too_many: A page holds at most {n} elements.
+exportpage.transparent: Transparent
+exportpage.underline: Underline
+exportpage.undo: Undo
+exportpage.upload_failed: "{name}: {error}"
+exportpage.uploading: Uploading {done} of {total}...
+exportpage.version_export: The version from the export
+exportpage.version_library: The current version from the library
+exportpage.versions_hint: These pages were edited in the library after the export was made. Choose the version to use.
+exportpage.versions_title: Pages changed since the export
+exportpage.width: Width (mm)
+exportpage.x: X (mm)
+exportpage.y: Y (mm)
+exportpage.zoom: Zoom
+exportpage.zoom_fit: Fit to window
+export.changelog_unavailable: "No change log: the service has no earlier version to compare with."
+export.col_changelog: Changelog
+export.col_version: Version
+export.doc.changelog: Changelog
+export.doc.changelog_added: Added
+export.doc.changelog_breaking: breaking changes
+export.doc.changelog_modified: Modified
+export.doc.changelog_none: No changes
+export.doc.changelog_parameters: Parameters
+export.doc.changelog_removed: Removed
+export.doc.changelog_response: Response
+export.doc.version: Version
+export.version_current: current
+export.version_endpoints_removed: {count} selected endpoint(s) are not in the chosen version and were unselected.
+export.version_load_failed: The versions of the service could not be loaded.
+export.version_missing: Version not found - choose one manually.
+export.version_no_endpoints: None of the selected endpoints of {services} exist in the chosen version - use Change services to select some.
+export.version_required: "Choose a version for: {services}"
+export.col_branch: Branch
+interaction.pdf.header_name: Name
+interaction.pdf.header_value: Value
+endpoint.params_all_types: All types
+endpoint.params_collapse_all: Collapse all
+endpoint.params_expand_all: Expand all
+endpoint.params_nothing_found: Nothing found.
+endpoint.params_search: Search by name or description
+endpoint.params_show_descriptions: Descriptions
+endpoint.params_type_filter: Filter by type
+nav.favorites_add: Add to favorites
+nav.favorites_empty: No favorites yet.
+nav.favorites_filter: Show only favorites
+nav.favorites_remove: Remove from favorites
+nav.service_branches_label: branches
+asyncapi.action_receive_hint: "RECV: the application receives messages from this channel"
+asyncapi.action_send_hint: "SEND: the application sends messages to this channel"
+asyncapi.channel: Channel
+asyncapi.channel_address: Channel address
+asyncapi.channel_bindings: Channel bindings
+asyncapi.correlation_id: Correlation ID
+asyncapi.headers: headers
+asyncapi.message_bindings: Message bindings
+asyncapi.no_messages: This operation has no messages.
+asyncapi.operation_bindings: Operation bindings
+asyncapi.payload: payload
+asyncapi.reply: Reply
+asyncapi.reply_channel: Reply channel
+asyncapi.schema_format: Schema format
+asyncapi.security: Security
+asyncapi.server_description: Description
+asyncapi.server_name: Name
+asyncapi.server_protocol: Protocol
+asyncapi.servers: Servers
+asyncapi.tab_example_messages: Example Messages
+asyncapi.tab_example_parameters: Example Parameters
+asyncapi.tab_messages: Messages
+asyncapi.tab_parameters: Channel & headers
+asyncapi.unresolved: Defined outside this document (not loaded)
+endpoint.history_changed: changed
+export.doc.async_message: Message
+export.doc.async_parameters: Channel and headers
+export.doc.async_reply: Reply
+export.doc.async_schema_format: Schema format
+export.doc.async_servers: Servers
+export.doc.in_channel: channel
+export.doc.in_header: header
+nav.service_format_asyncapi: AsyncAPI
+tryit.server_label: Server
+tryit.server_placeholder: Select a server
+tryit.server_unresolved: The server URL has variables without a default value
+admin.service_teams: Teams with access
+common.select_all: Select all
+export.tree_clear_all: Clear all
+export.tree_select_all: Select all
+breadcrumbs.services: Services
+groups.collapse: Collapse the group
+groups.create_group: Create service group
+groups.default_hint: Every service is always in this group.
+groups.default_locked: Every service is always in this group.
+groups.delete_confirm: "Delete the group \"{name}\"? Its services stay in the other groups."
+groups.edit_group: Edit service group
+groups.empty: No services in this group yet.
+groups.expand: Expand the group
+groups.move_down: Move the group down
+groups.move_earlier: Move the service earlier
+groups.move_later: Move the service later
+groups.move_up: Move the group up
+groups.name: Group name
+groups.name_required: Enter a group name.
+groups.new_group: New service group
+groups.service_groups: Groups
+groups.services: Services
+groups.hidden_from_menu: Hidden from the left menu
+groups.show_in_menu: Show in the left menu
+mcp.add_token: Add token
+mcp.delete_confirm: "Delete token \"{name}\"? Clients using it lose access."
+mcp.edit_token: Edit token
+mcp.endpoint_label: MCP endpoint
+mcp.limits_services: {count} service(s)
+mcp.name_required: Enter a token name.
+mcp.no_tokens: No tokens yet. Add one to let an MCP client connect.
+mcp.rotate_confirm: "Replace the secret of token \"{name}\"? The current one stops working at once."
+mcp.secret_title: Bearer Token
+mcp.token_active: Active
+mcp.token_changed: Token changed
+mcp.token_limits: Restrictions
+mcp.token_name: Name
+tryit.response_headers: Response headers
+tryit.response_size: Response size
+endpoint.history_breaking: Breaking
+endpoint.history_operation: Operation
+endpoint.history_untracked: Changes outside the tracked fields (parameters, responses, summary, description)
+groups.service_delete_confirm: "Delete the service \"{name}\"? This cannot be undone."
+nav.group_services_label: services in the group
+groups.icon: Icon
+export.pages_short: pages
+pages.cancel_confirm: Discard the unsaved changes of the page?
+pages.create_failed: Could not create the page
+pages.delete: Delete the page
+pages.delete_confirm: Delete the page {title} with its pictures?
+pages.delete_failed: Could not delete the page
+pages.edit: Edit the page
+pages.empty: This page is empty.
+pages.image_failed: Could not upload the picture
+pages.image_missing: picture not found
+pages.image_uploading: Uploading the picture...
+pages.load_failed: Could not load the page
+pages.loading: Loading the page...
+pages.page: Page
+pages.save_failed: Could not save the page
+pages.text: Text (Markdown)
+pages.title: Title
+structure.err_duplicate: The tag already holds this endpoint.
+structure.err_into_itself: A folder cannot be moved into itself or into what is inside it.
+structure.err_not_container: Only a folder or a tag can hold other items.
+structure.err_tag_endpoints_only: A tag holds endpoints only.
+structure.err_too_deep: The structure cannot be nested any deeper.
+structure.folder_add: New folder
+structure.folder_added: Folder {name} added
+structure.folder_delete: Delete the folder
+structure.folder_delete_confirm: Delete the folder {name}?
+structure.folder_delete_confirm_items: Delete the folder {name}? What is inside it moves to the place of the folder.
+structure.folder_deleted: Folder {name} deleted
+structure.folder_name: Name
+structure.folder_name_required: Enter a folder name
+structure.folder_name_title: Folder name
+structure.folder_rename: Rename the folder
+structure.item_count: {count} items
+structure.move_in: Move into the folder or tag above
+structure.move_out: Move out of the folder or tag
+structure.page_add: New page
+structure.page_added: Page {name} added
+structure.page_delete: Delete the page
+structure.page_edit: Edit the page
+structure.page_name_title: Page title
+structure.add_folder_in: New folder inside
+structure.add_page_in: New page inside
+structure.err_duplicate_scope: This endpoint is already in that tag, or already outside of all tags.
+structure.err_nowhere: There is nowhere else to move it to.
+structure.from_tag: Made from a tag of the specification
+structure.hint_tree: "Create folders and pages, then drag tags, endpoints, pages and folders, or use the buttons, to move them to another level or change their order. Tags are folders made from the tags of the specification: new versions keep filling them. The structure applies to the left menu and to exports, for every version of the service."
+structure.level_up: Move up one level
+structure.level_up_confirm: Move {name} one level up, next to {parent}?
+structure.move: Move
+structure.move_current: Current location
+structure.move_title: Move
+structure.move_to: Move to
+structure.moved_to: {name} moved to {target}
+structure.new_folder_title: New folder
+structure.new_page_title: New page
+structure.page_images_later: Pictures can be added after the page is created.
+structure.page_text: Text (Markdown)
+structure.parent: Parent folder or tag
+structure.parent_clear: Clear the selection
+structure.parent_none: Nothing found
+structure.parent_placeholder: Search folders and tags; empty means the top level
+structure.parent_tag: Tag
+structure.parent_top: Top level
+structure.rename_title: Rename the folder
+structure.clear_selection: Clear selection
+structure.items_selected: {count} items
+structure.move_selected: Move selected
+structure.move_selected_list: Selected items ({count})
+structure.select: Select
+structure.move_new_folder: Create a new folder
+structure.open_tree: "Edit the service tree: folders, pages, tags and endpoints"
+pages.back_to_history: Back to the history
+pages.back_to_page: Back to the page
+pages.history: History of the page
+pages.history_empty: No versions yet.
+pages.version: Version
+pages.version_current: current
+pages.version_view: View
+labels.add: Add a label
+labels.filter_chip: "Label: {label}"
+labels.filter_clear: Show everything again
+labels.placeholder: New label
+labels.remove: Remove the label
+labels.show_all: Show everything labelled {label}
+labels.title: Labels
+license.customer: Licensed to
+license.disabled: Not included
+license.enabled: Included
+license.feature_export: Export
+license.feature_mcp: MCP server
+license.feature_notifications: Notifications
+license.feature_sso: Single sign-on (SSO)
+license.feature_tryit: Try-It
+license.features: Features
+license.license_id: License ID
+license.limit_max_endpoints_per_service: Endpoints per service
+license.limit_max_mcp_tokens: MCP tokens
+license.limit_max_services: Services
+license.limit_max_teams: Teams
+license.limit_max_users: Users
+license.limits: Limits
+license.per_day: per day
+license.per_hour: per hour
+license.per_month: per month
+license.per_week: per week
+license.quota_exports: Exports
+license.quota_mcp_requests: MCP requests
+license.quotas: Usage quotas
+license.resets: resets
+license.tier: Plan
+license.tier_business: Business
+license.tier_custom: Custom
+license.tier_free: Free (personal use)
+license.tier_team: Team
+license.tier_unlimited: Unlimited
+license.unlimited: unlimited
+endpoint.history_diff_added: added
+endpoint.history_diff_removed: removed
+endpoint.history_group_operation: Operation
+endpoint.history_group_parameters: Parameters
+endpoint.history_group_response_fields: Response fields
+endpoint.history_hide_unchanged: Hide unchanged paragraphs
+endpoint.history_no_tracked_short: no tracked fields
+endpoint.history_reverted: reverted
+endpoint.history_reverted_tip: This value was used before
+endpoint.history_rollback: rollback
+endpoint.history_rollback_tip: Every change in this version restores an earlier value
+endpoint.history_show_unchanged: Show unchanged paragraphs
+endpoint.history_unchanged_paragraphs_one: {n} paragraph unchanged
+endpoint.history_unchanged_paragraphs_other: {n} paragraphs unchanged
+profile.teams_less: show less
+profile.teams_more: +{n} more
+asyncapi.channel_note_receive: The application receives messages from this channel
+asyncapi.channel_note_send: The application sends messages to this channel
+mcp.enable_branch_tools_label: Service Branches (needs history tools)
+mcp.enable_version_read_label: Read Historical Versions (needs history tools)
+admin.environment_mcp_label: Available through the MCP server (public environments only)
+admin.header_sensitive: Sensitive
+license.feature_mcp_tryit: Try-It through the MCP server
+license.quota_mcp_tryit_requests: MCP Try-It requests
+mcp.enable_tryit_label: "Try-It: send requests to real APIs"
+mcp.group_basic: General
+mcp.group_network: Network access
+mcp.group_read: Reading tools
+mcp.group_services: Services
+mcp.group_tryit: Try-It (real requests)
+mcp.group_versions: Versions and branches
+mcp.tryit_concurrent_label: Simultaneous requests
+mcp.tryit_not_licensed: The license does not include Try-It through the MCP server.
+mcp.tryit_rate_label: Requests per minute
+mcp.tryit_response_limit_label: Response size limit (KB)
+mcp.tryit_services_label: Services Try-It is allowed for (of the allowed services)
+mcp.tryit_warning_1: The AI sends REAL requests to live systems with the credentials of the environment.
+mcp.tryit_warning_2: A request can change or delete data irreversibly, and a mistaken or manipulated model can repeat it.
+mcp.tryit_warning_3: Everything the API answers is passed to the AI provider; a response may contain personal or secret data.
+mcp.tryit_warning_4: Enable it only for test environments, restrict the allowed endpoints and set low limits.
+mcp.tryit_warning_5: Every request is written to the audit log.
+mcp.tryit_warning_title: Potentially dangerous feature
+structure.mcp_tryit: Try-It via MCP
+structure.mcp_tryit_all: All endpoints
+structure.mcp_tryit_hint: "By default the MCP server can call every endpoint of the specification (and only those) in the environments opened to it. Choose \"Only selected\" to allow just the ticked endpoints, tags and folders."
+structure.mcp_tryit_selected: Only selected
+structure.mcp_tryit_title: Try-It via the MCP server
+structure.mcp_added: "Allowed in MCP Try-It: {count} endpoint(s)."
+structure.mcp_allow: Allow in MCP
+structure.mcp_deny: Remove from MCP
+structure.mcp_group: Try-It via the MCP server
+structure.mcp_icon_container: "Contains endpoints that are available through the MCP server for Try-It: an AI can send real requests to them. Be careful."
+structure.mcp_icon_endpoint: "This endpoint is available through the MCP server for Try-It: an AI can send real requests to it. Be careful."
+structure.mcp_load_failed: Could not load the MCP Try-It list
+structure.mcp_mode_all: "MCP Try-It: all endpoints"
+structure.mcp_mode_changed: Only the marked endpoints are open to MCP Try-It now.
+structure.mcp_mode_hint: "By default the MCP server can send Try-It requests to every documented endpoint of the service (in the environments opened to it). Switch to \"only marked\" to allow just the endpoints you mark."
+structure.mcp_mode_selected: "MCP Try-It: only marked ({count})"
+structure.mcp_only: Only MCP endpoints
+structure.mcp_open_all_confirm: Open ALL endpoints of the service to MCP Try-It? The restriction to the marked endpoints will no longer apply.
+structure.mcp_removed: "Removed from MCP Try-It: {count} endpoint(s)."
+structure.mcp_save_failed: Could not save the MCP Try-It list
+structure.group_create: Create
+structure.group_mcp: MCP Try-It
+structure.group_selection: Selection
+structure.group_structure: Structure
+admin.environments_mcp_any: "MCP: any"
+admin.environments_mcp_badge: MCP
+admin.environments_mcp_column: MCP
+admin.environments_mcp_no: Not available for MCP
+admin.environments_mcp_yes: Available for MCP
+admin.import_version_branch_existing: Existing branches
+admin.import_version_branch_hint: A branch typed above wins over the one chosen in the list.
+notify.field.branch: Branch
