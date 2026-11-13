@@ -1118,3 +1118,4 @@ admin.environments_mcp_yes: Доступно для MCP
 admin.import_version_branch_existing: Существующие ветки
 admin.import_version_branch_hint: Ветка, введенная выше, имеет приоритет над выбранной из списка.
 notify.field.branch: Ветка
+license.renew_button: Перевыпустить

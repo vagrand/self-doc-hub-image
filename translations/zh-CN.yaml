@@ -1,0 +1,1114 @@
+# Base UI translations created on first start.
+app.title: SelfDocHub
+role.public: 公开
+search.placeholder: 搜索服务、路径、标签
+button.users: 用户
+button.orphaned: 孤立项
+button.rebuild: 重新构建
+button.refresh: 刷新
+button.send: 发送
+button.delete: 删除
+button.edit: 编辑
+button.save: 保存
+button.cancel: 取消
+button.rotate_token: 轮换令牌
+button.create_user: 创建用户
+button.create_service: 创建服务
+button.switch_version: 切换
+button.show_changelog: 显示变更日志
+button.hide_changelog: 隐藏变更日志
+header.documentation: 文档
+header.subtitle: 所有服务的文档：OpenAPI、OpenRPC、GraphQL 和 AsyncAPI
+tryit.title: 试一试
+tryit.tab_request: 请求
+tryit.tab_headers: 请求头
+tryit.tab_response: 响应
+tryit.path: 路径
+tryit.query: 查询
+tryit.body: 请求体
+tryit.ready: 就绪。
+tryit.select_endpoint: 请选择一个端点并发送请求。
+tryit.sending: 正在发送...
+tryit.no_environments: 尚未配置环境
+tryit.select_environment: 选择环境
+tryit.request_failed: 请求失败
+orphaned.title: 孤立的叠加层
+orphaned.loading: 正在加载孤立的叠加层...
+orphaned.empty: 没有孤立的叠加层。
+orphaned.error: 无法加载孤立的叠加层
+admin.users: 用户
+admin.service: 服务
+admin.login: 登录名
+admin.password: 密码
+admin.role: 角色
+admin.disabled: 已禁用
+admin.active: 已启用
+admin.status: 状态
+admin.slug: Slug
+admin.name: 名称
+admin.description: 描述
+admin.public: 公开
+admin.create_user: 创建用户
+admin.edit_user: 编辑用户
+admin.create_service: 创建服务
+admin.edit_service: 编辑服务
+admin.no_users: 暂无用户。
+admin.save_failed: 保存失败
+admin.service_token_for: 服务令牌：
+admin.versions: 版本
+admin.current: 当前
+admin.current_version: 当前
+admin.published_at: 发布时间
+admin.spec_version: 规范版本
+admin.no_versions: 暂无版本。
+admin.version_delete_confirm: 删除此版本？此操作无法撤销。
+admin.changes: 变更
+admin.uri: URI
+admin.method: 方法
+admin.change_type: 变更
+admin.change_added: 新增
+admin.change_modified: 修改
+admin.change_removed: 移除
+admin.no_changes: 此版本没有变更。
+admin.no_changelog_matches: 未找到匹配的变更。
+admin.changelog_search_placeholder: 按名称或 URI 搜索变更日志
+admin.environments: 环境
+admin.add_environment: 添加环境
+admin.edit_environment: 编辑环境
+admin.base_url: 基础 URL
+admin.connect_timeout: 连接超时（秒）
+admin.response_timeout: 响应超时（秒）
+admin.headers: 请求头
+admin.header_name: 名称
+admin.header_value: 值
+admin.no_environments: 暂无环境。
+admin.no_environment_matches: 未找到匹配的环境。
+admin.environments_search_placeholder: 按名称或基础 URL 搜索环境
+admin.environment_delete_confirm: 删除此环境？此操作无法撤销。
+button.add_environment: 添加
+button.add_header: 添加请求头
+button.remove: 移除
+state.loading_docs: 正在加载文档...
+state.no_matches: 没有匹配的服务或端点。
+state.auth_required: 需要身份验证
+state.docs_not_ready: 文档尚未就绪
+state.redoc_unavailable: Redoc 不可用
+admin.all_roles: 所有角色
+admin.all_statuses: 所有状态
+admin.breaking_change: 破坏性变更
+admin.confirm_title: 确认
+admin.create_team: 创建团队
+admin.edit_team: 编辑团队
+admin.format_version: 格式
+admin.import_version: 导入版本
+admin.import_version_file: Swagger 文件
+admin.import_version_file_required: 请选择要导入的 Swagger 文件
+admin.license: 许可证
+admin.no_options: 没有可用选项。
+admin.no_teams: 暂无团队。
+admin.orphan_delete_confirm: 删除此孤立的叠加层？此操作无法撤销。
+admin.orphaned_refresh_hint: 重新加载孤立叠加层列表
+admin.page: 页
+admin.page_of: 共
+admin.service_delete_confirm: 删除此服务？此操作无法撤销。
+admin.service_order_hint: 拖动服务以调整顺序。所有用户看到的都是此顺序。
+admin.service_order_save_failed: 无法保存新的顺序
+admin.spec_file: Swagger 文件（可选）
+admin.spec_publish_failed: 服务已创建，但发布规范文件失败
+admin.spec_published: 规范文件已发布
+admin.team_column: 团队
+admin.team_delete_confirm: 删除此团队？此操作无法撤销。
+admin.team_members: 成员
+admin.team_services: 服务
+admin.teams: 团队
+admin.teams_filter_member_placeholder: 按成员登录名筛选
+admin.teams_filter_name_placeholder: 按团队名称筛选
+admin.teams_filter_service_placeholder: 按服务名称筛选
+admin.teams_refresh_hint: 重新加载团队列表
+admin.user_delete_confirm: 删除此用户？此操作无法撤销。
+admin.user_teams: 团队
+admin.users_filter_login_placeholder: 按登录名筛选
+admin.users_filter_team_placeholder: 按团队名称筛选
+admin.users_refresh_hint: 重新加载用户列表
+admin.version_import_failed: 版本导入失败
+admin.version_import_identical: 此版本与当前版本相同——未导入任何内容
+button.close: 关闭
+button.confirm: 确认
+button.copy: 复制
+button.create_team: 创建团队
+button.delete_all: 全部删除
+button.delete_overlay: 删除叠加层
+button.edit_list: 编辑列表
+button.edit_overlay: 编辑叠加层
+button.export: 导出
+button.export_all_environments_postman: 全部导出为 Postman 环境
+button.export_environment_postman: 导出为 Postman 环境
+button.export_postman_collection: 导出为 Postman 集合
+button.generate: 生成
+button.license: 许可证
+button.login: 登录
+button.logout: 退出登录
+button.manage_saved_requests: 管理已保存的请求
+button.menu: 菜单
+button.new_service: "+ 新建服务"
+button.next_page: 下一页
+button.previous_page: 上一页
+button.rebuild_hint: 根据当前规范和叠加层重新构建合并后的 OpenAPI 文档
+button.save_request: 保存
+button.services: 服务
+button.share_request: 分享
+button.show_original: 显示原文
+button.show_overlay: 显示叠加层
+button.teams: 团队
+endpoint.change_history: 变更历史
+endpoint.deprecated: 已弃用
+endpoint.error_code: 代码
+endpoint.error_data: 数据
+endpoint.error_message: 消息
+endpoint.errors: 错误
+endpoint.example_generated: 生成的示例
+endpoint.example_parameters: 示例参数
+endpoint.example_responses: 示例响应
+endpoint.history_added: 新增
+endpoint.history_parameter: 参数
+endpoint.history_removed: 移除
+endpoint.history_response_field: 响应字段
+endpoint.no_parameters: 此端点没有参数。
+endpoint.no_responses: 没有已记录的响应。
+endpoint.parameters: 参数
+endpoint.request_body: 请求体
+endpoint.responses: 响应
+language: 简体中文
+license.created_at: 创建时间
+license.days: 天
+license.device_id: 设备 ID
+license.expired_ago: 已过期
+license.expires_in: 剩余
+license.hours: 小时
+license.minutes: 分钟
+license.status_invalid: 无效
+license.status_valid: 有效
+license.upload_button: 上传
+license.upload_error: 上传失败
+license.upload_label: 许可证文件（JSON）
+license.upload_success: 许可证已更新。
+license.valid_until: 有效期至
+nav.service_endpoints_label: 个端点
+nav.service_endpoints_ops_label: 个操作
+nav.service_format_graphql: GraphQL
+nav.service_format_openapi: OpenAPI
+nav.service_format_openrpc: OpenRPC
+nav.service_tags_label: 个标签
+nav.service_versions_label: 个版本
+overlay.delete_confirm: 删除此叠加层？此操作无法撤销。
+overlay.empty: 叠加层暂无内容。
+overlay.title: 叠加层
+theme.dark: 深色
+theme.light: 浅色
+tryit.body_pretty: 格式化
+tryit.body_raw: 原始
+tryit.body_tree: 树形
+tryit.concurrency: 并发请求数
+tryit.copied: 已复制！
+tryit.copy_failed: 复制失败
+tryit.delete_all_requests_confirm: 删除此端点所有已保存的请求？此操作无法撤销。
+tryit.delete_request_confirm: 删除此已保存的请求？此操作无法撤销。
+tryit.duration: 耗时
+tryit.environment_label: 环境
+tryit.generate_failed: 生成失败
+tryit.graphql_unavailable: 返回对象类型的字段不支持试一试。
+tryit.manage_requests_empty: 此端点暂无已保存的请求。
+tryit.manage_requests_title: 已保存的请求
+tryit.requested_at: 请求时间
+tryit.responded_at: 响应时间
+tryit.save_request_name: 名称
+tryit.save_request_title: 保存请求
+tryit.saved_requests_label: 已保存的请求
+tryit.saved_requests_none: 选择一个已保存的请求
+tryit.share_link_label: 分享链接
+tryit.share_one_time_label: 一次性链接
+tryit.share_request_title: 分享请求
+tryit.shared_request_failed: 无法加载分享的请求
+tryit.tab_connection: 连接
+tryit.tab_curl: cURL
+tryit.validate_ssl: 验证 SSL
+admin.import_version_branch: 分支
+admin.main_branch: 主分支
+admin.pinned_version: 您的工作版本
+admin.spec_version_format_hint: 格式：N.N.N（例如 1.4.2）
+admin.version_branch_filter: 分支
+admin.version_branch_filter_no_matches: 没有匹配的分支
+admin.version_pin_banner: 您正在查看固定的工作版本：
+admin.version_pin_clear: 停止查看固定版本
+breadcrumb.branch_aria: 分支
+breadcrumb.endpoint_missing_in_version: 所选版本中没有此端点。
+breadcrumb.tag_missing_in_version: 所选版本中没有此标签组。
+breadcrumb.version_aria: 版本
+button.pin_version: 设为我的工作版本
+button.reparse_version: 重新合并此版本
+example.tab_compact: 紧凑 JSON
+example.tab_formatted: 格式化 JSON
+example.tab_tree: 树形
+license.blocked_no_admin_hint: 请联系管理员安装新的许可证。
+license.blocked_title: 未找到有效的许可证
+button.delete_version: 删除版本
+button.hide_version: 隐藏版本
+button.overlay_versions: 版本
+button.view_version: 查看版本
+endpoint.details_title: 参数与响应
+overlay.delete_version_confirm: 删除此叠加层版本？此操作无法撤销。
+overlay.delete_version_current_error: 无法删除当前版本。
+overlay.versions_author: 作者
+overlay.versions_current: 当前
+overlay.versions_current_badge: 当前
+overlay.versions_empty: 暂无已保存的版本。
+overlay.versions_updated_at: 更新时间
+overlay.versions_untitled: 未命名版本
+admin.created_by: 创建者
+admin.environment_public_label: 公开环境
+admin.environments_author_filter_placeholder: 按作者筛选
+admin.private: 私有
+admin.view_environment: 查看环境
+admin.visibility: 可见性
+admin.visibility_all: 全部
+button.view_environment: 查看
+admin.mcp_server: MCP 服务器
+button.mcp_server: MCP 服务器
+mcp.allowed_cidrs_label: 允许的 IP 范围（CIDR，以逗号分隔）
+mcp.allowed_cidrs_placeholder: 例如 10.0.0.0/8, 192.168.1.0/24
+mcp.allowed_services_label: 允许的服务
+mcp.enable_history_tools_label: 版本历史与变更日志工具
+mcp.enable_schema_tools_label: 架构工具（参数 / 响应）
+mcp.enable_search_tools_label: 搜索工具
+mcp.enabled_label: 已启用
+mcp.generate_token_button: 生成 / 轮换令牌
+mcp.include_overlay_text_label: 包含叠加层文本
+mcp.last_used_label: 最近使用
+mcp.last_used_never: 从未
+mcp.save_error: 保存失败
+mcp.save_success: 设置已保存。
+mcp.search_result_limit_label: 搜索结果上限
+mcp.token_configured: 令牌已配置
+mcp.token_error: 令牌生成失败
+mcp.token_generated_hint: 请立即复制此令牌——它不会再次显示。
+mcp.token_label: Bearer 令牌
+mcp.token_not_configured: 尚未生成令牌
+admin.export_wizard: 导出向导
+button.export_wizard: 导出向导
+export.add_services: 添加服务
+export.apply_selection: 应用所选内容
+export.change_services: 更改服务
+export.col_date: 日期
+export.col_endpoints: 端点
+export.col_environment: 环境
+export.col_format: 格式
+export.col_name: 名称
+export.col_overlays: 使用叠加层
+export.col_progress: 端点
+export.col_service: 服务
+export.col_services: 服务
+export.col_status: 状态
+export.col_tags: 标签
+export.delete_confirm: 删除所选的 {count} 个导出及其文件？
+export.delete_selected: 删除所选
+export.download: 下载
+export.error_prefix: 导出失败
+export.format_label: 格式
+export.history_empty: 暂无导出记录。
+export.history_title: 导出历史
+export.modal_title: 选择服务、标签和端点
+export.name_label: 导出名称
+export.name_required: 必须填写导出名称。
+export.no_environment: 无环境
+export.no_overlay_hint: 此服务没有叠加层。
+export.no_services: 尚未选择服务。
+export.repeat: 重复导出
+export.repeat_skipped: 已保存导出中的 {count} 个端点已不存在，已被跳过。
+export.select_all: 全选
+export.services_label: 服务
+export.services_required: 请至少添加一个要导出的服务。
+export.settings_title: 导出设置
+export.start: 导出
+export.started: 导出已开始——请在下方历史记录中查看进度。
+export.status_error: 错误
+export.status_in_progress: 进行中
+export.status_success: 成功
+export.tree_filter_placeholder: 按名称筛选
+export.col_language: 语言
+export.doc.allowed_values: 允许的值
+export.doc.any: 任意
+export.doc.array_of: 数组，元素为
+export.doc.col_code: 代码
+export.doc.col_description: 描述
+export.doc.col_field: 字段
+export.doc.col_in: 位置
+export.doc.col_message: 消息
+export.doc.col_name: 名称
+export.doc.col_required: 必填
+export.doc.col_type: 类型
+export.doc.contents: 目录
+export.doc.deprecated: 已弃用
+export.doc.environment: 环境
+export.doc.errors: 错误
+export.doc.in_argument: 参数
+export.doc.in_params: params
+export.doc.parameters: 参数
+export.doc.recursive: 对象（递归）
+export.doc.request_body: 请求体
+export.doc.request_example: 请求示例
+export.doc.response: 响应
+export.doc.response_example: 响应示例
+export.doc.result: result
+export.doc.yes: 是
+export.filter_any_format: 任意格式
+export.filter_any_language: 任意语言
+export.filter_any_status: 任意状态
+export.filter_date_from: 起始日期
+export.filter_date_to: 截止日期
+export.filter_name_placeholder: 按名称筛选
+export.filter_reset: 重置筛选
+export.history_empty_filtered: 没有符合筛选条件的导出。
+export.language_label: 语言
+export.add_description: 添加描述
+export.contents_label: 包含目录
+export.description_label: 文档描述
+export.description_modal_title: 文档描述
+export.edit_description: 编辑描述
+endpoint.copy_param_link: 复制此参数的链接
+endpoint.param_description: 显示描述
+admin.two_factor: 2FA
+admin.two_factor_configured: 已配置
+admin.two_factor_configured_hint: 已开启并配置。每次登录都会要求输入验证码。
+admin.two_factor_disable_confirm: 关闭双因素认证？该用户的身份验证器和备用码将被删除。
+admin.two_factor_hint: 已关闭。开启后，用户将在下次登录时设置 Google Authenticator。
+admin.two_factor_label: 双因素认证
+admin.two_factor_pending: 等待设置
+admin.two_factor_pending_hint: 已开启。用户将在下次登录时设置 Google Authenticator。
+admin.two_factor_reset: 重置身份验证器
+admin.two_factor_reset_confirm: 重置此用户的身份验证器和备用码？该用户将在下次登录时重新设置双因素认证。
+admin.all_two_factor: 所有 2FA 状态
+admin.two_factor_off: 已关闭
+interaction.copy_link: 复制链接
+interaction.delete: 删除
+interaction.delete_confirm: 删除此交互记录？其链接将失效。
+interaction.empty: 此端点暂无已保存的交互记录。
+interaction.environment_missing: 已保存的环境已不存在；已使用保存的基础 URL。
+interaction.export: 导出交互记录
+interaction.export_failed: 导出失败
+interaction.export_pdf: 导出为 PDF
+interaction.exporting: 正在导出...
+interaction.link_copied: 链接已复制
+interaction.load_failed: 无法加载交互记录
+interaction.mask_hint: Authorization、Cookie、API 密钥和令牌请求头（请求与响应）在保存前会被替换。
+interaction.mask_label: 将敏感请求头的值替换为 ***
+interaction.masked_apply_notice: 保存此交互记录时已隐藏请求头的值；发送前请重新输入。
+interaction.masked_note: 请求头的值已隐藏
+interaction.name: 名称
+interaction.pdf.body: 请求体
+interaction.pdf.curl: curl 命令
+interaction.pdf.default_title: Try-It 交互记录
+interaction.pdf.duration: 耗时
+interaction.pdf.endpoint: 端点
+interaction.pdf.environment: 环境
+interaction.pdf.generated: 生成时间
+interaction.pdf.headers: 请求头
+interaction.pdf.masked: 敏感请求头的值已隐藏。
+interaction.pdf.method: 方法
+interaction.pdf.none: 无
+interaction.pdf.request: 请求
+interaction.pdf.response: 响应
+interaction.pdf.service: 服务
+interaction.pdf.size: 大小
+interaction.pdf.status: 状态
+interaction.pdf.timeouts: 超时（连接 / 响应）
+interaction.pdf.truncated: 请求体已被截断。
+interaction.pdf.url: URL
+interaction.pdf.user: 用户
+interaction.responses_count: 个响应
+interaction.save: 保存交互记录
+interaction.save_failed: 保存交互记录失败
+interaction.save_title: 保存交互记录
+interaction.saved: 交互记录已保存。
+interaction.section_title: 交互记录
+interaction.success: 成功
+interaction.unmasked_warning: 敏感请求头的值将以明文存储。
+interaction.view: 查看
+interaction.with_errors: 含错误
+interaction.export_title: 导出交互记录
+admin.sign_in_column: 登录
+admin.sign_in_label: 登录方式
+admin.sign_in_no_password: 无密码（仅 SSO）
+admin.sign_in_none: 无
+admin.sign_in_password: 密码
+admin.sso: 单点登录
+admin.user_unlink_confirm: 将 {name} 与 {login} 解除关联？之后将无法再使用它登录。
+button.profile: 个人资料
+button.sso: SSO
+profile.change_password: 修改密码
+profile.col_provider: 提供方
+profile.col_status: 状态
+profile.current_password_label: 当前密码
+profile.last_method_hint: 这是您唯一的登录方式。请先设置密码或关联其他提供方。
+profile.link: 关联
+profile.link_error_access_denied: 您无权关联 {name}：提供方拒绝了请求，或您的账号不符合其访问规则。
+profile.link_error_already_linked: 您的账号已关联到另一个 {name} 账号。请先解除关联。
+profile.link_error_identity_taken: 此 {name} 账号已关联到其他用户。
+profile.link_error_internal_error: 关联失败。请重试。
+profile.link_error_invalid_state: 关联会话已过期或无效。请重试。
+profile.link_error_provider_disabled: "{name} 不可用。"
+profile.link_error_provider_error: "{name} 不可用或拒绝了请求。"
+profile.link_error_rate_limited: 尝试次数过多。请等待一分钟后重试。
+profile.link_ok: 已将 {name} 关联到您的账号。
+profile.linked: 已关联
+profile.linked_as: 已关联：{email}
+profile.login_label: 登录名
+profile.new_password_label: 新密码
+profile.no_providers: 尚未配置 SSO 提供方。
+profile.no_teams: 无团队
+profile.not_linked: 未关联
+profile.password_label: 密码
+profile.password_mismatch: 两次输入的密码不一致。
+profile.password_not_set: 未设置——您只能通过 SSO 登录。
+profile.password_saved: 密码已保存。
+profile.password_set: 已设置
+profile.repeat_password_label: 再次输入新密码
+profile.role_label: 角色
+profile.set_password: 设置密码
+profile.sign_in_methods_title: 登录方式
+profile.teams_label: 团队
+profile.title: 个人资料
+profile.unlink: 解除关联
+profile.unlink_confirm: 将 {name} 与您的账号解除关联？
+profile.unlink_hint: 输入您的密码，以将 {name} 与您的账号解除关联。
+profile.unlink_title: 解除关联 {name}
+profile.unlinked: 已解除 {name} 的关联。
+sso.add_mapping: 添加映射
+sso.allowed_domains_label: 允许的邮箱域名（以逗号分隔，留空 = 不限）
+sso.client_id_label: 客户端 ID
+sso.client_secret_keep_placeholder: 留空以保留当前密钥
+sso.client_secret_label: 客户端密钥
+sso.col_linked: 已关联用户
+sso.col_name: 名称
+sso.col_new_users: 新用户
+sso.col_slug: Slug
+sso.col_status: 状态
+sso.create_provider: 添加 SSO 提供方
+sso.create_provider_title: 添加 SSO 提供方
+sso.default_role_admin_warning: 所有被允许通过此提供方登录的人都将成为管理员。
+sso.default_role_label: 默认角色
+sso.default_teams_label: 默认团队
+sso.delete_confirm: 删除 SSO 提供方“{name}”？
+sso.delete_impact: 将解除 {count} 个已关联账号的关联。
+sso.delete_locked_out: 以下用户没有其他登录方式，将失去访问权限：{logins}。
+sso.edit_provider_title: 编辑 SSO 提供方
+sso.enabled_label: 已启用
+sso.group_mappings_hint: 属于所列分组的人员，除上述默认设置外，还会获得该规则的角色和团队。匹配多条规则时，取最高角色，并合并团队。
+sso.group_mappings_label: 分组映射
+sso.groups_claim_label: 包含分组的 Claim
+sso.issuer_label: 颁发者（Issuer）URL
+sso.jit_label: 首次登录时自动创建用户
+sso.jit_off: 仅限已有用户
+sso.jit_on: 自动创建为 {role}
+sso.local_login_disabled_label: 对非管理员用户禁用密码登录
+sso.local_login_hint: 管理员仍可通过 /login?local=1 使用密码登录（紧急访问）。
+sso.local_login_needs_provider: 请先启用至少一个 SSO 提供方，再禁用密码登录。
+sso.login_claim_label: 用作登录名的 Claim
+sso.mapping_group_placeholder: 身份提供方中的分组名称
+sso.mapping_no_role: 不更改角色
+sso.move_down: 下移
+sso.move_up: 上移
+sso.name_label: SSO 名称（显示在登录页面）
+sso.no_providers: 尚未配置 SSO 提供方。
+sso.redirect_uri_after_save: 保存提供方后显示。
+sso.redirect_uri_label: 重定向 URI（请在身份提供方处注册）
+sso.refresh_hint: 刷新
+sso.required_group_label: 必需的分组（留空 = 不限）
+sso.scopes_label: Scope（以逗号分隔）
+sso.slug_hint: 属于重定向 URI 的一部分。创建后无法更改。
+sso.slug_label: Slug
+sso.status_disabled: 已禁用
+sso.status_enabled: 已启用
+sso.sync_label: 每次登录时根据分组重新计算角色和团队
+sso.test_button: 测试连接
+sso.test_failed: 连接失败
+sso.test_ok: 连接正常。授权端点：{endpoint}
+sso.trust_mfa_label: 信任提供方的 MFA（跳过本地双因素验证码）
+export.format_html: HTML
+export.format_markdown: Markdown (MD)
+export.doc.back_to_contents: 返回目录
+tryit.code_language: 编程语言
+tryit.tab_code: 代码
+admin.notifications: 通知
+button.notifications: 通知
+notifications.add_channel: 添加渠道
+notifications.add_rule: 添加规则
+notifications.all_services: 所有服务
+notifications.bearer_token: Bearer 令牌（可选）
+notifications.bot_token: 机器人令牌
+notifications.channel_title_create: 添加渠道
+notifications.channel_title_edit: 编辑渠道
+notifications.chat_id: 聊天 ID
+notifications.chat_id_hint: "请使用个人聊天、群组或频道的 ID。先将机器人添加到群组或频道，向它发送一条消息，然后打开 https://api.telegram.org/bot<token>/getUpdates 查找该 ID。"
+notifications.col_attempts: 尝试次数
+notifications.col_channel: 渠道
+notifications.col_error: 错误
+notifications.col_event: 事件
+notifications.col_last: 最近一次投递
+notifications.col_message: 消息
+notifications.col_name: 名称
+notifications.col_status: 状态
+notifications.col_time: 时间
+notifications.col_type: 类型
+notifications.create_channel_first: 请先创建渠道，再添加规则。
+notifications.delete_confirm: 删除渠道“{name}”及其投递历史？
+notifications.delete_confirm_rules: 有 {count} 条规则在使用它，这些规则也将被一并删除。
+notifications.delete_failed: 无法删除
+notifications.email_hint: 邮件通过渠道列表下方配置的 SMTP 服务器发送。
+notifications.enabled_label: 已启用
+notifications.event_license_expiring: 许可证到期
+notifications.event_service_version_uploaded: 新版本
+notifications.event_test: 测试
+notifications.filter_all: 所有状态
+notifications.headers_label: "额外请求头（每行一个“名称: 值”）"
+notifications.license_valid_until: 许可证有效期至 {date}。
+notifications.load_failed: 无法加载通知
+notifications.missing_service: "{slug}（已不存在）"
+notifications.name_label: 名称
+notifications.never: 从未
+notifications.no_channels: 暂无渠道。添加一个即可开始接收通知。
+notifications.no_deliveries: 暂无投递记录。
+notifications.no_rules: 暂无规则。
+notifications.only_breaking: 仅破坏性变更
+notifications.recipients_label: 收件人（每行一个地址）
+notifications.remove_rule: 移除规则
+notifications.retry: 重试
+notifications.retry_failed: 无法重试
+notifications.rule_channel: 渠道
+notifications.rule_channel_required: 请为每条规则选择一个渠道。
+notifications.rule_enabled: 已启用
+notifications.rule_license_hint: "许可证每天检查一次（默认在 UTC 09:00）。到期后会发送一次通知。"
+notifications.rule_license_title: 许可证到期
+notifications.rule_version_hint: 当服务的主分支发布了包含变更的新版本时通知。服务的第一个版本不会触发通知。
+notifications.rule_version_title: 新的文档版本
+notifications.save_failed: 无法保存
+notifications.saved: 已保存。
+notifications.secret_saved: 已保存——留空以保留
+notifications.selected_services: 所选服务
+notifications.send_test: 发送测试
+notifications.services_search: 搜索服务
+notifications.slack_channel: 频道（名称或 ID）
+notifications.slack_mode: 模式
+notifications.slack_mode_bot: 机器人令牌和频道
+notifications.slack_mode_webhook: Incoming Webhook URL
+notifications.slack_webhook_url: Incoming Webhook URL
+notifications.smtp_from: 发件人地址
+notifications.smtp_hint: 所有邮件渠道共用。
+notifications.smtp_host: 主机
+notifications.smtp_password: 密码
+notifications.smtp_password_saved: 已保存——留空以保留
+notifications.smtp_port: 端口
+notifications.smtp_title: 邮件服务器（SMTP）
+notifications.smtp_tls: 加密
+notifications.smtp_tls_none: 无
+notifications.smtp_tls_ssl: SSL/TLS
+notifications.smtp_tls_starttls: STARTTLS
+notifications.smtp_username: 用户名
+notifications.status_disabled: 已禁用
+notifications.status_enabled: 已启用
+notifications.status_failed: 失败
+notifications.status_pending: 待发送
+notifications.status_sent: 已发送
+notifications.tab_channels: 渠道
+notifications.tab_history: 历史
+notifications.tab_rules: 规则
+notifications.test_failed: 测试失败
+notifications.test_ok: 测试消息已发送。
+notifications.test_save_first: 请先保存渠道，再发送测试。
+notifications.threshold_1d: 1 天
+notifications.threshold_2d: 2 天
+notifications.threshold_3d: 3 天
+notifications.threshold_7d: 1 周
+notifications.type_email: 电子邮件
+notifications.type_label: 类型
+notifications.type_slack: Slack
+notifications.type_telegram: Telegram
+notifications.type_webhook: Webhook
+notifications.unsaved: 有未保存的更改。
+notifications.webhook_url: URL（HTTP 或 HTTPS，POST）
+notifications.rule_language: 语言
+notify.breaking_mark: （破坏性）
+notify.field.breaking: 破坏性变更
+notify.field.device_id: 设备 ID
+notify.field.published: 发布时间
+notify.field.service: 服务
+notify.field.valid_until: 有效期至
+notify.field.version: 版本
+notify.group.added: 新增的端点（{count}）
+notify.group.modified: 变更的端点（{count}）
+notify.group.removed: 移除的端点（{count}）
+notify.license.text_expired: docs-hub 许可证已于 {date} 到期。请上传续期后的许可证以恢复访问。
+notify.license.text_soon: docs-hub 许可证有效期至 {date}。大约还剩 {days} 天。
+notify.license.title_expired: docs-hub 许可证已到期
+notify.license.title_soon: docs-hub 许可证即将到期
+notify.more: 以及另外 {count} 项
+notify.no: 否
+notify.test.text: 这是一条来自 docs-hub 的测试消息。如果您能看到它，说明该渠道工作正常。
+notify.test.title: docs-hub 测试通知
+notify.version.text: "{service} 的版本 {version} 已发布：新增 {added} 项，变更 {modified} 项，移除 {removed} 项。"
+notify.version.title: 新的文档版本：{service}
+notify.yes: 是
+endpoint.add_to_query: 添加到试一试的查询参数
+editor.bold: 粗体
+editor.bulleted_list: 无序列表
+editor.characters: "{count} 个字符"
+editor.characters_limit: "{count} 个字符（上限 {limit} KB）"
+editor.code_block: 代码块
+editor.heading: 标题
+editor.heading_1: 一级标题
+editor.heading_2: 二级标题
+editor.heading_3: 三级标题
+editor.heading_4: 四级标题
+editor.heading_5: 五级标题
+editor.heading_6: 六级标题
+editor.horizontal_rule: 分隔线
+editor.image: 图片
+editor.inline_code: 行内代码
+editor.italic: 斜体
+editor.link: 链接
+editor.mode_markdown: Markdown
+editor.mode_visual: 可视化
+editor.numbered_list: 有序列表
+editor.quote: 引用
+editor.switch_to_markdown: 切换到 Markdown 编辑
+editor.switch_to_visual: 切换到可视化编辑
+editor.text_aria: Markdown 文本
+editor.toolbar: Markdown 格式
+paramoverlay.delete_confirm: 文本为空将删除此参数的叠加层及其历史。确定删除吗？
+paramoverlay.delete_version_confirm: 从历史中删除此版本？
+paramoverlay.load_failed: 无法加载
+paramoverlay.no_description: 暂无描述。
+paramoverlay.restore: 恢复此版本
+paramoverlay.restore_confirm: 恢复此版本？其文本将成为当前描述；现有描述会保留在历史中。
+paramoverlay.save_failed: 无法保存
+structure.cancel_confirm: 放弃对顺序所做的未保存更改？
+structure.drag_handle: 拖动以重新排序
+structure.empty: 此服务暂无标签或端点。
+structure.endpoint_count: "{count} 个端点"
+structure.hint: 拖动标签和端点，或使用箭头按钮来更改顺序。该顺序适用于左侧菜单和导出，对服务的所有版本生效。
+structure.load_failed: 无法加载已保存的顺序
+structure.move_down: 下移
+structure.move_up: 上移
+structure.moved: 已将 {name} 移至第 {position} 位（共 {total} 项）
+structure.open: 服务结构（标签与端点的顺序）
+structure.reset: 重置顺序
+structure.reset_confirm: 将顺序重置为默认值（标签按名称排序）？已保存的顺序将被删除。
+structure.save_failed: 无法保存顺序
+structure.title: 服务结构
+structure.unsaved: 有未保存的更改
+export.added_to_history: 导出已添加到历史记录
+exportpage.add_images: 添加图片
+exportpage.add_page: 添加页面
+exportpage.add_text: 添加文本
+exportpage.added: 已添加 {n} 张图片
+exportpage.added_to_list: 已将 {name} 添加到{list}
+exportpage.align_center: 居中对齐
+exportpage.align_justify: 两端对齐
+exportpage.align_left: 左对齐
+exportpage.align_right: 右对齐
+exportpage.already_in_list: 页面“{name}”已在此列表中。
+exportpage.alt: 替代文本
+exportpage.aria_image: 图片 {alt}
+exportpage.aria_text: 文本 {text}
+exportpage.background: 背景颜色
+exportpage.backward: 下移一层
+exportpage.bold: 粗体
+exportpage.bring_front: 置于顶层
+exportpage.chars: "{n} / {max} 个字符"
+exportpage.choose_library: 从库中选择
+exportpage.close_confirm: 关闭编辑器并放弃更改？
+exportpage.conflict: 该页面已在别处被修改。请关闭编辑器并重新打开该页面。
+exportpage.continue: 继续
+exportpage.create_new: 创建新页面
+exportpage.default_name: 新页面
+exportpage.delete: 删除
+exportpage.delete_confirm: 从库中删除页面“{name}”？
+exportpage.delete_element: 删除
+exportpage.drop_hint: 将图片拖放到此处
+exportpage.duplicate: 复制
+exportpage.duplicate_element: 复制
+exportpage.edit: 编辑
+exportpage.editing: 正在编辑文本。按 Esc 结束。
+exportpage.editing_done: 文本编辑已完成
+exportpage.editor_title: 页面编辑器
+exportpage.empty: 暂无页面。
+exportpage.fill: 填充颜色
+exportpage.fit: 适配方式
+exportpage.fit_contain: 包含
+exportpage.fit_cover: 覆盖
+exportpage.fit_stretch: 拉伸
+exportpage.font: 字体
+exportpage.font_mono: 等宽
+exportpage.font_sans: 无衬线
+exportpage.font_serif: 衬线
+exportpage.forward: 上移一层
+exportpage.geometry: X {x} mm，Y {y} mm，{w} × {h} mm
+exportpage.glyph_warning: 以下字符不在导出字体中，将被替换：{chars}
+exportpage.height: 高度（mm）
+exportpage.history_summary: 页面：开头 {front} 页，结尾 {back} 页
+exportpage.in_export: 在此导出中
+exportpage.italic: 斜体
+exportpage.landscape: 横向
+exportpage.layer: 第 {n} 层（共 {total} 层）
+exportpage.library: 导出页面
+exportpage.library_hint: 此处保存用于导出开头和结尾的页面。
+exportpage.library_open: 页面库
+exportpage.line_height: 行距
+exportpage.list_full: 一个列表最多容纳 {n} 个页面。
+exportpage.lists_back: 结尾页面
+exportpage.lists_front: 开头页面
+exportpage.lists_label: 文档前后的页面
+exportpage.load_failed: 无法加载该页面。
+exportpage.missing_removed: 有 {n} 个页面已不存在，已从列表中移除。
+exportpage.move_left: 左移
+exportpage.move_right: 右移
+exportpage.move_to_back: 移到结尾页面
+exportpage.move_to_front: 移到开头页面
+exportpage.moved_list: 已将 {name} 移到{list}，第 {n} 位（共 {total} 项）
+exportpage.moved_position: "{name}：第 {n} 位（共 {total} 项）"
+exportpage.name: 页面名称
+exportpage.name_required: 请输入页面名称。
+exportpage.new: 新页面
+exportpage.no_raster: "{name}：无法生成 PNG 副本，PDF 和 DOCX 将显示占位符。"
+exportpage.nothing_selected: 请选择一个元素或添加图片。
+exportpage.orientation: 方向
+exportpage.padding: 内边距（mm）
+exportpage.portrait: 纵向
+exportpage.props: 属性
+exportpage.redo: 重做
+exportpage.remove_confirm: 从此导出中移除页面“{name}”？它仍保留在库中。
+exportpage.remove_from_export: 从导出中移除
+exportpage.restored_n: 已将导出中的 {n} 个页面恢复到库中。
+exportpage.search: 搜索页面
+exportpage.select: 选择
+exportpage.send_back: 置于底层
+exportpage.size: 大小（pt）
+exportpage.size_total: 页面图片：{size} / {max}
+exportpage.snap: 吸附到边缘和中心
+exportpage.text_color: 文字颜色
+exportpage.text_placeholder: 文本
+exportpage.too_big: 页面图片超过 {max}。请移除页面或图片。
+exportpage.too_many: 一个页面最多容纳 {n} 个元素。
+exportpage.transparent: 透明
+exportpage.underline: 下划线
+exportpage.undo: 撤销
+exportpage.upload_failed: "{name}：{error}"
+exportpage.uploading: 正在上传：{done} / {total}...
+exportpage.version_export: 导出中的版本
+exportpage.version_library: 库中的当前版本
+exportpage.versions_hint: 这些页面在导出创建后又在库中被编辑过。请选择要使用的版本。
+exportpage.versions_title: 导出后已更改的页面
+exportpage.width: 宽度（mm）
+exportpage.x: X（mm）
+exportpage.y: Y（mm）
+exportpage.zoom: 缩放
+exportpage.zoom_fit: 适应窗口
+export.changelog_unavailable: 无变更日志：该服务没有更早的版本可供比较。
+export.col_changelog: 变更日志
+export.col_version: 版本
+export.doc.changelog: 变更日志
+export.doc.changelog_added: 新增
+export.doc.changelog_breaking: 破坏性变更
+export.doc.changelog_modified: 修改
+export.doc.changelog_none: 无变更
+export.doc.changelog_parameters: 参数
+export.doc.changelog_removed: 移除
+export.doc.changelog_response: 响应
+export.doc.version: 版本
+export.version_current: 当前
+export.version_endpoints_removed: 所选的 {count} 个端点不在所选版本中，已被取消选择。
+export.version_load_failed: 无法加载该服务的版本。
+export.version_missing: 未找到版本——请手动选择。
+export.version_no_endpoints: "{services} 中所选的端点在所选版本中都不存在——请使用“更改服务”重新选择。"
+export.version_required: 请为以下服务选择版本：{services}
+export.col_branch: 分支
+interaction.pdf.header_name: 名称
+interaction.pdf.header_value: 值
+endpoint.params_all_types: 所有类型
+endpoint.params_collapse_all: 全部折叠
+endpoint.params_expand_all: 全部展开
+endpoint.params_nothing_found: 未找到任何内容。
+endpoint.params_search: 按名称或描述搜索
+endpoint.params_show_descriptions: 描述
+endpoint.params_type_filter: 按类型筛选
+nav.favorites_add: 添加到收藏
+nav.favorites_empty: 暂无收藏。
+nav.favorites_filter: 仅显示收藏
+nav.favorites_remove: 取消收藏
+nav.service_branches_label: 个分支
+asyncapi.action_receive_hint: RECV：应用程序从此通道接收消息
+asyncapi.action_send_hint: SEND：应用程序向此通道发送消息
+asyncapi.channel: 通道
+asyncapi.channel_address: 通道地址
+asyncapi.channel_bindings: 通道绑定
+asyncapi.correlation_id: 关联 ID
+asyncapi.headers: 请求头
+asyncapi.message_bindings: 消息绑定
+asyncapi.no_messages: 此操作没有消息。
+asyncapi.operation_bindings: 操作绑定
+asyncapi.payload: 负载
+asyncapi.reply: 回复
+asyncapi.reply_channel: 回复通道
+asyncapi.schema_format: 架构格式
+asyncapi.security: 安全
+asyncapi.server_description: 描述
+asyncapi.server_name: 名称
+asyncapi.server_protocol: 协议
+asyncapi.servers: 服务器
+asyncapi.tab_example_messages: 示例消息
+asyncapi.tab_example_parameters: 示例参数
+asyncapi.tab_messages: 消息
+asyncapi.tab_parameters: 通道与请求头
+asyncapi.unresolved: 定义在此文档之外（未加载）
+endpoint.history_changed: 已更改
+export.doc.async_message: 消息
+export.doc.async_parameters: 通道和请求头
+export.doc.async_reply: 回复
+export.doc.async_schema_format: 架构格式
+export.doc.async_servers: 服务器
+export.doc.in_channel: 通道
+export.doc.in_header: 请求头
+nav.service_format_asyncapi: AsyncAPI
+tryit.server_label: 服务器
+tryit.server_placeholder: 选择服务器
+tryit.server_unresolved: 服务器 URL 中有未设置默认值的变量
+admin.service_teams: 有权访问的团队
+common.select_all: 全选
+export.tree_clear_all: 全部取消
+export.tree_select_all: 全选
+breadcrumbs.services: 服务
+groups.collapse: 折叠分组
+groups.create_group: 创建服务分组
+groups.default_hint: 每个服务始终属于此分组。
+groups.default_locked: 每个服务始终属于此分组。
+groups.delete_confirm: 删除分组“{name}”？其中的服务仍保留在其他分组中。
+groups.edit_group: 编辑服务分组
+groups.empty: 此分组中暂无服务。
+groups.expand: 展开分组
+groups.move_down: 下移分组
+groups.move_earlier: 将服务前移
+groups.move_later: 将服务后移
+groups.move_up: 上移分组
+groups.name: 分组名称
+groups.name_required: 请输入分组名称。
+groups.new_group: 新建服务分组
+groups.service_groups: 分组
+groups.services: 服务
+groups.hidden_from_menu: 在左侧菜单中隐藏
+groups.show_in_menu: 在左侧菜单中显示
+mcp.add_token: 添加令牌
+mcp.delete_confirm: 删除令牌“{name}”？使用它的客户端将失去访问权限。
+mcp.edit_token: 编辑令牌
+mcp.endpoint_label: MCP 端点
+mcp.limits_services: "{count} 个服务"
+mcp.name_required: 请输入令牌名称。
+mcp.no_tokens: 暂无令牌。添加一个，以允许 MCP 客户端连接。
+mcp.rotate_confirm: 替换令牌“{name}”的密钥？当前密钥将立即失效。
+mcp.secret_title: Bearer 令牌
+mcp.token_active: 有效
+mcp.token_changed: 令牌已更改
+mcp.token_limits: 限制
+mcp.token_name: 名称
+tryit.response_headers: 响应头
+tryit.response_size: 响应大小
+endpoint.history_breaking: 破坏性变更
+endpoint.history_operation: 操作
+endpoint.history_untracked: 被跟踪字段（参数、响应、摘要、描述）之外的变更
+groups.service_delete_confirm: 删除服务“{name}”？此操作无法撤销。
+nav.group_services_label: 个服务
+groups.icon: 图标
+export.pages_short: 页
+pages.cancel_confirm: 放弃对页面所做的未保存更改？
+pages.create_failed: 无法创建页面
+pages.delete: 删除页面
+pages.delete_confirm: 删除页面 {title} 及其图片？
+pages.delete_failed: 无法删除页面
+pages.edit: 编辑页面
+pages.empty: 此页面为空。
+pages.image_failed: 无法上传图片
+pages.image_missing: 未找到图片
+pages.image_uploading: 正在上传图片...
+pages.load_failed: 无法加载页面
+pages.loading: 正在加载页面...
+pages.page: 页面
+pages.save_failed: 无法保存页面
+pages.text: 文本（Markdown）
+pages.title: 标题
+structure.err_duplicate: 该标签已包含此端点。
+structure.err_into_itself: 文件夹不能移入自身或其内部的内容中。
+structure.err_not_container: 只有文件夹或标签才能包含其他项目。
+structure.err_tag_endpoints_only: 标签只能包含端点。
+structure.err_too_deep: 结构无法再嵌套更深。
+structure.folder_add: 新建文件夹
+structure.folder_added: 已添加文件夹 {name}
+structure.folder_delete: 删除文件夹
+structure.folder_delete_confirm: 删除文件夹 {name}？
+structure.folder_delete_confirm_items: 删除文件夹 {name}？其中的内容将移到该文件夹所在的位置。
+structure.folder_deleted: 已删除文件夹 {name}
+structure.folder_name: 名称
+structure.folder_name_required: 请输入文件夹名称
+structure.folder_name_title: 文件夹名称
+structure.folder_rename: 重命名文件夹
+structure.item_count: "{count} 项"
+structure.move_in: 移入上方的文件夹或标签
+structure.move_out: 移出文件夹或标签
+structure.page_add: 新建页面
+structure.page_added: 已添加页面 {name}
+structure.page_delete: 删除页面
+structure.page_edit: 编辑页面
+structure.page_name_title: 页面标题
+structure.add_folder_in: 在其中新建文件夹
+structure.add_page_in: 在其中新建页面
+structure.err_duplicate_scope: 此端点已在该标签中，或已在所有标签之外。
+structure.err_nowhere: 没有其他可移动到的位置。
+structure.from_tag: 由规范中的标签生成
+structure.hint_tree: 创建文件夹和页面，然后拖动标签、端点、页面和文件夹，或使用按钮，将它们移到其他层级或调整顺序。标签是由规范中的标签生成的文件夹：新版本会继续向其中补充内容。该结构适用于左侧菜单和导出，对服务的所有版本生效。
+structure.level_up: 上移一级
+structure.level_up_confirm: 将 {name} 上移一级，放到 {parent} 旁边？
+structure.move: 移动
+structure.move_current: 当前位置
+structure.move_title: 移动
+structure.move_to: 移动到
+structure.moved_to: 已将 {name} 移到 {target}
+structure.new_folder_title: 新建文件夹
+structure.new_page_title: 新建页面
+structure.page_images_later: 页面创建后即可添加图片。
+structure.page_text: 文本（Markdown）
+structure.parent: 上级文件夹或标签
+structure.parent_clear: 清除选择
+structure.parent_none: 未找到任何内容
+structure.parent_placeholder: 搜索文件夹和标签；留空表示顶层
+structure.parent_tag: 标签
+structure.parent_top: 顶层
+structure.rename_title: 重命名文件夹
+structure.clear_selection: 清除选择
+structure.items_selected: "{count} 项"
+structure.move_selected: 移动所选项
+structure.move_selected_list: 所选项目（{count}）
+structure.select: 选择
+structure.move_new_folder: 新建文件夹
+structure.open_tree: 编辑服务树：文件夹、页面、标签和端点
+pages.back_to_history: 返回历史
+pages.back_to_page: 返回页面
+pages.history: 页面历史
+pages.history_empty: 暂无版本。
+pages.version: 版本
+pages.version_current: 当前
+pages.version_view: 查看
+labels.add: 添加标记
+labels.filter_chip: 标记：{label}
+labels.filter_clear: 重新显示全部
+labels.placeholder: 新标记
+labels.remove: 移除标记
+labels.show_all: 显示所有标记为 {label} 的内容
+labels.title: 标记
+license.customer: 授权给
+license.disabled: 不包含
+license.enabled: 包含
+license.feature_export: 导出
+license.feature_mcp: MCP 服务器
+license.feature_notifications: 通知
+license.feature_sso: 单点登录（SSO）
+license.feature_tryit: 试一试
+license.features: 功能
+license.license_id: 许可证 ID
+license.limit_max_endpoints_per_service: 每个服务的端点数
+license.limit_max_mcp_tokens: MCP 令牌数
+license.limit_max_services: 服务数
+license.limit_max_teams: 团队数
+license.limit_max_users: 用户数
+license.limits: 限制
+license.per_day: 每天
+license.per_hour: 每小时
+license.per_month: 每月
+license.per_week: 每周
+license.quota_exports: 导出
+license.quota_mcp_requests: MCP 请求
+license.quotas: 用量配额
+license.resets: 重置时间
+license.tier: 套餐
+license.tier_business: 商业版
+license.tier_custom: 定制版
+license.tier_free: 免费版（个人使用）
+license.tier_team: 团队版
+license.tier_unlimited: 无限制版
+license.unlimited: 无限制
+endpoint.history_diff_added: 新增
+endpoint.history_diff_removed: 移除
+endpoint.history_group_operation: 操作
+endpoint.history_group_parameters: 参数
+endpoint.history_group_response_fields: 响应字段
+endpoint.history_hide_unchanged: 隐藏未更改的段落
+endpoint.history_no_tracked_short: 无被跟踪的字段
+endpoint.history_reverted: 已还原
+endpoint.history_reverted_tip: 此值之前使用过
+endpoint.history_rollback: 回滚
+endpoint.history_rollback_tip: 此版本中的每项更改都会恢复为之前的值
+endpoint.history_show_unchanged: 显示未更改的段落
+endpoint.history_unchanged_paragraphs_one: "{n} 个段落未更改"
+endpoint.history_unchanged_paragraphs_other: "{n} 个段落未更改"
+profile.teams_less: 收起
+profile.teams_more: 另外 {n} 个
+asyncapi.channel_note_receive: 应用程序从此通道接收消息
+asyncapi.channel_note_send: 应用程序向此通道发送消息
+mcp.enable_branch_tools_label: 服务分支（需要历史工具）
+mcp.enable_version_read_label: 读取历史版本（需要历史工具）
+admin.environment_mcp_label: 可通过 MCP 服务器使用（仅限公开环境）
+admin.environments_mcp_any: MCP：全部
+admin.environments_mcp_badge: MCP
+admin.environments_mcp_column: MCP
+admin.environments_mcp_no: 不可用于 MCP
+admin.environments_mcp_yes: 可用于 MCP
+admin.header_sensitive: 敏感
+admin.import_version_branch_existing: 现有分支
+admin.import_version_branch_hint: 上方输入的分支优先于列表中选择的分支。
+license.feature_mcp_tryit: 通过 MCP 服务器使用试一试
+license.quota_mcp_tryit_requests: MCP 试一试请求
+license.renew_button: 续期
+mcp.enable_tryit_label: 试一试：向真实 API 发送请求
+mcp.group_basic: 常规
+mcp.group_network: 网络访问
+mcp.group_read: 读取工具
+mcp.group_services: 服务
+mcp.group_tryit: 试一试（真实请求）
+mcp.group_versions: 版本与分支
+mcp.tryit_concurrent_label: 并发请求数
+mcp.tryit_not_licensed: 许可证不包含通过 MCP 服务器使用试一试。
+mcp.tryit_rate_label: 每分钟请求数
+mcp.tryit_response_limit_label: 响应大小上限（KB）
+mcp.tryit_services_label: 允许使用试一试的服务（限于已允许的服务）
+mcp.tryit_warning_1: AI 会使用该环境的凭据向线上系统发送真实请求。
+mcp.tryit_warning_2: 请求可能不可逆地修改或删除数据，而出错或被操纵的模型可能重复发送。
+mcp.tryit_warning_3: API 返回的所有内容都会传给 AI 提供方；响应中可能包含个人数据或机密数据。
+mcp.tryit_warning_4: 仅为测试环境启用，限制允许的端点，并设置较低的限额。
+mcp.tryit_warning_5: 每个请求都会记录到审计日志中。
+mcp.tryit_warning_title: 存在潜在风险的功能
+notify.field.branch: 分支
+structure.group_create: 创建
+structure.group_mcp: MCP 试一试
+structure.group_selection: 选择
+structure.group_structure: 结构
+structure.mcp_added: 已在 MCP 试一试中允许：{count} 个端点。
+structure.mcp_allow: 允许用于 MCP
+structure.mcp_deny: 从 MCP 中移除
+structure.mcp_group: 通过 MCP 服务器使用试一试
+structure.mcp_icon_container: 包含可通过 MCP 服务器使用试一试的端点：AI 可以向它们发送真实请求。请谨慎。
+structure.mcp_icon_endpoint: 此端点可通过 MCP 服务器使用试一试：AI 可以向它发送真实请求。请谨慎。
+structure.mcp_load_failed: 无法加载 MCP 试一试列表
+structure.mcp_mode_all: MCP 试一试：全部端点
+structure.mcp_mode_changed: 现在只有已标记的端点对 MCP 试一试开放。
+structure.mcp_mode_hint: 默认情况下，MCP 服务器可以向服务的每个已记录端点发送试一试请求（在对其开放的环境中）。切换为“仅限已标记”，即可只允许您标记的端点。
+structure.mcp_mode_selected: MCP 试一试：仅限已标记（{count}）
+structure.mcp_only: 仅 MCP 端点
+structure.mcp_open_all_confirm: 将该服务的所有端点开放给 MCP 试一试？对已标记端点的限制将不再生效。
+structure.mcp_removed: 已从 MCP 试一试中移除：{count} 个端点。
+structure.mcp_save_failed: 无法保存 MCP 试一试列表

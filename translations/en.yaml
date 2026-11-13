@@ -1063,9 +1063,17 @@ asyncapi.channel_note_send: The application sends messages to this channel
 mcp.enable_branch_tools_label: Service Branches (needs history tools)
 mcp.enable_version_read_label: Read Historical Versions (needs history tools)
 admin.environment_mcp_label: Available through the MCP server (public environments only)
+admin.environments_mcp_any: "MCP: any"
+admin.environments_mcp_badge: MCP
+admin.environments_mcp_column: MCP
+admin.environments_mcp_no: Not available for MCP
+admin.environments_mcp_yes: Available for MCP
 admin.header_sensitive: Sensitive
+admin.import_version_branch_existing: Existing branches
+admin.import_version_branch_hint: A branch typed above wins over the one chosen in the list.
 license.feature_mcp_tryit: Try-It through the MCP server
 license.quota_mcp_tryit_requests: MCP Try-It requests
+license.renew_button: Renew
 mcp.enable_tryit_label: "Try-It: send requests to real APIs"
 mcp.group_basic: General
 mcp.group_network: Network access
@@ -1084,11 +1092,11 @@ mcp.tryit_warning_3: Everything the API answers is passed to the AI provider; a 
 mcp.tryit_warning_4: Enable it only for test environments, restrict the allowed endpoints and set low limits.
 mcp.tryit_warning_5: Every request is written to the audit log.
 mcp.tryit_warning_title: Potentially dangerous feature
-structure.mcp_tryit: Try-It via MCP
-structure.mcp_tryit_all: All endpoints
-structure.mcp_tryit_hint: "By default the MCP server can call every endpoint of the specification (and only those) in the environments opened to it. Choose \"Only selected\" to allow just the ticked endpoints, tags and folders."
-structure.mcp_tryit_selected: Only selected
-structure.mcp_tryit_title: Try-It via the MCP server
+notify.field.branch: Branch
+structure.group_create: Create
+structure.group_mcp: MCP Try-It
+structure.group_selection: Selection
+structure.group_structure: Structure
 structure.mcp_added: "Allowed in MCP Try-It: {count} endpoint(s)."
 structure.mcp_allow: Allow in MCP
 structure.mcp_deny: Remove from MCP
@@ -1104,15 +1112,3 @@ structure.mcp_only: Only MCP endpoints
 structure.mcp_open_all_confirm: Open ALL endpoints of the service to MCP Try-It? The restriction to the marked endpoints will no longer apply.
 structure.mcp_removed: "Removed from MCP Try-It: {count} endpoint(s)."
 structure.mcp_save_failed: Could not save the MCP Try-It list
-structure.group_create: Create
-structure.group_mcp: MCP Try-It
-structure.group_selection: Selection
-structure.group_structure: Structure
-admin.environments_mcp_any: "MCP: any"
-admin.environments_mcp_badge: MCP
-admin.environments_mcp_column: MCP
-admin.environments_mcp_no: Not available for MCP
-admin.environments_mcp_yes: Available for MCP
-admin.import_version_branch_existing: Existing branches
-admin.import_version_branch_hint: A branch typed above wins over the one chosen in the list.
-notify.field.branch: Branch

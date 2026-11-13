@@ -1,0 +1,1114 @@
+# Base UI translations created on first start.
+app.title: SelfDocHub
+role.public: öffentlich
+search.placeholder: Services, Pfade, Tags suchen
+button.users: Benutzer
+button.orphaned: Verwaiste
+button.rebuild: Neu aufbauen
+button.refresh: Aktualisieren
+button.send: Senden
+button.delete: Löschen
+button.edit: Bearbeiten
+button.save: Speichern
+button.cancel: Abbrechen
+button.rotate_token: Token erneuern
+button.create_user: Benutzer anlegen
+button.create_service: Service anlegen
+button.switch_version: Wechseln
+button.show_changelog: Änderungsprotokoll anzeigen
+button.hide_changelog: Änderungsprotokoll ausblenden
+header.documentation: Dokumentation
+header.subtitle: "Dokumentation aller Services: OpenAPI, OpenRPC, GraphQL und AsyncAPI"
+tryit.title: Ausprobieren
+tryit.tab_request: Anfrage
+tryit.tab_headers: Header
+tryit.tab_response: Antwort
+tryit.path: Pfad
+tryit.query: Query
+tryit.body: Body
+tryit.ready: Bereit.
+tryit.select_endpoint: Wählen Sie einen Endpunkt aus und senden Sie eine Anfrage.
+tryit.sending: Wird gesendet...
+tryit.no_environments: Keine Umgebungen konfiguriert
+tryit.select_environment: Umgebung auswählen
+tryit.request_failed: Anfrage fehlgeschlagen
+orphaned.title: Verwaiste Overlays
+orphaned.loading: Verwaiste Overlays werden geladen...
+orphaned.empty: Keine verwaisten Overlays.
+orphaned.error: Verwaiste Overlays konnten nicht geladen werden
+admin.users: Benutzer
+admin.service: Service
+admin.login: Login
+admin.password: Passwort
+admin.role: Rolle
+admin.disabled: Deaktiviert
+admin.active: Aktiv
+admin.status: Status
+admin.slug: Slug
+admin.name: Name
+admin.description: Beschreibung
+admin.public: Öffentlich
+admin.create_user: Benutzer anlegen
+admin.edit_user: Benutzer bearbeiten
+admin.create_service: Service anlegen
+admin.edit_service: Service bearbeiten
+admin.no_users: Noch keine Benutzer.
+admin.save_failed: Speichern fehlgeschlagen
+admin.service_token_for: Service-Token für
+admin.versions: Versionen
+admin.current: Aktuell
+admin.current_version: Aktuell
+admin.published_at: Veröffentlicht
+admin.spec_version: Spezifikationsversion
+admin.no_versions: Noch keine Versionen.
+admin.version_delete_confirm: Diese Version löschen? Das lässt sich nicht rückgängig machen.
+admin.changes: Änderungen
+admin.uri: URI
+admin.method: Methode
+admin.change_type: Änderung
+admin.change_added: Hinzugefügt
+admin.change_modified: Geändert
+admin.change_removed: Entfernt
+admin.no_changes: Keine Änderungen in dieser Version.
+admin.no_changelog_matches: Keine passenden Änderungen gefunden.
+admin.changelog_search_placeholder: Änderungsprotokoll nach Name oder URI durchsuchen
+admin.environments: Umgebungen
+admin.add_environment: Umgebung hinzufügen
+admin.edit_environment: Umgebung bearbeiten
+admin.base_url: Basis-URL
+admin.connect_timeout: Verbindungs-Timeout (Sekunden)
+admin.response_timeout: Antwort-Timeout (Sekunden)
+admin.headers: Header
+admin.header_name: Name
+admin.header_value: Wert
+admin.no_environments: Noch keine Umgebungen.
+admin.no_environment_matches: Keine passenden Umgebungen gefunden.
+admin.environments_search_placeholder: Umgebungen nach Name oder Basis-URL durchsuchen
+admin.environment_delete_confirm: Diese Umgebung löschen? Das lässt sich nicht rückgängig machen.
+button.add_environment: Hinzufügen
+button.add_header: Header hinzufügen
+button.remove: Entfernen
+state.loading_docs: Dokumentation wird geladen...
+state.no_matches: Keine passenden Services oder Endpunkte.
+state.auth_required: Authentifizierung erforderlich
+state.docs_not_ready: Die Dokumentation ist noch nicht bereit
+state.redoc_unavailable: Redoc ist nicht verfügbar
+admin.all_roles: Alle Rollen
+admin.all_statuses: Alle Status
+admin.breaking_change: Inkompatibel
+admin.confirm_title: Bestätigen
+admin.create_team: Team anlegen
+admin.edit_team: Team bearbeiten
+admin.format_version: Format
+admin.import_version: Version importieren
+admin.import_version_file: Swagger-Datei
+admin.import_version_file_required: Wählen Sie eine Swagger-Datei zum Importieren aus
+admin.license: Lizenz
+admin.no_options: Keine verfügbar.
+admin.no_teams: Noch keine Teams.
+admin.orphan_delete_confirm: Dieses verwaiste Overlay löschen? Das lässt sich nicht rückgängig machen.
+admin.orphaned_refresh_hint: Liste der verwaisten Overlays neu laden
+admin.page: Seite
+admin.page_of: von
+admin.service_delete_confirm: Diesen Service löschen? Das lässt sich nicht rückgängig machen.
+admin.service_order_hint: Ziehen Sie Services, um ihre Reihenfolge zu ändern. Diese Reihenfolge sehen alle Benutzer.
+admin.service_order_save_failed: Die neue Reihenfolge konnte nicht gespeichert werden
+admin.spec_file: Swagger-Datei (optional)
+admin.spec_publish_failed: Service angelegt, aber die Spezifikationsdatei konnte nicht veröffentlicht werden
+admin.spec_published: Spezifikationsdatei veröffentlicht
+admin.team_column: Teams
+admin.team_delete_confirm: Dieses Team löschen? Das lässt sich nicht rückgängig machen.
+admin.team_members: Mitglieder
+admin.team_services: Services
+admin.teams: Teams
+admin.teams_filter_member_placeholder: Nach Login des Mitglieds filtern
+admin.teams_filter_name_placeholder: Nach Teamnamen filtern
+admin.teams_filter_service_placeholder: Nach Servicenamen filtern
+admin.teams_refresh_hint: Liste der Teams neu laden
+admin.user_delete_confirm: Diesen Benutzer löschen? Das lässt sich nicht rückgängig machen.
+admin.user_teams: Teams
+admin.users_filter_login_placeholder: Nach Login filtern
+admin.users_filter_team_placeholder: Nach Teamnamen filtern
+admin.users_refresh_hint: Liste der Benutzer neu laden
+admin.version_import_failed: Versionsimport fehlgeschlagen
+admin.version_import_identical: Diese Version ist mit der aktuellen identisch – es wurde nichts importiert
+button.close: Schließen
+button.confirm: Bestätigen
+button.copy: Kopieren
+button.create_team: Team anlegen
+button.delete_all: Alle löschen
+button.delete_overlay: Overlay löschen
+button.edit_list: Liste bearbeiten
+button.edit_overlay: Overlay bearbeiten
+button.export: Exportieren
+button.export_all_environments_postman: Alle als Postman-Umgebungen exportieren
+button.export_environment_postman: Als Postman-Umgebung exportieren
+button.export_postman_collection: Als Postman-Collection exportieren
+button.generate: Generieren
+button.license: Lizenz
+button.login: Anmelden
+button.logout: Abmelden
+button.manage_saved_requests: Gespeicherte Anfragen verwalten
+button.menu: Menü
+button.new_service: "+ Neuer Service"
+button.next_page: Weiter
+button.previous_page: Zurück
+button.rebuild_hint: Das zusammengeführte OpenAPI-Dokument aus den aktuellen Spezifikationen und Overlays neu aufbauen
+button.save_request: Speichern
+button.services: Services
+button.share_request: Teilen
+button.show_original: Original anzeigen
+button.show_overlay: Overlay anzeigen
+button.teams: Teams
+endpoint.change_history: Änderungsverlauf
+endpoint.deprecated: Veraltet
+endpoint.error_code: Code
+endpoint.error_data: Daten
+endpoint.error_message: Meldung
+endpoint.errors: Fehler
+endpoint.example_generated: Generiertes Beispiel
+endpoint.example_parameters: Beispielparameter
+endpoint.example_responses: Beispielantworten
+endpoint.history_added: hinzugefügt
+endpoint.history_parameter: Parameter
+endpoint.history_removed: entfernt
+endpoint.history_response_field: Antwortfeld
+endpoint.no_parameters: Dieser Endpunkt hat keine Parameter.
+endpoint.no_responses: Keine dokumentierten Antworten.
+endpoint.parameters: Parameter
+endpoint.request_body: Request-Body
+endpoint.responses: Antworten
+language: Deutsch
+license.created_at: Erstellt
+license.days: T
+license.device_id: Geräte-ID
+license.expired_ago: Abgelaufen
+license.expires_in: Läuft ab in
+license.hours: Std
+license.minutes: Min
+license.status_invalid: Ungültig
+license.status_valid: Gültig
+license.upload_button: Hochladen
+license.upload_error: Hochladen fehlgeschlagen
+license.upload_label: Lizenzdatei (JSON)
+license.upload_success: Lizenz aktualisiert.
+license.valid_until: Gültig bis
+nav.service_endpoints_label: Endpunkte
+nav.service_endpoints_ops_label: Ops.
+nav.service_format_graphql: GraphQL
+nav.service_format_openapi: OpenAPI
+nav.service_format_openrpc: OpenRPC
+nav.service_tags_label: Tags
+nav.service_versions_label: Versionen
+overlay.delete_confirm: Dieses Overlay löschen? Das lässt sich nicht rückgängig machen.
+overlay.empty: Noch kein Overlay-Inhalt.
+overlay.title: Overlay
+theme.dark: Dunkel
+theme.light: Hell
+tryit.body_pretty: Formatiert
+tryit.body_raw: Roh
+tryit.body_tree: Baum
+tryit.concurrency: Parallele Anfragen
+tryit.copied: Kopiert!
+tryit.copy_failed: Kopieren fehlgeschlagen
+tryit.delete_all_requests_confirm: Alle gespeicherten Anfragen für diesen Endpunkt löschen? Das lässt sich nicht rückgängig machen.
+tryit.delete_request_confirm: Diese gespeicherte Anfrage löschen? Das lässt sich nicht rückgängig machen.
+tryit.duration: Dauer
+tryit.environment_label: Umgebung
+tryit.generate_failed: Generierung fehlgeschlagen
+tryit.graphql_unavailable: Ausprobieren ist für ein Feld, das einen Objekttyp zurückgibt, nicht verfügbar.
+tryit.manage_requests_empty: Für diesen Endpunkt gibt es noch keine gespeicherten Anfragen.
+tryit.manage_requests_title: Gespeicherte Anfragen
+tryit.requested_at: Angefragt
+tryit.responded_at: Beantwortet
+tryit.save_request_name: Name
+tryit.save_request_title: Anfrage speichern
+tryit.saved_requests_label: Gespeicherte Anfragen
+tryit.saved_requests_none: Gespeicherte Anfrage auswählen
+tryit.share_link_label: Link zum Teilen
+tryit.share_one_time_label: Einmal-Link
+tryit.share_request_title: Anfrage teilen
+tryit.shared_request_failed: Die geteilte Anfrage konnte nicht geladen werden
+tryit.tab_connection: Verbindung
+tryit.tab_curl: cURL
+tryit.validate_ssl: SSL prüfen
+admin.import_version_branch: Branch
+admin.main_branch: Haupt-Branch
+admin.pinned_version: Ihre Arbeitsversion
+admin.spec_version_format_hint: "Format: N.N.N (z. B. 1.4.2)"
+admin.version_branch_filter: Branch
+admin.version_branch_filter_no_matches: Keine passenden Branches
+admin.version_pin_banner: "Sie sehen Ihre angeheftete Arbeitsversion:"
+admin.version_pin_clear: Angeheftete Version nicht mehr anzeigen
+breadcrumb.branch_aria: Branch
+breadcrumb.endpoint_missing_in_version: Dieser Endpunkt ist in der gewählten Version nicht verfügbar.
+breadcrumb.tag_missing_in_version: Diese Tag-Gruppe ist in der gewählten Version nicht verfügbar.
+breadcrumb.version_aria: Version
+button.pin_version: Als meine Arbeitsversion verwenden
+button.reparse_version: Diese Version neu zusammenführen
+example.tab_compact: Kompaktes JSON
+example.tab_formatted: Formatiertes JSON
+example.tab_tree: Baum
+license.blocked_no_admin_hint: Bitten Sie einen Administrator, eine neue Lizenz zu installieren.
+license.blocked_title: Keine gültige Lizenz gefunden
+button.delete_version: Version löschen
+button.hide_version: Version ausblenden
+button.overlay_versions: Versionen
+button.view_version: Version ansehen
+endpoint.details_title: Parameter & Antworten
+overlay.delete_version_confirm: Diese Overlay-Version löschen? Das lässt sich nicht rückgängig machen.
+overlay.delete_version_current_error: Die aktuelle Version kann nicht gelöscht werden.
+overlay.versions_author: Autor
+overlay.versions_current: Aktuell
+overlay.versions_current_badge: Aktuell
+overlay.versions_empty: Noch keine gespeicherten Versionen.
+overlay.versions_updated_at: Aktualisiert
+overlay.versions_untitled: Version ohne Titel
+admin.created_by: Erstellt von
+admin.environment_public_label: Öffentliche Umgebung
+admin.environments_author_filter_placeholder: Nach Autor filtern
+admin.private: Privat
+admin.view_environment: Umgebung ansehen
+admin.visibility: Sichtbarkeit
+admin.visibility_all: Alle
+button.view_environment: Ansehen
+admin.mcp_server: MCP-Server
+button.mcp_server: MCP-Server
+mcp.allowed_cidrs_label: Erlaubte IP-Bereiche (CIDR, durch Komma getrennt)
+mcp.allowed_cidrs_placeholder: z. B. 10.0.0.0/8, 192.168.1.0/24
+mcp.allowed_services_label: Erlaubte Services
+mcp.enable_history_tools_label: Tools für Versionsverlauf und Änderungsprotokoll
+mcp.enable_schema_tools_label: Schema-Tools (Parameter / Antworten)
+mcp.enable_search_tools_label: Such-Tools
+mcp.enabled_label: Aktiviert
+mcp.generate_token_button: Token generieren / erneuern
+mcp.include_overlay_text_label: Overlay-Text einbeziehen
+mcp.last_used_label: Zuletzt verwendet
+mcp.last_used_never: Nie
+mcp.save_error: Speichern fehlgeschlagen
+mcp.save_success: Einstellungen gespeichert.
+mcp.search_result_limit_label: Limit der Suchergebnisse
+mcp.token_configured: Token eingerichtet
+mcp.token_error: Token-Generierung fehlgeschlagen
+mcp.token_generated_hint: Kopieren Sie dieses Token jetzt – es wird nicht erneut angezeigt.
+mcp.token_label: Bearer-Token
+mcp.token_not_configured: Noch kein Token generiert
+admin.export_wizard: Export-Assistent
+button.export_wizard: Export-Assistent
+export.add_services: Services hinzufügen
+export.apply_selection: Auswahl übernehmen
+export.change_services: Services ändern
+export.col_date: Datum
+export.col_endpoints: Endpunkte
+export.col_environment: Umgebung
+export.col_format: Format
+export.col_name: Name
+export.col_overlays: Overlays verwenden
+export.col_progress: Endpunkte
+export.col_service: Service
+export.col_services: Services
+export.col_status: Status
+export.col_tags: Tags
+export.delete_confirm: "{count} ausgewählte(n) Export(e) und die zugehörigen Dateien löschen?"
+export.delete_selected: Ausgewählte löschen
+export.download: Herunterladen
+export.error_prefix: Export fehlgeschlagen
+export.format_label: Format
+export.history_empty: Noch keine Exporte.
+export.history_title: Exportverlauf
+export.modal_title: Services, Tags und Endpunkte auswählen
+export.name_label: Exportname
+export.name_required: Ein Exportname ist erforderlich.
+export.no_environment: Keine Umgebung
+export.no_overlay_hint: Dieser Service hat keine Overlays.
+export.no_services: Noch keine Services ausgewählt.
+export.repeat: Export wiederholen
+export.repeat_skipped: "{count} Endpunkt(e) aus dem gespeicherten Export existieren nicht mehr und wurden übersprungen."
+export.select_all: Alle auswählen
+export.services_label: Services
+export.services_required: Fügen Sie mindestens einen Service zum Export hinzu.
+export.settings_title: Export-Einstellungen
+export.start: Exportieren
+export.started: Export gestartet – den Fortschritt sehen Sie unten im Verlauf.
+export.status_error: Fehler
+export.status_in_progress: In Bearbeitung
+export.status_success: Erfolgreich
+export.tree_filter_placeholder: Nach Namen filtern
+export.col_language: Sprache
+export.doc.allowed_values: Zulässige Werte
+export.doc.any: beliebig
+export.doc.array_of: Array von
+export.doc.col_code: Code
+export.doc.col_description: Beschreibung
+export.doc.col_field: Feld
+export.doc.col_in: In
+export.doc.col_message: Meldung
+export.doc.col_name: Name
+export.doc.col_required: Pflicht
+export.doc.col_type: Typ
+export.doc.contents: Inhaltsverzeichnis
+export.doc.deprecated: Veraltet
+export.doc.environment: Umgebung
+export.doc.errors: Fehler
+export.doc.in_argument: Argument
+export.doc.in_params: Parameter
+export.doc.parameters: Parameter
+export.doc.recursive: Objekt (rekursiv)
+export.doc.request_body: Request-Body
+export.doc.request_example: Anfragebeispiel
+export.doc.response: Antwort
+export.doc.response_example: Antwortbeispiel
+export.doc.result: Ergebnis
+export.doc.yes: ja
+export.filter_any_format: Beliebiges Format
+export.filter_any_language: Beliebige Sprache
+export.filter_any_status: Beliebiger Status
+export.filter_date_from: Datum von
+export.filter_date_to: Datum bis
+export.filter_name_placeholder: Nach Namen filtern
+export.filter_reset: Filter zurücksetzen
+export.history_empty_filtered: Keine Exporte entsprechen den Filtern.
+export.language_label: Sprache
+export.add_description: Beschreibung hinzufügen
+export.contents_label: Inhaltsverzeichnis einfügen
+export.description_label: Beschreibung der Dokumentation
+export.description_modal_title: Beschreibung der Dokumentation
+export.edit_description: Beschreibung bearbeiten
+endpoint.copy_param_link: Link zu diesem Parameter kopieren
+endpoint.param_description: Beschreibung anzeigen
+admin.two_factor: 2FA
+admin.two_factor_configured: Eingerichtet
+admin.two_factor_configured_hint: Aktiviert und eingerichtet. Bei jeder Anmeldung wird ein Code abgefragt.
+admin.two_factor_disable_confirm: Zwei-Faktor-Authentifizierung ausschalten? Authenticator und Backup-Codes des Benutzers werden gelöscht.
+admin.two_factor_hint: Aus. Wenn aktiviert, richtet der Benutzer bei der nächsten Anmeldung Google Authenticator ein.
+admin.two_factor_label: Zwei-Faktor-Authentifizierung
+admin.two_factor_pending: Einrichtung ausstehend
+admin.two_factor_pending_hint: Aktiviert. Der Benutzer richtet Google Authenticator bei der nächsten Anmeldung ein.
+admin.two_factor_reset: Authenticator zurücksetzen
+admin.two_factor_reset_confirm: Authenticator und Backup-Codes dieses Benutzers zurücksetzen? Er richtet die Zwei-Faktor-Authentifizierung bei der nächsten Anmeldung neu ein.
+admin.all_two_factor: Alle 2FA-Status
+admin.two_factor_off: Aus
+interaction.copy_link: Link kopieren
+interaction.delete: Löschen
+interaction.delete_confirm: Diese Interaktion löschen? Ihr Link funktioniert dann nicht mehr.
+interaction.empty: Für diesen Endpunkt gibt es noch keine gespeicherten Interaktionen.
+interaction.environment_missing: Die gespeicherte Umgebung existiert nicht mehr; die gespeicherte Basis-URL wurde verwendet.
+interaction.export: Interaktion exportieren
+interaction.export_failed: Export fehlgeschlagen
+interaction.export_pdf: Als PDF exportieren
+interaction.exporting: Wird exportiert...
+interaction.link_copied: Link kopiert
+interaction.load_failed: Die Interaktion konnte nicht geladen werden
+interaction.mask_hint: Authorization-, Cookie-, API-Key- und Token-Header (Anfrage und Antwort) werden vor dem Speichern ersetzt.
+interaction.mask_label: Werte sensibler Header durch *** ersetzen
+interaction.masked_apply_notice: Die Header-Werte wurden beim Speichern dieser Interaktion ausgeblendet; geben Sie sie vor dem Senden erneut ein.
+interaction.masked_note: Header-Werte ausgeblendet
+interaction.name: Name
+interaction.pdf.body: Body
+interaction.pdf.curl: curl-Befehl
+interaction.pdf.default_title: Try-It-Interaktion
+interaction.pdf.duration: Dauer
+interaction.pdf.endpoint: Endpunkt
+interaction.pdf.environment: Umgebung
+interaction.pdf.generated: Erstellt
+interaction.pdf.headers: Header
+interaction.pdf.masked: Die Werte sensibler Header sind ausgeblendet.
+interaction.pdf.method: Methode
+interaction.pdf.none: Keine
+interaction.pdf.request: Anfrage
+interaction.pdf.response: Antwort
+interaction.pdf.service: Service
+interaction.pdf.size: Größe
+interaction.pdf.status: Status
+interaction.pdf.timeouts: Timeouts (Verbindung / Antwort)
+interaction.pdf.truncated: Der Body wurde gekürzt.
+interaction.pdf.url: URL
+interaction.pdf.user: Benutzer
+interaction.responses_count: Antworten
+interaction.save: Interaktion speichern
+interaction.save_failed: Die Interaktion konnte nicht gespeichert werden
+interaction.save_title: Interaktion speichern
+interaction.saved: Interaktion gespeichert.
+interaction.section_title: Interaktionen
+interaction.success: Erfolgreich
+interaction.unmasked_warning: Werte sensibler Header werden im Klartext gespeichert.
+interaction.view: Ansehen
+interaction.with_errors: Mit Fehlern
+interaction.export_title: Interaktion exportieren
+admin.sign_in_column: Anmeldung
+admin.sign_in_label: Anmeldemethoden
+admin.sign_in_no_password: Kein Passwort (nur SSO)
+admin.sign_in_none: Keine
+admin.sign_in_password: Passwort
+admin.sso: Single Sign-On
+admin.user_unlink_confirm: "{name} von {login} trennen? Eine Anmeldung damit ist danach nicht mehr möglich."
+button.profile: Profil
+button.sso: SSO
+profile.change_password: Passwort ändern
+profile.col_provider: Anbieter
+profile.col_status: Status
+profile.current_password_label: Aktuelles Passwort
+profile.last_method_hint: Das ist Ihre einzige Anmeldemethode. Legen Sie zuerst ein Passwort fest oder verknüpfen Sie einen anderen Anbieter.
+profile.link: Verknüpfen
+profile.link_error_access_denied: "Sie dürfen {name} nicht verknüpfen: Der Anbieter hat abgelehnt oder Ihr Konto erfüllt seine Zugriffsregeln nicht."
+profile.link_error_already_linked: Ihr Konto ist bereits mit einem anderen {name}-Konto verknüpft. Trennen Sie es zuerst.
+profile.link_error_identity_taken: Dieses {name}-Konto ist bereits mit einem anderen Benutzer verknüpft.
+profile.link_error_internal_error: Verknüpfung fehlgeschlagen. Bitte versuchen Sie es erneut.
+profile.link_error_invalid_state: Die Verknüpfungssitzung ist abgelaufen oder ungültig. Bitte versuchen Sie es erneut.
+profile.link_error_provider_disabled: "{name} ist nicht verfügbar."
+profile.link_error_provider_error: "{name} ist nicht erreichbar oder hat die Anfrage abgelehnt."
+profile.link_error_rate_limited: Zu viele Versuche. Bitte warten Sie eine Minute und versuchen Sie es erneut.
+profile.link_ok: "{name} wurde mit Ihrem Konto verknüpft."
+profile.linked: Verknüpft
+profile.linked_as: "Verknüpft: {email}"
+profile.login_label: Login
+profile.new_password_label: Neues Passwort
+profile.no_providers: Es sind keine SSO-Anbieter konfiguriert.
+profile.no_teams: Keine Teams
+profile.not_linked: Nicht verknüpft
+profile.password_label: Passwort
+profile.password_mismatch: Die Passwörter stimmen nicht überein.
+profile.password_not_set: Nicht festgelegt – Sie können sich nur über SSO anmelden.
+profile.password_saved: Passwort gespeichert.
+profile.password_set: Festgelegt
+profile.repeat_password_label: Neues Passwort wiederholen
+profile.role_label: Rolle
+profile.set_password: Passwort festlegen
+profile.sign_in_methods_title: Anmeldemethoden
+profile.teams_label: Teams
+profile.title: Profil
+profile.unlink: Trennen
+profile.unlink_confirm: "{name} von Ihrem Konto trennen?"
+profile.unlink_hint: Geben Sie Ihr Passwort ein, um {name} von Ihrem Konto zu trennen.
+profile.unlink_title: "{name} trennen"
+profile.unlinked: "{name} wurde getrennt."
+sso.add_mapping: Zuordnung hinzufügen
+sso.allowed_domains_label: Erlaubte E-Mail-Domains (durch Komma getrennt, leer = beliebig)
+sso.client_id_label: Client-ID
+sso.client_secret_keep_placeholder: Leer lassen, um das aktuelle Secret beizubehalten
+sso.client_secret_label: Client-Secret
+sso.col_linked: Verknüpfte Benutzer
+sso.col_name: Name
+sso.col_new_users: Neue Benutzer
+sso.col_slug: Slug
+sso.col_status: Status
+sso.create_provider: SSO-Anbieter hinzufügen
+sso.create_provider_title: SSO-Anbieter hinzufügen
+sso.default_role_admin_warning: Jeder, der sich über diesen Anbieter anmelden darf, wird Administrator.
+sso.default_role_label: Standardrolle
+sso.default_teams_label: Standardteams
+sso.delete_confirm: "SSO-Anbieter \"{name}\" löschen?"
+sso.delete_impact: "{count} verknüpfte(s) Konto/Konten wird/werden getrennt."
+sso.delete_locked_out: "Diese Benutzer haben keine andere Anmeldemöglichkeit und verlieren den Zugriff: {logins}."
+sso.edit_provider_title: SSO-Anbieter bearbeiten
+sso.enabled_label: Aktiviert
+sso.group_mappings_hint: Wer in einer aufgeführten Gruppe ist, erhält zusätzlich zu den obigen Standardwerten die Rolle und die Teams dieser Regel. Bei mehreren Treffern gilt die höchste Rolle, und die Teams werden zusammengeführt.
+sso.group_mappings_label: Gruppenzuordnungen
+sso.groups_claim_label: Claim mit Gruppen
+sso.issuer_label: Issuer-URL
+sso.jit_label: Benutzer bei der ersten Anmeldung automatisch anlegen
+sso.jit_off: Nur vorhandene Benutzer
+sso.jit_on: Wird automatisch als {role} angelegt
+sso.local_login_disabled_label: Passwort-Anmeldung für Nicht-Administratoren deaktivieren
+sso.local_login_hint: Administratoren können sich weiterhin unter /login?local=1 mit einem Passwort anmelden (Notfallzugang).
+sso.local_login_needs_provider: Aktivieren Sie mindestens einen SSO-Anbieter, bevor Sie die Passwort-Anmeldung deaktivieren.
+sso.login_claim_label: Claim für den Login
+sso.mapping_group_placeholder: Gruppenname beim Identity-Provider
+sso.mapping_no_role: Keine Rollenänderung
+sso.move_down: Nach unten
+sso.move_up: Nach oben
+sso.name_label: SSO-Name (wird auf der Anmeldeseite angezeigt)
+sso.no_providers: Keine SSO-Anbieter konfiguriert.
+sso.redirect_uri_after_save: Wird angezeigt, nachdem der Anbieter gespeichert wurde.
+sso.redirect_uri_label: Redirect-URI (beim Identity-Provider registrieren)
+sso.refresh_hint: Aktualisieren
+sso.required_group_label: Erforderliche Gruppe (leer = beliebig)
+sso.scopes_label: Scopes (durch Komma getrennt)
+sso.slug_hint: Teil der Redirect-URI. Nach dem Anlegen nicht mehr änderbar.
+sso.slug_label: Slug
+sso.status_disabled: Deaktiviert
+sso.status_enabled: Aktiviert
+sso.sync_label: Rollen und Teams bei jeder Anmeldung aus den Gruppen neu berechnen
+sso.test_button: Verbindung testen
+sso.test_failed: Verbindung fehlgeschlagen
+sso.test_ok: "Verbindung OK. Autorisierungs-Endpunkt: {endpoint}"
+sso.trust_mfa_label: MFA des Anbieters vertrauen (lokalen Zwei-Faktor-Code überspringen)
+export.format_html: HTML
+export.format_markdown: Markdown (MD)
+export.doc.back_to_contents: Zurück zum Inhaltsverzeichnis
+tryit.code_language: Sprache
+tryit.tab_code: Code
+admin.notifications: Benachrichtigungen
+button.notifications: Benachrichtigungen
+notifications.add_channel: Kanal hinzufügen
+notifications.add_rule: Regel hinzufügen
+notifications.all_services: Alle Services
+notifications.bearer_token: Bearer-Token (optional)
+notifications.bot_token: Bot-Token
+notifications.channel_title_create: Kanal hinzufügen
+notifications.channel_title_edit: Kanal bearbeiten
+notifications.chat_id: Chat-ID
+notifications.chat_id_hint: "Verwenden Sie die ID eines persönlichen Chats, einer Gruppe oder eines Kanals. Fügen Sie den Bot zuerst der Gruppe oder dem Kanal hinzu, senden Sie ihm eine Nachricht und öffnen Sie https://api.telegram.org/bot<token>/getUpdates, um die ID zu finden."
+notifications.col_attempts: Versuche
+notifications.col_channel: Kanal
+notifications.col_error: Fehler
+notifications.col_event: Ereignis
+notifications.col_last: Letzte Zustellung
+notifications.col_message: Nachricht
+notifications.col_name: Name
+notifications.col_status: Status
+notifications.col_time: Zeit
+notifications.col_type: Typ
+notifications.create_channel_first: Legen Sie zuerst einen Kanal an und fügen Sie dann Regeln hinzu.
+notifications.delete_confirm: "Kanal \"{name}\" und seinen Zustellverlauf löschen?"
+notifications.delete_confirm_rules: Er wird von {count} Regel(n) verwendet, die ebenfalls entfernt werden.
+notifications.delete_failed: Löschen nicht möglich
+notifications.email_hint: Nachrichten werden über den SMTP-Server gesendet, der unter der Kanalliste konfiguriert ist.
+notifications.enabled_label: Aktiviert
+notifications.event_license_expiring: Ablauf der Lizenz
+notifications.event_service_version_uploaded: Neue Version
+notifications.event_test: Test
+notifications.filter_all: Alle Status
+notifications.headers_label: "Zusätzliche Header (je Zeile \"Name: Wert\")"
+notifications.license_valid_until: Lizenz gültig bis {date}.
+notifications.load_failed: Benachrichtigungen konnten nicht geladen werden
+notifications.missing_service: "{slug} (existiert nicht mehr)"
+notifications.name_label: Name
+notifications.never: Nie
+notifications.no_channels: Noch keine Kanäle. Fügen Sie einen hinzu, um Benachrichtigungen zu erhalten.
+notifications.no_deliveries: Noch keine Zustellungen.
+notifications.no_rules: Noch keine Regeln.
+notifications.only_breaking: Nur inkompatible Änderungen
+notifications.recipients_label: Empfänger (eine Adresse pro Zeile)
+notifications.remove_rule: Regel entfernen
+notifications.retry: Erneut versuchen
+notifications.retry_failed: Wiederholung nicht möglich
+notifications.rule_channel: Kanal
+notifications.rule_channel_required: Wählen Sie für jede Regel einen Kanal aus.
+notifications.rule_enabled: Aktiviert
+notifications.rule_license_hint: "Die Lizenz wird einmal täglich geprüft (standardmäßig um 09:00 UTC). Nach dem Ablauf wird einmalig eine Benachrichtigung gesendet."
+notifications.rule_license_title: Ablauf der Lizenz
+notifications.rule_version_hint: Benachrichtigen, wenn eine neue Version mit Änderungen im Haupt-Branch eines Services veröffentlicht wird. Die erste Version eines Services löst keine Benachrichtigung aus.
+notifications.rule_version_title: Neue Dokumentationsversion
+notifications.save_failed: Speichern nicht möglich
+notifications.saved: Gespeichert.
+notifications.secret_saved: Gespeichert – leer lassen, um es beizubehalten
+notifications.selected_services: Ausgewählte Services
+notifications.send_test: Test senden
+notifications.services_search: Services suchen
+notifications.slack_channel: Kanal (Name oder ID)
+notifications.slack_mode: Modus
+notifications.slack_mode_bot: Bot-Token und Kanal
+notifications.slack_mode_webhook: Incoming-Webhook-URL
+notifications.slack_webhook_url: Incoming-Webhook-URL
+notifications.smtp_from: Absenderadresse
+notifications.smtp_hint: Wird von allen E-Mail-Kanälen gemeinsam genutzt.
+notifications.smtp_host: Host
+notifications.smtp_password: Passwort
+notifications.smtp_password_saved: Gespeichert – leer lassen, um es beizubehalten
+notifications.smtp_port: Port
+notifications.smtp_title: E-Mail-Server (SMTP)
+notifications.smtp_tls: Verschlüsselung
+notifications.smtp_tls_none: Keine
+notifications.smtp_tls_ssl: SSL/TLS
+notifications.smtp_tls_starttls: STARTTLS
+notifications.smtp_username: Benutzername
+notifications.status_disabled: Deaktiviert
+notifications.status_enabled: Aktiviert
+notifications.status_failed: Fehlgeschlagen
+notifications.status_pending: Ausstehend
+notifications.status_sent: Gesendet
+notifications.tab_channels: Kanäle
+notifications.tab_history: Verlauf
+notifications.tab_rules: Regeln
+notifications.test_failed: Test fehlgeschlagen
+notifications.test_ok: Testnachricht gesendet.
+notifications.test_save_first: Speichern Sie zuerst den Kanal und senden Sie dann einen Test.
+notifications.threshold_1d: 1 Tag
+notifications.threshold_2d: 2 Tage
+notifications.threshold_3d: 3 Tage
+notifications.threshold_7d: 1 Woche
+notifications.type_email: E-Mail
+notifications.type_label: Typ
+notifications.type_slack: Slack
+notifications.type_telegram: Telegram
+notifications.type_webhook: Webhook
+notifications.unsaved: Nicht gespeicherte Änderungen.
+notifications.webhook_url: URL (HTTP oder HTTPS, POST)
+notifications.rule_language: Sprache
+notify.breaking_mark: (inkompatibel)
+notify.field.breaking: Inkompatible Änderungen
+notify.field.device_id: Geräte-ID
+notify.field.published: Veröffentlicht
+notify.field.service: Service
+notify.field.valid_until: Gültig bis
+notify.field.version: Version
+notify.group.added: Neue Endpunkte ({count})
+notify.group.modified: Geänderte Endpunkte ({count})
+notify.group.removed: Entfernte Endpunkte ({count})
+notify.license.text_expired: Die docs-hub-Lizenz ist am {date} abgelaufen. Laden Sie eine erneuerte Lizenz hoch, um den Zugriff wiederherzustellen.
+notify.license.text_soon: Die docs-hub-Lizenz ist bis {date} gültig. Es verbleiben etwa {days} Tag(e).
+notify.license.title_expired: Die docs-hub-Lizenz ist abgelaufen
+notify.license.title_soon: Die docs-hub-Lizenz läuft bald ab
+notify.more: und {count} weitere
+notify.no: nein
+notify.test.text: Dies ist eine Testnachricht von docs-hub. Wenn Sie sie lesen können, funktioniert der Kanal.
+notify.test.title: docs-hub-Testbenachrichtigung
+notify.version.text: "Version {version} von {service} wurde veröffentlicht: {added} hinzugefügt, {modified} geändert, {removed} entfernt."
+notify.version.title: "Neue Dokumentationsversion: {service}"
+notify.yes: ja
+endpoint.add_to_query: Zur Try-It-Query hinzufügen
+editor.bold: Fett
+editor.bulleted_list: Aufzählung
+editor.characters: "{count} Zeichen"
+editor.characters_limit: "{count} Zeichen (Limit {limit} KB)"
+editor.code_block: Codeblock
+editor.heading: Überschrift
+editor.heading_1: Überschrift 1
+editor.heading_2: Überschrift 2
+editor.heading_3: Überschrift 3
+editor.heading_4: Überschrift 4
+editor.heading_5: Überschrift 5
+editor.heading_6: Überschrift 6
+editor.horizontal_rule: Horizontale Linie
+editor.image: Bild
+editor.inline_code: Inline-Code
+editor.italic: Kursiv
+editor.link: Link
+editor.mode_markdown: Markdown
+editor.mode_visual: Visuell
+editor.numbered_list: Nummerierte Liste
+editor.quote: Zitat
+editor.switch_to_markdown: Zur Markdown-Bearbeitung wechseln
+editor.switch_to_visual: Zur visuellen Bearbeitung wechseln
+editor.text_aria: Markdown-Text
+editor.toolbar: Markdown-Formatierung
+paramoverlay.delete_confirm: Ein leerer Text löscht das Overlay dieses Parameters samt Verlauf. Löschen?
+paramoverlay.delete_version_confirm: Diese Version aus dem Verlauf löschen?
+paramoverlay.load_failed: Laden nicht möglich
+paramoverlay.no_description: Keine Beschreibung.
+paramoverlay.restore: Diese Version wiederherstellen
+paramoverlay.restore_confirm: Diese Version wiederherstellen? Ihr Text wird zur aktuellen Beschreibung; die bisherige bleibt im Verlauf erhalten.
+paramoverlay.save_failed: Speichern nicht möglich
+structure.cancel_confirm: Nicht gespeicherte Änderungen an der Reihenfolge verwerfen?
+structure.drag_handle: Zum Umsortieren ziehen
+structure.empty: Dieser Service hat noch keine Tags oder Endpunkte.
+structure.endpoint_count: "{count} Endpunkte"
+structure.hint: Ziehen Sie Tags und Endpunkte oder nutzen Sie die Pfeiltasten, um ihre Reihenfolge zu ändern. Die Reihenfolge gilt für das linke Menü und für Exporte, für jede Version des Services.
+structure.load_failed: Die gespeicherte Reihenfolge konnte nicht geladen werden
+structure.move_down: Nach unten
+structure.move_up: Nach oben
+structure.moved: "{name} an Position {position} von {total} verschoben"
+structure.open: Service-Struktur (Reihenfolge von Tags und Endpunkten)
+structure.reset: Reihenfolge zurücksetzen
+structure.reset_confirm: Die Reihenfolge auf den Standard zurücksetzen (Tags nach Namen sortiert)? Die gespeicherte Reihenfolge wird gelöscht.
+structure.save_failed: Die Reihenfolge konnte nicht gespeichert werden
+structure.title: Service-Struktur
+structure.unsaved: Nicht gespeicherte Änderungen
+export.added_to_history: Export zum Verlauf hinzugefügt
+exportpage.add_images: Bilder hinzufügen
+exportpage.add_page: Seite hinzufügen
+exportpage.add_text: Text hinzufügen
+exportpage.added: "{n} Bild(er) hinzugefügt"
+exportpage.added_to_list: "{name} zu {list} hinzugefügt"
+exportpage.align_center: Zentriert
+exportpage.align_justify: Blocksatz
+exportpage.align_left: Linksbündig
+exportpage.align_right: Rechtsbündig
+exportpage.already_in_list: "Die Seite \"{name}\" ist bereits in dieser Liste."
+exportpage.alt: Alternativtext
+exportpage.aria_image: Bild {alt}
+exportpage.aria_text: Text {text}
+exportpage.background: Hintergrundfarbe
+exportpage.backward: Eine Ebene nach hinten
+exportpage.bold: Fett
+exportpage.bring_front: In den Vordergrund
+exportpage.chars: "{n} von {max} Zeichen"
+exportpage.choose_library: Aus der Bibliothek wählen
+exportpage.close_confirm: Den Editor schließen und die Änderungen verwerfen?
+exportpage.conflict: Die Seite wurde an anderer Stelle geändert. Schließen Sie den Editor und öffnen Sie die Seite erneut.
+exportpage.continue: Weiter
+exportpage.create_new: Neue Seite erstellen
+exportpage.default_name: Neue Seite
+exportpage.delete: Löschen
+exportpage.delete_confirm: "Die Seite \"{name}\" aus der Bibliothek löschen?"
+exportpage.delete_element: Löschen
+exportpage.drop_hint: Bilder hier ablegen
+exportpage.duplicate: Duplizieren
+exportpage.duplicate_element: Duplizieren
+exportpage.edit: Bearbeiten
+exportpage.editing: Text wird bearbeitet. Zum Beenden Escape drücken.
+exportpage.editing_done: Textbearbeitung beendet
+exportpage.editor_title: Seiteneditor
+exportpage.empty: Noch keine Seiten.
+exportpage.fill: Füllfarbe
+exportpage.fit: Anpassung
+exportpage.fit_contain: Einpassen
+exportpage.fit_cover: Füllen
+exportpage.fit_stretch: Strecken
+exportpage.font: Schriftart
+exportpage.font_mono: Monospace
+exportpage.font_sans: Serifenlos
+exportpage.font_serif: Serif
+exportpage.forward: Eine Ebene nach vorn
+exportpage.geometry: X {x} mm, Y {y} mm, {w} × {h} mm
+exportpage.glyph_warning: "Diese Zeichen sind in den Export-Schriftarten nicht enthalten und werden ersetzt: {chars}"
+exportpage.height: Höhe (mm)
+exportpage.history_summary: "Seiten: {front} am Anfang, {back} am Ende"
+exportpage.in_export: in diesem Export
+exportpage.italic: Kursiv
+exportpage.landscape: Querformat
+exportpage.layer: Ebene {n} von {total}
+exportpage.library: Export-Seiten
+exportpage.library_hint: Hier werden Seiten für den Anfang und das Ende eines Exports aufbewahrt.
+exportpage.library_open: Seitenbibliothek
+exportpage.line_height: Zeilenabstand
+exportpage.list_full: Eine Liste enthält höchstens {n} Seiten.
+exportpage.lists_back: Seiten am Ende
+exportpage.lists_front: Seiten am Anfang
+exportpage.lists_label: Seiten vor und nach dem Dokument
+exportpage.load_failed: Die Seite konnte nicht geladen werden.
+exportpage.missing_removed: "{n} Seite(n) existieren nicht mehr und wurden aus den Listen entfernt."
+exportpage.move_left: Nach links
+exportpage.move_right: Nach rechts
+exportpage.move_to_back: Zu den Seiten am Ende verschieben
+exportpage.move_to_front: Zu den Seiten am Anfang verschieben
+exportpage.moved_list: "{name} nach {list} verschoben, Position {n} von {total}"
+exportpage.moved_position: "{name}: Position {n} von {total}"
+exportpage.name: Seitenname
+exportpage.name_required: Geben Sie einen Seitennamen ein.
+exportpage.new: Neue Seite
+exportpage.no_raster: "{name}: Die PNG-Kopie konnte nicht erstellt werden, PDF und DOCX zeigen einen Platzhalter."
+exportpage.nothing_selected: Wählen Sie ein Element aus oder fügen Sie Bilder hinzu.
+exportpage.orientation: Ausrichtung
+exportpage.padding: Innenabstand (mm)
+exportpage.portrait: Hochformat
+exportpage.props: Eigenschaften
+exportpage.redo: Wiederholen
+exportpage.remove_confirm: "Die Seite \"{name}\" aus diesem Export entfernen? Sie bleibt in der Bibliothek."
+exportpage.remove_from_export: Aus dem Export entfernen
+exportpage.restored_n: "{n} Seite(n) wurden aus dem Export in die Bibliothek wiederhergestellt."
+exportpage.search: Seiten suchen
+exportpage.select: Auswählen
+exportpage.send_back: In den Hintergrund
+exportpage.size: Größe (pt)
+exportpage.size_total: "Bilder der Seiten: {size} von {max}"
+exportpage.snap: An Kanten und Mitten ausrichten
+exportpage.text_color: Textfarbe
+exportpage.text_placeholder: Text
+exportpage.too_big: Die Bilder der Seiten überschreiten {max}. Entfernen Sie Seiten oder Bilder.
+exportpage.too_many: Eine Seite enthält höchstens {n} Elemente.
+exportpage.transparent: Transparent
+exportpage.underline: Unterstrichen
+exportpage.undo: Rückgängig
+exportpage.upload_failed: "{name}: {error}"
+exportpage.uploading: "Wird hochgeladen: {done} von {total}..."
+exportpage.version_export: Die Version aus dem Export
+exportpage.version_library: Die aktuelle Version aus der Bibliothek
+exportpage.versions_hint: Diese Seiten wurden nach dem Erstellen des Exports in der Bibliothek bearbeitet. Wählen Sie die zu verwendende Version.
+exportpage.versions_title: Seiten, die seit dem Export geändert wurden
+exportpage.width: Breite (mm)
+exportpage.x: X (mm)
+exportpage.y: Y (mm)
+exportpage.zoom: Zoom
+exportpage.zoom_fit: An Fenster anpassen
+export.changelog_unavailable: "Kein Änderungsprotokoll: Der Service hat keine frühere Version zum Vergleichen."
+export.col_changelog: Änderungsprotokoll
+export.col_version: Version
+export.doc.changelog: Änderungsprotokoll
+export.doc.changelog_added: Hinzugefügt
+export.doc.changelog_breaking: inkompatible Änderungen
+export.doc.changelog_modified: Geändert
+export.doc.changelog_none: Keine Änderungen
+export.doc.changelog_parameters: Parameter
+export.doc.changelog_removed: Entfernt
+export.doc.changelog_response: Antwort
+export.doc.version: Version
+export.version_current: aktuell
+export.version_endpoints_removed: "{count} ausgewählte(r) Endpunkt(e) sind in der gewählten Version nicht vorhanden und wurden abgewählt."
+export.version_load_failed: Die Versionen des Services konnten nicht geladen werden.
+export.version_missing: Version nicht gefunden – bitte manuell auswählen.
+export.version_no_endpoints: Keiner der ausgewählten Endpunkte von {services} existiert in der gewählten Version – wählen Sie über „Services ändern“ neue aus.
+export.version_required: "Wählen Sie eine Version für: {services}"
+export.col_branch: Branch
+interaction.pdf.header_name: Name
+interaction.pdf.header_value: Wert
+endpoint.params_all_types: Alle Typen
+endpoint.params_collapse_all: Alle zuklappen
+endpoint.params_expand_all: Alle aufklappen
+endpoint.params_nothing_found: Nichts gefunden.
+endpoint.params_search: Nach Name oder Beschreibung suchen
+endpoint.params_show_descriptions: Beschreibungen
+endpoint.params_type_filter: Nach Typ filtern
+nav.favorites_add: Zu Favoriten hinzufügen
+nav.favorites_empty: Noch keine Favoriten.
+nav.favorites_filter: Nur Favoriten anzeigen
+nav.favorites_remove: Aus Favoriten entfernen
+nav.service_branches_label: Branches
+asyncapi.action_receive_hint: "RECV: Die Anwendung empfängt Nachrichten aus diesem Kanal"
+asyncapi.action_send_hint: "SEND: Die Anwendung sendet Nachrichten an diesen Kanal"
+asyncapi.channel: Kanal
+asyncapi.channel_address: Kanaladresse
+asyncapi.channel_bindings: Channel Bindings
+asyncapi.correlation_id: Korrelations-ID
+asyncapi.headers: Header
+asyncapi.message_bindings: Message Bindings
+asyncapi.no_messages: Diese Operation hat keine Nachrichten.
+asyncapi.operation_bindings: Operation Bindings
+asyncapi.payload: Payload
+asyncapi.reply: Antwort
+asyncapi.reply_channel: Antwortkanal
+asyncapi.schema_format: Schemaformat
+asyncapi.security: Sicherheit
+asyncapi.server_description: Beschreibung
+asyncapi.server_name: Name
+asyncapi.server_protocol: Protokoll
+asyncapi.servers: Server
+asyncapi.tab_example_messages: Beispielnachrichten
+asyncapi.tab_example_parameters: Beispielparameter
+asyncapi.tab_messages: Nachrichten
+asyncapi.tab_parameters: Kanal & Header
+asyncapi.unresolved: Außerhalb dieses Dokuments definiert (nicht geladen)
+endpoint.history_changed: geändert
+export.doc.async_message: Nachricht
+export.doc.async_parameters: Kanal und Header
+export.doc.async_reply: Antwort
+export.doc.async_schema_format: Schemaformat
+export.doc.async_servers: Server
+export.doc.in_channel: Kanal
+export.doc.in_header: Header
+nav.service_format_asyncapi: AsyncAPI
+tryit.server_label: Server
+tryit.server_placeholder: Server auswählen
+tryit.server_unresolved: Die Server-URL enthält Variablen ohne Standardwert
+admin.service_teams: Teams mit Zugriff
+common.select_all: Alle auswählen
+export.tree_clear_all: Alle abwählen
+export.tree_select_all: Alle auswählen
+breadcrumbs.services: Services
+groups.collapse: Gruppe zuklappen
+groups.create_group: Service-Gruppe anlegen
+groups.default_hint: Jeder Service gehört immer zu dieser Gruppe.
+groups.default_locked: Jeder Service gehört immer zu dieser Gruppe.
+groups.delete_confirm: "Gruppe \"{name}\" löschen? Ihre Services bleiben in den anderen Gruppen."
+groups.edit_group: Service-Gruppe bearbeiten
+groups.empty: Diese Gruppe enthält noch keine Services.
+groups.expand: Gruppe aufklappen
+groups.move_down: Gruppe nach unten verschieben
+groups.move_earlier: Service nach vorn verschieben
+groups.move_later: Service nach hinten verschieben
+groups.move_up: Gruppe nach oben verschieben
+groups.name: Gruppenname
+groups.name_required: Geben Sie einen Gruppennamen ein.
+groups.new_group: Neue Service-Gruppe
+groups.service_groups: Gruppen
+groups.services: Services
+groups.hidden_from_menu: Im linken Menü ausgeblendet
+groups.show_in_menu: Im linken Menü anzeigen
+mcp.add_token: Token hinzufügen
+mcp.delete_confirm: "Token \"{name}\" löschen? Clients, die es verwenden, verlieren den Zugriff."
+mcp.edit_token: Token bearbeiten
+mcp.endpoint_label: MCP-Endpunkt
+mcp.limits_services: "{count} Service(s)"
+mcp.name_required: Geben Sie einen Token-Namen ein.
+mcp.no_tokens: Noch keine Tokens. Fügen Sie eines hinzu, damit sich ein MCP-Client verbinden kann.
+mcp.rotate_confirm: "Das Secret des Tokens \"{name}\" ersetzen? Das aktuelle funktioniert sofort nicht mehr."
+mcp.secret_title: Bearer-Token
+mcp.token_active: Aktiv
+mcp.token_changed: Token geändert
+mcp.token_limits: Einschränkungen
+mcp.token_name: Name
+tryit.response_headers: Antwort-Header
+tryit.response_size: Antwortgröße
+endpoint.history_breaking: Inkompatibel
+endpoint.history_operation: Operation
+endpoint.history_untracked: Änderungen außerhalb der erfassten Felder (Parameter, Antworten, Zusammenfassung, Beschreibung)
+groups.service_delete_confirm: "Den Service \"{name}\" löschen? Das lässt sich nicht rückgängig machen."
+nav.group_services_label: Services in der Gruppe
+groups.icon: Symbol
+export.pages_short: Seiten
+pages.cancel_confirm: Nicht gespeicherte Änderungen an der Seite verwerfen?
+pages.create_failed: Die Seite konnte nicht angelegt werden
+pages.delete: Seite löschen
+pages.delete_confirm: Die Seite {title} samt Bildern löschen?
+pages.delete_failed: Die Seite konnte nicht gelöscht werden
+pages.edit: Seite bearbeiten
+pages.empty: Diese Seite ist leer.
+pages.image_failed: Das Bild konnte nicht hochgeladen werden
+pages.image_missing: Bild nicht gefunden
+pages.image_uploading: Bild wird hochgeladen...
+pages.load_failed: Die Seite konnte nicht geladen werden
+pages.loading: Seite wird geladen...
+pages.page: Seite
+pages.save_failed: Die Seite konnte nicht gespeichert werden
+pages.text: Text (Markdown)
+pages.title: Titel
+structure.err_duplicate: Der Tag enthält diesen Endpunkt bereits.
+structure.err_into_itself: Ein Ordner kann nicht in sich selbst oder in seinen Inhalt verschoben werden.
+structure.err_not_container: Nur ein Ordner oder ein Tag kann andere Elemente enthalten.
+structure.err_tag_endpoints_only: Ein Tag enthält nur Endpunkte.
+structure.err_too_deep: Die Struktur kann nicht tiefer verschachtelt werden.
+structure.folder_add: Neuer Ordner
+structure.folder_added: Ordner {name} hinzugefügt
+structure.folder_delete: Ordner löschen
+structure.folder_delete_confirm: Den Ordner {name} löschen?
+structure.folder_delete_confirm_items: Den Ordner {name} löschen? Sein Inhalt rückt an die Stelle des Ordners.
+structure.folder_deleted: Ordner {name} gelöscht
+structure.folder_name: Name
+structure.folder_name_required: Geben Sie einen Ordnernamen ein
+structure.folder_name_title: Ordnername
+structure.folder_rename: Ordner umbenennen
+structure.item_count: "{count} Elemente"
+structure.move_in: In den darüberliegenden Ordner oder Tag verschieben
+structure.move_out: Aus dem Ordner oder Tag herausverschieben
+structure.page_add: Neue Seite
+structure.page_added: Seite {name} hinzugefügt
+structure.page_delete: Seite löschen
+structure.page_edit: Seite bearbeiten
+structure.page_name_title: Seitentitel
+structure.add_folder_in: Neuer Ordner darin
+structure.add_page_in: Neue Seite darin
+structure.err_duplicate_scope: Dieser Endpunkt ist bereits in diesem Tag oder bereits außerhalb aller Tags.
+structure.err_nowhere: Es gibt keinen anderen Ort, an den er verschoben werden kann.
+structure.from_tag: Aus einem Tag der Spezifikation erstellt
+structure.hint_tree: "Legen Sie Ordner und Seiten an und ziehen Sie dann Tags, Endpunkte, Seiten und Ordner oder nutzen Sie die Schaltflächen, um sie auf eine andere Ebene zu verschieben oder ihre Reihenfolge zu ändern. Tags sind aus den Tags der Spezifikation erzeugte Ordner: Neue Versionen füllen sie weiter auf. Die Struktur gilt für das linke Menü und für Exporte, für jede Version des Services."
+structure.level_up: Eine Ebene nach oben
+structure.level_up_confirm: "{name} eine Ebene nach oben neben {parent} verschieben?"
+structure.move: Verschieben
+structure.move_current: Aktueller Ort
+structure.move_title: Verschieben
+structure.move_to: Verschieben nach
+structure.moved_to: "{name} nach {target} verschoben"
+structure.new_folder_title: Neuer Ordner
+structure.new_page_title: Neue Seite
+structure.page_images_later: Bilder können hinzugefügt werden, nachdem die Seite erstellt wurde.
+structure.page_text: Text (Markdown)
+structure.parent: Übergeordneter Ordner oder Tag
+structure.parent_clear: Auswahl aufheben
+structure.parent_none: Nichts gefunden
+structure.parent_placeholder: Ordner und Tags suchen; leer bedeutet oberste Ebene
+structure.parent_tag: Tag
+structure.parent_top: Oberste Ebene
+structure.rename_title: Ordner umbenennen
+structure.clear_selection: Auswahl aufheben
+structure.items_selected: "{count} Elemente"
+structure.move_selected: Ausgewählte verschieben
+structure.move_selected_list: Ausgewählte Elemente ({count})
+structure.select: Auswählen
+structure.move_new_folder: Neuen Ordner anlegen
+structure.open_tree: "Service-Baum bearbeiten: Ordner, Seiten, Tags und Endpunkte"
+pages.back_to_history: Zurück zum Verlauf
+pages.back_to_page: Zurück zur Seite
+pages.history: Verlauf der Seite
+pages.history_empty: Noch keine Versionen.
+pages.version: Version
+pages.version_current: aktuell
+pages.version_view: Ansehen
+labels.add: Label hinzufügen
+labels.filter_chip: "Label: {label}"
+labels.filter_clear: Wieder alles anzeigen
+labels.placeholder: Neues Label
+labels.remove: Label entfernen
+labels.show_all: Alles mit dem Label {label} anzeigen
+labels.title: Labels
+license.customer: Lizenziert für
+license.disabled: Nicht enthalten
+license.enabled: Enthalten
+license.feature_export: Export
+license.feature_mcp: MCP-Server
+license.feature_notifications: Benachrichtigungen
+license.feature_sso: Single Sign-On (SSO)
+license.feature_tryit: Ausprobieren
+license.features: Funktionen
+license.license_id: Lizenz-ID
+license.limit_max_endpoints_per_service: Endpunkte pro Service
+license.limit_max_mcp_tokens: MCP-Tokens
+license.limit_max_services: Services
+license.limit_max_teams: Teams
+license.limit_max_users: Benutzer
+license.limits: Limits
+license.per_day: pro Tag
+license.per_hour: pro Stunde
+license.per_month: pro Monat
+license.per_week: pro Woche
+license.quota_exports: Exporte
+license.quota_mcp_requests: MCP-Anfragen
+license.quotas: Nutzungskontingente
+license.resets: wird zurückgesetzt
+license.tier: Tarif
+license.tier_business: Business
+license.tier_custom: Individuell
+license.tier_free: Kostenlos (private Nutzung)
+license.tier_team: Team
+license.tier_unlimited: Unbegrenzt
+license.unlimited: unbegrenzt
+endpoint.history_diff_added: hinzugefügt
+endpoint.history_diff_removed: entfernt
+endpoint.history_group_operation: Operation
+endpoint.history_group_parameters: Parameter
+endpoint.history_group_response_fields: Antwortfelder
+endpoint.history_hide_unchanged: Unveränderte Absätze ausblenden
+endpoint.history_no_tracked_short: keine erfassten Felder
+endpoint.history_reverted: zurückgesetzt
+endpoint.history_reverted_tip: Dieser Wert wurde zuvor verwendet
+endpoint.history_rollback: Rollback
+endpoint.history_rollback_tip: Jede Änderung in dieser Version stellt einen früheren Wert wieder her
+endpoint.history_show_unchanged: Unveränderte Absätze anzeigen
+endpoint.history_unchanged_paragraphs_one: "{n} Absatz unverändert"
+endpoint.history_unchanged_paragraphs_other: "{n} Absätze unverändert"
+profile.teams_less: weniger anzeigen
+profile.teams_more: "+{n} weitere"
+asyncapi.channel_note_receive: Die Anwendung empfängt Nachrichten aus diesem Kanal
+asyncapi.channel_note_send: Die Anwendung sendet Nachrichten an diesen Kanal
+mcp.enable_branch_tools_label: Service-Branches (erfordert Verlaufs-Tools)
+mcp.enable_version_read_label: Historische Versionen lesen (erfordert Verlaufs-Tools)
+admin.environment_mcp_label: Über den MCP-Server verfügbar (nur öffentliche Umgebungen)
+admin.environments_mcp_any: "MCP: beliebig"
+admin.environments_mcp_badge: MCP
+admin.environments_mcp_column: MCP
+admin.environments_mcp_no: Für MCP nicht verfügbar
+admin.environments_mcp_yes: Für MCP verfügbar
+admin.header_sensitive: Sensibel
+admin.import_version_branch_existing: Vorhandene Branches
+admin.import_version_branch_hint: Ein oben eingegebener Branch hat Vorrang vor dem in der Liste gewählten.
+license.feature_mcp_tryit: Ausprobieren über den MCP-Server
+license.quota_mcp_tryit_requests: MCP-Try-It-Anfragen
+license.renew_button: Verlängern
+mcp.enable_tryit_label: "Try-It: Anfragen an echte APIs senden"
+mcp.group_basic: Allgemein
+mcp.group_network: Netzwerkzugriff
+mcp.group_read: Lese-Tools
+mcp.group_services: Services
+mcp.group_tryit: Try-It (echte Anfragen)
+mcp.group_versions: Versionen und Branches
+mcp.tryit_concurrent_label: Parallele Anfragen
+mcp.tryit_not_licensed: Die Lizenz enthält kein Try-It über den MCP-Server.
+mcp.tryit_rate_label: Anfragen pro Minute
+mcp.tryit_response_limit_label: Limit der Antwortgröße (KB)
+mcp.tryit_services_label: Services, für die Try-It erlaubt ist (aus den erlaubten Services)
+mcp.tryit_warning_1: Die KI sendet ECHTE Anfragen an Produktivsysteme mit den Zugangsdaten der Umgebung.
+mcp.tryit_warning_2: Eine Anfrage kann Daten unwiderruflich ändern oder löschen, und ein fehlerhaftes oder manipuliertes Modell kann sie wiederholen.
+mcp.tryit_warning_3: Alles, was die API zurückgibt, wird an den KI-Anbieter weitergegeben; eine Antwort kann personenbezogene oder geheime Daten enthalten.
+mcp.tryit_warning_4: Aktivieren Sie es nur für Testumgebungen, beschränken Sie die erlaubten Endpunkte und setzen Sie niedrige Limits.
+mcp.tryit_warning_5: Jede Anfrage wird im Audit-Log festgehalten.
+mcp.tryit_warning_title: Potenziell gefährliche Funktion
+notify.field.branch: Branch
+structure.group_create: Erstellen
+structure.group_mcp: MCP Try-It
+structure.group_selection: Auswahl
+structure.group_structure: Struktur
+structure.mcp_added: "In MCP Try-It erlaubt: {count} Endpunkt(e)."
+structure.mcp_allow: In MCP erlauben
+structure.mcp_deny: Aus MCP entfernen
+structure.mcp_group: Try-It über den MCP-Server
+structure.mcp_icon_container: "Enthält Endpunkte, die über den MCP-Server für Try-It verfügbar sind: Eine KI kann echte Anfragen an sie senden. Vorsicht."
+structure.mcp_icon_endpoint: "Dieser Endpunkt ist über den MCP-Server für Try-It verfügbar: Eine KI kann echte Anfragen an ihn senden. Vorsicht."
+structure.mcp_load_failed: Die MCP-Try-It-Liste konnte nicht geladen werden
+structure.mcp_mode_all: "MCP Try-It: alle Endpunkte"
+structure.mcp_mode_changed: Jetzt sind nur die markierten Endpunkte für MCP Try-It freigegeben.
+structure.mcp_mode_hint: Standardmäßig kann der MCP-Server Try-It-Anfragen an jeden dokumentierten Endpunkt des Services senden (in den für ihn freigegebenen Umgebungen). Wechseln Sie zu „nur markierte“, um nur die von Ihnen markierten Endpunkte zu erlauben.
+structure.mcp_mode_selected: "MCP Try-It: nur markierte ({count})"
+structure.mcp_only: Nur MCP-Endpunkte
+structure.mcp_open_all_confirm: ALLE Endpunkte des Services für MCP Try-It freigeben? Die Beschränkung auf markierte Endpunkte gilt dann nicht mehr.
+structure.mcp_removed: "Aus MCP Try-It entfernt: {count} Endpunkt(e)."
+structure.mcp_save_failed: Die MCP-Try-It-Liste konnte nicht gespeichert werden
