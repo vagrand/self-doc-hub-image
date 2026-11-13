@@ -1,5 +1,5 @@
 app.title: SelfDocHub
-role.public: public
+role.public: публичный
 search.placeholder: Поиск сервисов, путей, тегов
 button.users: Пользователи
 button.orphaned: Осиротевшие
@@ -231,9 +231,6 @@ tryit.shared_request_failed: Не удалось загрузить общий �
 tryit.tab_connection: Соединение
 tryit.tab_curl: cURL
 tryit.validate_ssl: Проверить SSL
-admin.import_version_branch: Ветка
-admin.main_branch: Главная ветка
-admin.pinned_version: Ваша рабочая версия
 admin.spec_version_format_hint: "Формат: N.N.N (e.g. 1.4.2)"
 admin.import_version_branch: Ветка
 admin.main_branch: Основная ветка
@@ -1056,8 +1053,10 @@ endpoint.history_reverted_tip: Это значение использовало�
 endpoint.history_rollback: откат
 endpoint.history_rollback_tip: Каждое изменение в этой версии восстанавливает более раннее значение
 endpoint.history_show_unchanged: Показать неизменённые абзацы
-endpoint.history_unchanged_paragraphs_one: {n} абзац неизменён
-endpoint.history_unchanged_paragraphs_other: {n} абзацев неизменён
+endpoint.history_unchanged_paragraphs_one: {n} абзац без изменений
+endpoint.history_unchanged_paragraphs_other: {n} абзацев без изменений
+endpoint.history_unchanged_paragraphs_few: {n} абзаца без изменений
+endpoint.history_unchanged_paragraphs_many: {n} абзацев без изменений
 profile.teams_less: показать меньше
 profile.teams_more: +{n} ещё
 asyncapi.channel_note_receive: Приложение получает сообщения из этого канала
@@ -1065,15 +1064,15 @@ asyncapi.channel_note_send: Приложение отправляет сообщ
 mcp.enable_branch_tools_label: Ветки сервиса (требуются инструменты работы с историей)
 mcp.enable_version_read_label: Чтение исторических версий (требуются инструменты работы с историей)
 admin.environment_mcp_label: Доступно через сервер MCP (только для общедоступных окружений)
-admin.header_sensitive: Конфиденциально
-license.feature_mcp_tryit: «Try-It» через сервер MCP
-license.quota_mcp_tryit_requests: Запросы «Try-It» MCP
-mcp.enable_tryit_label: «Try-It: отправка запросов к реальным API»
+admin.header_sensitive: Секретный
+license.feature_mcp_tryit: Try-It через сервер MCP
+license.quota_mcp_tryit_requests: Запросы Try-It через MCP
+mcp.enable_tryit_label: "Try-It: отправка запросов к реальным API"
 mcp.group_basic: Общие
 mcp.group_network: Сетевой доступ
 mcp.group_read: Инструменты чтения
 mcp.group_services: Сервисы
-mcp.group_tryit: «Try-It» (реальные запросы)
+mcp.group_tryit: Try-It (реальные запросы)
 mcp.group_versions: Версии и ветки
 mcp.tryit_concurrent_label: Одновременные запросы
 mcp.tryit_not_licensed: Лицензия не включает использование Try-It через сервер MCP.
@@ -1086,25 +1085,20 @@ mcp.tryit_warning_3: Всё, что отвечает API, передаётся �
 mcp.tryit_warning_4: Включайте эту функцию только для тестовых окружений, ограничивайте допустимые эндпоинты и устанавливайте низкие лимиты.
 mcp.tryit_warning_5: Каждый запрос записывается в журнал аудита.
 mcp.tryit_warning_title: Потенциально опасная функция
-structure.mcp_tryit: Try-It через MCP
-structure.mcp_tryit_all: Все эндпоинты
-structure.mcp_tryit_hint: "По умолчанию сервер MCP может вызывать все эндпоинты спецификации (и только их) в открытых для него окружениях. Выберите \"Только выбранные\", чтобы разрешить доступ только к отмеченным эндпоинтам, тегам и папкам."
-structure.mcp_tryit_selected: Только выбранные
-structure.mcp_tryit_title: Try-It через сервер MCP
-structure.mcp_added: "Разрешено в MCP Try-It: {count} эндпоинтов."
+structure.mcp_added: "Разрешено в MCP Try-It, эндпоинтов: {count}."
 structure.mcp_allow: Разрешить в MCP
 structure.mcp_deny: Удалить из MCP
 structure.mcp_group: Try-It через сервер MCP
 structure.mcp_icon_container: "Содержит эндпоинты, доступные через сервер MCP для Try-It: ИИ может отправлять на них реальные запросы. Будьте осторожны."
-structure.mcp_icon_endpoint: "Эта эндпоинт доступна через сервер MCP для Try-It: ИИ может отправлять на неё реальные запросы. Будьте осторожны."
+structure.mcp_icon_endpoint: "Этот эндпоинт доступен через сервер MCP для Try-It: ИИ может отправлять на него реальные запросы. Будьте осторожны."
 structure.mcp_load_failed: Не удалось загрузить список MCP Try-It
 structure.mcp_mode_all: "MCP Try-It: все эндпоинты"
 structure.mcp_mode_changed: Сейчас для MCP Try-It открыты только отмеченные эндпоинты.
-structure.mcp_mode_hint: "По умолчанию сервер MCP может отправлять запросы Try-It на каждую задокументированный эндпоинт службы (в доступных для него окружениях). Переключитесь на режим \"только отмеченные\", чтобы разрешить доступ только к тем эндпоинтам, которые вы отметите."
+structure.mcp_mode_hint: "По умолчанию сервер MCP может отправлять запросы Try-It на каждый задокументированный эндпоинт сервиса (в доступных для него окружениях). Переключитесь на режим \"только отмеченные\", чтобы разрешить доступ только к тем эндпоинтам, которые вы отметите."
 structure.mcp_mode_selected: "MCP Try-It: только отмеченные ({count})"
 structure.mcp_only: Только эндпоинты MCP
-structure.mcp_open_all_confirm: Открыть ВСЕ эндпоинты службы для MCP Try-It? Ограничение на отмеченные эндпоинты больше не будет применяться.
-structure.mcp_removed: "Удалено из MCP Try-It: {count} эндпоинтов."
+structure.mcp_open_all_confirm: Открыть ВСЕ эндпоинты сервиса для MCP Try-It? Ограничение на отмеченные эндпоинты больше не будет применяться.
+structure.mcp_removed: "Удалено из MCP Try-It, эндпоинтов: {count}."
 structure.mcp_save_failed: Не удалось сохранить список MCP Try-It
 structure.group_create: Создать
 structure.group_mcp: MCP Try-It
@@ -1116,6 +1110,6 @@ admin.environments_mcp_column: MCP
 admin.environments_mcp_no: Недоступно для MCP
 admin.environments_mcp_yes: Доступно для MCP
 admin.import_version_branch_existing: Существующие ветки
-admin.import_version_branch_hint: Ветка, введенная выше, имеет приоритет над выбранной из списка.
+admin.import_version_branch_hint: Ветка, введённая выше, имеет приоритет над выбранной из списка.
 notify.field.branch: Ветка
-license.renew_button: Перевыпустить
+license.renew_button: Продлить
